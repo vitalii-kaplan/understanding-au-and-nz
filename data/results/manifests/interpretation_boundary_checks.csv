@@ -1,0 +1,50 @@
+check_id,artifact_id,requirement,observed,expected,status,blocking,message
+contract_decision_total_unit,analysis_contract,unit,recorded decisions,recorded decisions,passed,true,analysis contract reporting boundary
+contract_matched_rate_difference_direction,analysis_contract,direction,AU - NZ,AU - NZ,passed,true,analysis contract reporting boundary
+contract_decision_weighted_perspective_weighting,analysis_contract,weighting,decision-weighted,decision-weighted,passed,true,analysis contract reporting boundary
+contract_country_weighted_perspective_weighting,analysis_contract,weighting,each country contributes once,each country contributes once,passed,true,analysis contract reporting boundary
+binomial_regression_grain,binomial_regression,grain,model term,non-empty,passed,true,article-facing result metadata
+binomial_regression_unit,binomial_regression,unit,log odds and odds ratio,non-empty,passed,true,article-facing result metadata
+binomial_regression_weighting,binomial_regression,weighting,grouped binomial decision counts,non-empty,passed,true,article-facing result metadata
+binomial_regression_denominator,binomial_regression,denominator,approved versus declined decisions,non-empty,passed,true,article-facing result metadata
+binomial_regression_direction,binomial_regression,direction,AU relative to NZ,non-empty,passed,true,article-facing result metadata
+binomial_regression_interpretation_scope,binomial_regression,interpretation_scope,descriptive and associational; not causal,descriptive and associational; not causal,passed,true,article-facing result metadata
+origin_concentration_grain,origin_concentration,grain,destination,non-empty,passed,true,article-facing result metadata
+origin_concentration_unit,origin_concentration,unit,decision share and concentration index,non-empty,passed,true,article-facing result metadata
+origin_concentration_weighting,origin_concentration,weighting,recorded decisions,non-empty,passed,true,article-facing result metadata
+origin_concentration_denominator,origin_concentration,denominator,all destination-specific decisions,non-empty,passed,true,article-facing result metadata
+origin_concentration_direction,origin_concentration,direction,destination-specific,non-empty,passed,true,article-facing result metadata
+origin_concentration_interpretation_scope,origin_concentration,interpretation_scope,descriptive and associational; not causal,descriptive and associational; not causal,passed,true,article-facing result metadata
+annual_statistics_grain,annual_statistics,grain,destination-year,non-empty,passed,true,article-facing result metadata
+annual_statistics_unit,annual_statistics,unit,counts and proportions,non-empty,passed,true,article-facing result metadata
+annual_statistics_weighting,annual_statistics,weighting,decision- and country-weighted summaries kept separate,non-empty,passed,true,article-facing result metadata
+annual_statistics_denominator,annual_statistics,denominator,observed annual decisions,non-empty,passed,true,article-facing result metadata
+annual_statistics_direction,annual_statistics,direction,destination-specific,non-empty,passed,true,article-facing result metadata
+annual_statistics_interpretation_scope,annual_statistics,interpretation_scope,descriptive and associational; not causal,descriptive and associational; not causal,passed,true,article-facing result metadata
+common_weight_standardisation_grain,common_weight_standardisation,grain,"matched support, period, threshold, and weight scheme",non-empty,passed,true,article-facing result metadata
+common_weight_standardisation_unit,common_weight_standardisation,unit,approval proportion and difference,non-empty,passed,true,article-facing result metadata
+common_weight_standardisation_weighting,common_weight_standardisation,weighting,observed destination-specific or stated common origin weights,non-empty,passed,true,article-facing result metadata
+common_weight_standardisation_denominator,common_weight_standardisation,denominator,observed decisions in both destinations,non-empty,passed,true,article-facing result metadata
+common_weight_standardisation_direction,common_weight_standardisation,direction,AU minus NZ,non-empty,passed,true,article-facing result metadata
+common_weight_standardisation_interpretation_scope,common_weight_standardisation,interpretation_scope,descriptive and associational; not causal,descriptive and associational; not causal,passed,true,article-facing result metadata
+rate_composition_decomposition_grain,rate_composition_decomposition,grain,"matched support, period, and threshold",non-empty,passed,true,article-facing result metadata
+rate_composition_decomposition_unit,rate_composition_decomposition,unit,approval-rate difference components,non-empty,passed,true,article-facing result metadata
+rate_composition_decomposition_weighting,rate_composition_decomposition,weighting,symmetric mean shares and mean rates,non-empty,passed,true,article-facing result metadata
+rate_composition_decomposition_denominator,rate_composition_decomposition,denominator,observed decisions in both destinations,non-empty,passed,true,article-facing result metadata
+rate_composition_decomposition_direction,rate_composition_decomposition,direction,AU minus NZ,non-empty,passed,true,article-facing result metadata
+rate_composition_decomposition_interpretation_scope,rate_composition_decomposition,interpretation_scope,descriptive and associational; not causal,descriptive and associational; not causal,passed,true,article-facing result metadata
+annual_origin_composition_grain,annual_origin_composition,grain,destination-year,non-empty,passed,true,article-facing result metadata
+annual_origin_composition_unit,annual_origin_composition,unit,decision share and concentration index,non-empty,passed,true,article-facing result metadata
+annual_origin_composition_weighting,annual_origin_composition,weighting,all recorded decisions within destination-year,non-empty,passed,true,article-facing result metadata
+annual_origin_composition_denominator,annual_origin_composition,denominator,observed annual decisions,non-empty,passed,true,article-facing result metadata
+annual_origin_composition_direction,annual_origin_composition,direction,destination-specific,non-empty,passed,true,article-facing result metadata
+annual_origin_composition_interpretation_scope,annual_origin_composition,interpretation_scope,descriptive and associational; not causal,descriptive and associational; not causal,passed,true,article-facing result metadata
+manifest_03,src.analysis_03_descriptive,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_04,src.analysis_04_matched_comparison,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_05,src.analysis_05_concordance,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_06,src.analysis_06_country_differences,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_07,src.analysis_07_binomial_regression,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_08,src.analysis_08_origin_composition,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_09,src.analysis_09_temporal,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_10,src.analysis_10_sensitivity,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_16,src.analysis_16_article_b_decomposition,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status

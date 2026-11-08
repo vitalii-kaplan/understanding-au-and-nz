@@ -1,0 +1,7 @@
+diagnostic,value,interpretation
+matched_country_count,173,countries included in both correlations
+au_unique_rates,118,distinct Australian country approval rates
+nz_unique_rates,114,distinct New Zealand country approval rates
+au_boundary_rates,47,Australian rates equal to zero or one
+nz_boundary_rates,41,New Zealand rates equal to zero or one
+spearman_bootstrap_replicates_used,10000,non-degenerate seeded resamples used for the interval

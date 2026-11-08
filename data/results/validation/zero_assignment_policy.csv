@@ -1,0 +1,6 @@
+status,zero_assignment_allowed,reason,handling
+observed_positive_decisions,false,use the recorded positive decision count,retain observed row
+absent_country,false,absence is not documented as a true zero,exclude from paired analyses; retain destination-specific observed rows
+excluded_non_country_label,false,label is not an origin country,exclude and audit
+reviewed_non_m49_label,false,"reviewed retained origin is observed, not missing",retain unchanged where observed
+suppressed_or_unresolved,false,zero cannot be inferred,stop dependent analysis or exclude explicitly

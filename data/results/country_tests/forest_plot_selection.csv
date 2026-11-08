@@ -1,0 +1,174 @@
+country,rate_difference_au_minus_nz,rate_difference_ci_lower,rate_difference_ci_upper,bh_q_value,fdr_significant,au_decision_total,nz_decision_total,eligible_for_display,displayed,display_rank,display_rule
+Afghanistan,0.31076783280327125,0.12242385957734525,0.4925185322990162,0.002679105532490321,1,31,71,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Albania,-0.11428571428571432,-0.3838544965933229,0.2730376569565567,0.9357370974943343,0,30,7,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Algeria,0.3106060606060606,-0.08360584946364291,0.5945581826651912,0.4250568214344813,0,11,12,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Angola,1.0,0.027969698422441902,1.0,0.48595505617977586,0,1,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Argentina,0.12199395770392751,0.07197023524892379,0.16574310488236108,0.000241388642937071,1,150,331,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Armenia,0.38235294117647056,-0.034085077760958815,0.7424337678391074,0.32381586878588936,0,17,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Austria,-0.010869565217391353,-0.05902785613062511,0.005726441360529005,0.4871747780837143,0,92,271,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Azerbaijan,0.12682926829268293,-0.07685838903140566,0.5539969751341942,0.625063297871233,0,41,5,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Bahamas,0.0,-0.35433043506668727,0.7934506856227626,1.0,0,7,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Bahrain,-0.052631578947368474,-0.24638731166898786,0.4391673170558746,1.0,0,19,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Bangladesh,0.37304856322978863,0.3511081906238532,0.3951940474490456,0.0,1,28646,1982,1,1,4,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Barbados,0.0,-0.3903342879021652,0.5614970317550454,1.0,0,6,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Belarus,0.15909090909090906,-0.16953199598635388,0.45110622413003043,0.8341180629197656,0,11,12,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Belgium,-0.007444168734491274,-0.06390602016390845,0.01918099649339053,0.7654600335959003,0,78,186,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Belize,0.0,-0.5614970317550454,0.4898908364545972,1.0,0,3,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Benin,0.7142857142857143,-0.15510402009251056,0.9177810759959432,0.625063297871233,0,1,7,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Bermuda,0.5,-0.39104934410983583,0.9054687942657693,1.0,0,1,2,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Bhutan,0.233789165396043,0.17492651754389393,0.29679006262079277,2.2902593659574933e-24,1,15765,239,1,1,11,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Bolivia (Plurinational State of),0.17391304347826086,0.024206298591512715,0.3072335371637849,0.06631365331352987,0,27,46,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Bosnia and Herzegovina,0.0,-0.29914504841954404,0.7934506856227626,1.0,0,9,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Botswana,0.2331460674157303,0.06903258450979718,0.5156697670917032,0.01261977821161013,1,178,12,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Brazil,0.07114416971055737,0.05006361180762432,0.08882752835817281,2.097071731468544e-07,1,646,2447,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Brunei Darussalam,0.0,-0.01329954098825803,0.12455502974186694,1.0,0,285,27,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Bulgaria,0.16666666666666663,-0.06095668214762745,0.44803086225297317,0.3639319181487865,0,16,12,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Burundi,0.6538461538461539,0.1278051947602098,0.8058776967705947,0.07522654016907017,0,26,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Cabo Verde,0.0,-0.6576197724933468,0.7934506856227626,1.0,0,2,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Cambodia,0.033368718114685114,0.012553829754473157,0.05880312162116558,0.0031203981612745097,1,3791,617,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Cameroon,0.24442190669371194,0.023833947351674434,0.43110339773016193,0.08196109171053684,0,34,29,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Canada,0.007279516495361182,0.0010270402929900887,0.016038908537084798,0.057034762297879016,0,3711,1190,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Chad,0.75,0.2517214680389452,0.9544127391902993,0.01696078431372554,1,4,14,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Chile,0.09401144266675798,0.07470420456787838,0.11087444881659395,3.728808136521698e-09,1,404,1445,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+China,0.00342055231583438,0.001461730292189779,0.00546888260673156,0.002085630191703657,1,236751,35472,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+"China, Hong Kong Special Administrative Region",0.0033279091401759997,-0.0031063098388403538,0.012136195214970252,0.5976499467439762,0,9880,1397,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+"China, Macao Special Administrative Region",0.061711079943899017,0.018735269402525512,0.14811718518696576,0.013497574698261293,1,558,69,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Colombia,0.1993365495649546,0.17178029944889428,0.22530321431099692,1.4054151322662276e-30,1,782,1557,1,1,16,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Congo,0.0,-0.5614970317550454,0.7934506856227624,1.0,0,1,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Costa Rica,0.125,-0.1336646399814445,0.3602282726575867,0.7600623582766446,0,12,16,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Croatia,-0.19999999999999996,-0.5098375284633581,0.21581349427818836,0.7654600335959003,0,10,6,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Czechia,-0.02815226011102301,-0.11989602344211804,0.025446808139221844,0.513429513582518,0,52,97,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Democratic People's Republic of Korea,1.0,-0.12210872068194178,1.0,1.0,0,1,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Democratic Republic of the Congo,0.5625,0.24873556969575245,0.7405008965140606,0.00203772747397235,1,24,16,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Denmark,0.0031250000000000444,-0.024465350994259873,0.01748616794679647,1.0,0,136,320,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Djibouti,1.0,0.11573485490644708,1.0,0.3209647495361781,0,6,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Dominica,0.33333333333333337,-0.0004055983556954801,0.7923403991979523,0.3414473684210513,0,16,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Dominican Republic,0.3846153846153846,-0.09688109490846969,0.644771084873343,0.48595505617977586,0,5,13,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Ecuador,0.21733821733821734,0.13720880384383474,0.28480909632132706,1.3512864778096777e-05,1,117,252,1,1,13,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Egypt,0.27793634936492084,0.17274301200877246,0.38372586689856847,1.217915687580032e-07,1,286,98,1,1,8,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+El Salvador,-0.0714285714285714,-0.31468704424151106,0.3232957533451918,1.0,0,14,6,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Eritrea,-0.08333333333333337,-0.4567214037510211,0.41384380788262887,1.0,0,9,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Estonia,-0.09090909090909094,-0.3773584364515954,0.2712051166276923,1.0,0,11,7,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Eswatini,0.19999999999999996,-0.2643248375838886,0.6244653702374746,1.0,0,5,5,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Ethiopia,0.08205128205128198,-0.0952607736801798,0.2649000997911433,0.625063297871233,0,65,39,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Fiji,0.15916006050012654,0.1264446009055779,0.19141413831644097,2.1480314926760762e-17,1,627,813,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Finland,0.08791208791208793,0.024881255004305797,0.1639863888363774,0.025246280414993605,1,79,91,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+France,0.004935164304123663,-0.007825528971652923,0.017755364914129802,0.6871223987469355,0,970,1024,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Georgia,0.2857142857142857,-0.17275093043239603,0.6274048541570499,0.8201967524001409,0,7,7,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Germany,-0.0013800862857467067,-0.008470998107806176,0.0022138129597514167,0.8266529086468243,0,954,5698,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Ghana,0.1365656565656566,0.03988737031460915,0.23024898456969012,0.0184675288709018,1,450,132,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Greece,0.043333333333333335,-0.12651863599715155,0.3158734379294437,1.0,0,25,12,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Grenada,0.25,-0.43865690522747436,0.6993581574175981,1.0,0,2,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Guatemala,0.23484848484848486,0.04458465956988944,0.5758012382418934,0.08196109171053684,0,66,8,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Guinea,1.0,0.06998519885519972,1.0,0.5824915824915827,0,2,2,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Guyana,0.16666666666666663,-0.6384589032975072,0.5635028221864702,1.0,0,1,6,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Haiti,0.39999999999999997,-0.16261479448193822,0.7264361648748667,0.7879917184265035,0,5,5,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Honduras,0.2727272727272727,0.024429245413040063,0.565645301176129,0.11659681886135943,0,18,11,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Hungary,0.017857142857142905,-0.07300634746782446,0.09445637149397568,1.0,0,39,56,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Iceland,0.0,-0.2280953723541983,0.29914504841954404,1.0,0,13,9,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+India,0.1835961703847433,0.1775865883806958,0.1896183119852806,0.0,1,177672,29373,1,1,18,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Indonesia,0.0377594447521129,0.028689847617548052,0.048582962322229785,4.760298385362607e-35,1,17799,1904,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Iran (Islamic Republic of),0.41144762356916265,0.37104594835666516,0.45180779926566306,5.892706491677833e-137,1,2086,622,1,1,3,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Iraq,0.05606758832565284,-0.13491207212183629,0.24157192597790944,0.8266529086468243,0,62,42,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Ireland,-0.06195357250527589,-0.15755929162986762,0.003543552730613589,0.24362876600906733,0,62,107,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Israel,0.1351351351351351,-0.0043577563658218355,0.27977411784009776,0.1512237762237743,0,29,37,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Italy,-0.028550789157587908,-0.04983770957621161,-0.013292270165149006,0.0003638759782234155,1,447,799,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Jamaica,-0.016666666666666607,-0.3284280153638759,0.2660695480973938,1.0,0,10,12,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Japan,0.0005120167554401034,-0.002758504622521192,0.0029491683637318292,0.9708826859998588,0,2866,7586,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Jordan,0.16609120989785642,0.056126669172162025,0.28122131750473495,0.008489987678769333,1,331,84,1,1,20,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Kazakhstan,0.23239795918367356,0.14923517475121073,0.33639063063492153,1.062954673476628e-10,1,196,80,1,1,12,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Kenya,0.3390681627320463,0.2798680391082286,0.3972685659678545,3.672682948067222e-42,1,10914,278,1,1,6,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Kiribati,0.22115384615384615,-0.27357578013682804,0.3100440282223019,0.8266529086468243,0,4,104,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Kuwait,-0.0007729422540631026,-0.015256660028758705,0.018850766559196607,1.0,0,779,377,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Kyrgyzstan,0.1376811594202899,-0.08921118027515978,0.4026582087636471,0.5437503561899247,0,46,15,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Lao People's Democratic Republic,-0.03657012154578576,-0.06692876446671445,-0.006552022378980043,0.05077174158465303,0,498,453,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Latvia,-0.14743589743589736,-0.4277217614607365,0.16141469205770376,0.8341180629197656,0,13,12,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Lebanon,-0.09667606469802636,-0.2503358885645939,0.11130632905102497,0.5981817711517471,0,586,23,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Liberia,0.4166666666666667,0.043306038643000755,0.6804886874504501,0.11659681886135943,0,12,9,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Libya,0.6363636363636364,-0.07939142650648023,0.8483352890463243,0.38685152057245203,0,2,11,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Liechtenstein,0.0,-0.6576197724933468,0.5614970317550454,1.0,0,2,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Lithuania,0.06774193548387097,-0.08575722909644881,0.3730477741869686,0.6871223987469355,0,31,10,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Luxembourg,-0.08333333333333337,-0.35387991114111683,0.11329086313063175,0.6690299709958205,0,12,17,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Madagascar,0.5,-0.3307752356558554,0.7462184023662939,1.0,0,12,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Malawi,0.16470588235294115,-0.09330116193400628,0.4643268603308653,0.5056748750594341,0,68,10,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Malaysia,0.009017181293977217,0.0026751085787043447,0.01701909017771113,0.012527927269939497,1,12302,1982,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Maldives,0.1532749428789033,0.06853533754847572,0.27809211958863844,0.00054330054648138,1,202,52,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Mali,-0.25,-0.7040809521072405,0.3552501109137244,1.0,0,2,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Malta,-0.18181818181818177,-0.47698056196084404,0.39463324506146313,1.0,0,11,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Marshall Islands,0.0,-0.7934506856227626,0.3903342879021652,1.0,0,1,6,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Mauritius,0.10153142713977004,0.024206723506658992,0.24652305284200324,0.033841651827306765,1,863,37,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Mexico,0.05502711722987064,0.028424970469272212,0.08423276220483944,0.00027091975487621004,1,510,470,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Micronesia (Federated States of),0.0,-0.7934506856227626,0.5614970317550454,1.0,0,1,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Mongolia,0.21416154467001924,0.14268391407614114,0.2896250002221771,8.44280406384014e-11,1,1820,177,1,1,14,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Morocco,0.3092979127134725,0.043032432758552286,0.5469292605698971,0.10809042060874935,0,31,17,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Mozambique,0.16153846153846152,-0.060863505974143,0.5871814009542241,0.5437503561899247,0,26,5,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Myanmar,0.09445229789787346,0.05921959928136606,0.1294332613771171,8.31695179404585e-07,1,1925,1277,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Namibia,0.4444444444444444,0.11019333205095289,0.7333487065045068,0.04558629776021058,1,14,9,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Naoero,0.0,-0.0964186285944637,0.32440756488388,1.0,0,36,8,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Nepal,0.35650848400901436,0.34481197260045915,0.3680839923287736,0.0,1,69723,7297,1,1,5,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Netherlands (Kingdom of the),0.0037315833494176998,-0.025851273981535847,0.023606920730190075,1.0,0,157,297,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Nicaragua,0.0,-0.4898908364545972,0.7934506856227626,1.0,0,4,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Niger,1.0,-0.030547308807040263,1.0,0.5824915824915827,0,2,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Nigeria,0.1891891891891892,0.1446205784641668,0.23264032126207287,3.6430677850839506e-16,1,3700,550,1,1,17,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+North Macedonia,-0.05633802816901412,-0.13609605799976954,0.4347460744358237,1.0,0,71,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Norway,0.012439665551100654,0.0011875740611575671,0.03031731759864793,0.11659681886135943,0,879,412,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Oman,0.026672332766723317,-0.005795253651838583,0.07610838213279554,0.2677302616006174,0,292,137,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Pakistan,0.1755112120885053,0.14897621747998185,0.20145873463187644,9.557128168537286e-37,1,28141,1393,1,1,19,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Panama,0.04983108108108103,-0.08708630349000718,0.18423907091169914,0.8551573219695514,0,32,37,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Papua New Guinea,0.04535069951481463,0.0016727162652703034,0.09475946263542215,0.111938516530159,0,598,284,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Paraguay,0.12097902097902102,0.009831177535720173,0.318371891813245,0.12099217149291215,0,65,22,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Peru,0.2595820895522388,0.19919775852062538,0.3262863938025538,1.7725806721232122e-24,1,500,201,1,1,10,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Philippines,0.08665012960312724,0.07465866964136107,0.09903795537198962,9.132363811057063e-54,1,9687,4318,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Poland,-0.011904761904761862,-0.06439543750771404,0.061450649785619205,1.0,0,84,49,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Portugal,0.015939990623535016,-0.022351966834823843,0.10507338287979588,0.8551573219695514,0,237,54,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Republic of Korea,0.005327436967343613,0.0009763594807275702,0.010038267882106273,0.04924036132371519,1,5924,4252,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Romania,0.01799100449775115,-0.09618669292778591,0.20376293262085757,1.0,0,58,23,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Russian Federation,0.26576659426684335,0.2285660527331002,0.3026827546218035,5.333591160501655e-37,1,673,719,1,1,9,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Rwanda,0.23028883684621382,0.002737006553404059,0.45005392228496444,0.12099217149291215,0,61,21,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Saint Kitts and Nevis,0.33333333333333337,-0.08991364978278837,0.7923403991979523,0.5073313782991199,0,8,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Saint Lucia,0.0,-0.6576197724933468,0.3903342879021652,1.0,0,2,6,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Samoa,-0.037878787878787956,-0.3092671946729537,0.04075059847499385,0.7111572451919318,0,12,198,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Saudi Arabia,0.2103000407295108,0.15357839471961127,0.27886506833300445,2.5384416853478487e-26,1,3489,171,1,1,15,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Senegal,0.0,-0.6576197724933468,0.7934506856227624,1.0,0,1,2,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Serbia,0.25,0.016184135753902873,0.6993581574175981,0.2750397456279807,0,30,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Seychelles,-0.09523809523809523,-0.28914139073918244,0.5659624123142568,1.0,0,21,2,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Sierra Leone,0.4222222222222222,-0.08528010312385431,0.5669921129079685,0.32381586878588936,0,45,4,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Singapore,0.024613838138797695,0.013764727016011113,0.039530918044851336,1.959505702245879e-08,1,8261,842,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Slovakia,-0.08695652173913049,-0.20324664074118837,0.025071775997488027,0.29883904135662254,0,46,35,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Slovenia,0.0,-0.29914504841954404,0.5614970317550454,1.0,0,9,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Solomon Islands,-0.02044560943643514,-0.08630254855788272,0.04156344842247583,0.7942184624970167,0,105,109,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Somalia,0.2,-0.38489440009540904,0.6244653702374746,1.0,0,5,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+South Africa,0.3212240551347224,0.265473272317382,0.37796638707679914,4.760298385362607e-35,1,628,317,1,1,7,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+South Sudan,0.0,-0.4154004774523715,0.36354112831616325,1.0,0,12,6,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Spain,-0.051677667766776736,-0.09215167612370498,-0.024678234561746185,0.00039290308224405743,1,202,360,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Sri Lanka,0.14529833769413403,0.13407490838519218,0.15682476068641477,6.822796377006886e-213,1,20711,5718,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+State of Palestine,0.3797101449275362,0.0959221791748448,0.6202112825757349,0.04924036132371519,1,23,15,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Sudan,0.4142857142857143,0.16897911004501784,0.5991383894988103,0.0034741825539869914,1,35,28,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Suriname,0.0,-0.6576197724933468,0.43448246478317454,1.0,0,2,5,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Sweden,0.009601449275362328,-0.006073893265937293,0.03332183216489182,0.5538295355792698,0,345,240,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Switzerland,0.01323610346725368,-0.01686321802709298,0.03120450118344087,0.7252643400558115,0,158,460,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Syrian Arab Republic,0.5567567567567568,0.3224695483596981,0.7085228649155824,3.146593749524199e-05,1,30,37,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Taiwan,0.017226674368129302,0.009348192486472385,0.028199924816441083,3.031635012238864e-07,1,5811,1094,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Tajikistan,0.33333333333333337,-0.2905069164363784,0.7923403991979523,1.0,0,3,3,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Thailand,0.044538294024986436,0.03545898041058368,0.05353877693568397,1.3013952664596869e-18,1,3761,5162,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Timor-Leste,-0.024338624338624326,-0.10125882418319446,0.030031990723089562,0.625063297871233,0,70,108,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Togo,0.0,-0.7934506856227624,0.5614970317550454,1.0,0,3,1,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Tonga,-0.029824561403508754,-0.31288465968385143,0.09582687662430059,0.9259869590809165,0,12,380,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Trinidad and Tobago,0.1333333333333333,-0.13893789607321377,0.44797965694913383,0.8036046079524389,0,15,10,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Tunisia,0.6,-0.013479900307501569,0.882379225767352,0.3516260162601636,0,4,5,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Tuvalu,0.016949152542372836,-0.3077582484886828,0.08995725964142287,1.0,0,8,59,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Türkiye,0.4838585858585859,0.3882409235434935,0.5687974336085576,9.200812482702372e-25,1,396,125,1,1,1,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Uganda,0.3425419401896426,0.1476703895399302,0.5251621302271747,0.00033128507645620526,1,457,24,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Ukraine,0.10952380952380958,-0.04909796635864008,0.28373684146089606,0.3797917253025806,0,30,28,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+United Arab Emirates,-0.018909899888765347,-0.0300742952993851,0.07776762246780337,1.0,0,899,36,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+United Kingdom of Great Britain and Northern Ireland,-0.009958761077476508,-0.023366596481691676,0.004689779749251147,0.3481524714413015,0,1048,696,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+United Republic of Tanzania,0.4811629811629811,0.29177669035221887,0.6404580010014815,4.977200089942597e-07,1,74,33,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+United States of America,0.0030274283949917047,-0.0025066639978588738,0.007873549064724669,0.5028786998492789,0,2983,6814,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Uruguay,0.1724137931034483,-0.09733808796931387,0.28908256509326224,0.5976499467439762,0,11,58,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Uzbekistan,0.5363894139886578,0.2886389896390851,0.6881547702825936,5.5409227227945746e-05,1,529,16,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Vanuatu,-0.1283783783783784,-0.32037468160378,0.026399275662440713,0.30093389444923796,0,28,74,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Venezuela (Bolivarian Republic of),0.13919413919413914,-0.06864579840592411,0.3170037079176319,0.3658248975848951,0,28,39,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Viet Nam,0.09443352590088239,0.08012072943302104,0.10956564800092253,2.182363229292467e-56,1,26160,2795,1,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Yemen,0.625,0.3532682400257522,0.7784703114790714,6.487334592205274e-05,1,24,24,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Zambia,0.205458089668616,0.014644963537328692,0.4328592964646806,0.13372714800674834,0,135,19,0,0,,largest 20 absolute rate differences among countries with at least 50 decisions in each destination
+Zimbabwe,0.4679504814305364,0.39877952311232995,0.5332284580472006,6.524715500664664e-58,1,1454,215,1,1,2,largest 20 absolute rate differences among countries with at least 50 decisions in each destination

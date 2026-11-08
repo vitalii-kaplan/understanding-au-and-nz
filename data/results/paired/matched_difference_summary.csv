@@ -1,0 +1,2 @@
+period,n_pairs,n_nonzero,n_positive,n_negative,n_zero,mean_difference,mean_ci_lower,mean_ci_upper,median_difference,median_bootstrap_ci_lower,median_bootstrap_ci_upper,sample_sd,q1,q3,iqr,minimum,maximum,confidence_level,bootstrap_replicates,bootstrap_seed,quantile_method
+2022-2025,173,154,122,32,19,0.16321229112564284,0.12712717106753077,0.1992974111837549,0.09443352590088239,0.043333333333333335,0.14529833769413403,0.24045653401362319,0.0,0.2595820895522388,0.2595820895522388,-0.25,1.0,0.95,10000,20260927,Hyndman-Fan type 7

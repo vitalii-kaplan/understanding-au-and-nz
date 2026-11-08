@@ -1,0 +1,3 @@
+model,observations,countries,matched_units,decisions,parameters,log_likelihood,aic,residual_deviance,residual_degrees_of_freedom,pearson_chi_square,pearson_dispersion
+pooled_country_fixed_effects,310,155,155,885588,156,-2252.06153469792,4816.12306939584,3421.48783076918,154,3490.21499660755,22.6637337442048
+country_year_fixed_effects,1050,145,525,884997,149,-9631.67730378226,19561.3546075645,16701.5749949478,901,17367.9424189047,19.2762956924581

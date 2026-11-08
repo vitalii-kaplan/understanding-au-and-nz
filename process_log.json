@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "project": "Understanding Australian and New Zealand Student Visa Approval Rates Through Origin Composition and Weighting",
+  "purpose": "Append-only record of material repository, analysis, and manuscript work.",
+  "created_at": "2026-11-08T20:00:40Z",
+  "maintenance": {
+    "ordering": "Entries are chronological and use stable sequential IDs.",
+    "update_rule": "Append a new entry after material project work; do not rewrite earlier entries.",
+    "evidence_rule": "Distinguish copied, implemented, statically validated, runtime validated, and empirically verified work."
+  },
+  "entries": [
+    {
+      "id": "001",
+      "date": "2026-11-08",
+      "phase": "repository_transition",
+      "status": "completed",
+      "summary": "Initialised the separate Article B repository by copying the manuscript and its reproducibility materials from the private AU-NZ research workspace, using the Article A public repository as the release-layout reference.",
+      "scope": [
+        "Copied the Article B manuscript and publication artifacts into article/.",
+        "Copied the analysis source, tests, publication generators, documentation, reviewed mappings, validation manifests, and support records needed for reproducibility.",
+        "Adopted the Article A repository's .gitignore and .gitattributes patterns.",
+        "Did not copy downloaded source archives, local literature PDFs, private notebooks, LaTeX build intermediates, or reproducible generated CSV outputs.",
+        "Preserved copied file contents unchanged for later repository-specific revision."
+      ],
+      "sources": [
+        "/Users/vitaly/Home/harbour/projects/2026-09-AUvsNZ",
+        "/Users/vitaly/Home/git_proj/2026-10-AU-NZ-Comparison"
+      ],
+      "artifacts": [
+        "article/",
+        "data/",
+        "scripts/",
+        "src/",
+        "tests/",
+        ".gitignore",
+        ".gitattributes",
+        "process_log.json"
+      ]
+    },
+    {
+      "id": "002",
+      "date": "2026-11-08",
+      "phase": "public_repository_documentation",
+      "status": "completed",
+      "summary": "Revised the separate third-study repository into a visitor-facing GitHub layout, corrected publication-generator paths for the single article directory, and added an end-to-end reproduction entry point.",
+      "scope": [
+        "Rewrote the root README around the current study's verified question, findings, design, sources, repository map, requirements, reproduction workflow, provenance, and licensing.",
+        "Replaced the copied internal article-split planning README with a manuscript-directory guide for the current repository.",
+        "Updated supporting Markdown terminology while preserving historical article_b module and test filenames as stable pipeline identifiers.",
+        "Changed publication-generator defaults from the former private articleA/ and articleB/ locations to article/.",
+        "Added scripts/reproduce_article.py to run preparation, the dependency-ordered pipeline, publication generation, optional tests, and optional PDF compilation.",
+        "Expanded .gitignore for nested LaTeX intermediates, generated figure previews, R session state, and notebook checkpoints while retaining reproducible-data exclusions."
+      ],
+      "verification": [
+        "python3 -m compileall -q scripts src tests passed.",
+        "All local Markdown links resolved in the current checkout.",
+        "git check-ignore confirmed nested LaTeX auxiliaries and preview outputs are ignored while the manuscript PDF and source figures remain eligible for version control.",
+        "latexmk rebuilt article/article.pdf successfully as a 19-page PDF with no undefined citations, undefined references, or overfull boxes in the final log.",
+        "python3 scripts/reproduce_article.py stopped before mutation and listed the five absent extracted source files, as designed for a fresh checkout.",
+        "The 48-test suite was discovered but could not be empirically completed in this checkout: 33 errors and one failure arose because deliberately ignored extracted, prepared, and result CSV inputs are absent. Full empirical verification requires following data/README.md and then running the reproduction command."
+      ],
+      "artifacts": [
+        "README.md",
+        ".gitignore",
+        "article/README.md",
+        "AU_NZ_visa_comparison_methods.md",
+        "data/results/README.md",
+        "scripts/README.md",
+        "scripts/reproduce_article.py",
+        "src/README.md",
+        "tests/README.md",
+        "scripts/generate_article_b_decomposition_outputs.py",
+        "scripts/generate_article_b_proportional_decision_squares.py",
+        "scripts/generate_article_b_proportional_share_squares.py",
+        "scripts/generate_article_b_ranked_decision_counts.py",
+        "scripts/generate_article_b_ranked_decision_shares.py",
+        "scripts/generate_article_b_relative_origin_share.py",
+        "scripts/generate_article_model_composition_outputs.py"
+      ]
+    },
+    {
+      "id": "003",
+      "date": "2026-11-08",
+      "phase": "source_data_and_release_pipeline_reconciliation",
+      "status": "completed",
+      "summary": "Copied the five required immutable source CSVs from the private AU-NZ workspace, reduced publication utilities to the current manuscript's needs, and empirically verified the complete release workflow.",
+      "sources": [
+        "/Users/vitaly/Home/harbour/projects/2026-09-AUvsNZ/data/original/australia/student_visa_grant_rates_2005_2026-02-28.csv",
+        "/Users/vitaly/Home/harbour/projects/2026-09-AUvsNZ/data/original/new-zealand/student_visa_decisions_2022.csv",
+        "/Users/vitaly/Home/harbour/projects/2026-09-AUvsNZ/data/original/new-zealand/student_visa_decisions_2023.csv",
+        "/Users/vitaly/Home/harbour/projects/2026-09-AUvsNZ/data/original/new-zealand/student_visa_decisions_2024.csv",
+        "/Users/vitaly/Home/harbour/projects/2026-09-AUvsNZ/data/original/new-zealand/student_visa_decisions_2025.csv"
+      ],
+      "source_sha256": {
+        "student_visa_grant_rates_2005_2026-02-28.csv": "d5c15a5f638339173575c6424dad8a83328f46bfc35dd46f7e89a14dd64b4045",
+        "student_visa_decisions_2022.csv": "8903e80f9c24ef36a18b08a9fa53535fb30996c185197d9637e713a98036ce1a",
+        "student_visa_decisions_2023.csv": "3e1f18e33daa8056a7a1c9ad6edf5de85f593300bd6932d78ac96bc84b2b4db0",
+        "student_visa_decisions_2024.csv": "a1426ee0c3ca992801dfb00626703ea41de8f98e087902bf5224cba12892be8d",
+        "student_visa_decisions_2025.csv": "c7d08e7a3ebcb0988a8bea3660a2a46176c4483e26906ec011126f4ed415073e"
+      },
+      "scope": [
+        "Copied only the selectively extracted analysis inputs, not the reproducible 642 MB Zenodo archive and data-paper download.",
+        "Removed eight publication or preview scripts that generated outputs not imported by the current manuscript, together with their eight dedicated tests.",
+        "Removed eight unused copied LaTeX publication artifacts from article/tables and article/figures.",
+        "Narrowed the composition and temporal generators to the table and figure sources actually imported by article/article.tex.",
+        "Removed standalone proportional-share preview generation while retaining the manuscript figure and its area-validation test.",
+        "Updated the reproduction entry point so publication outputs are regenerated after substantive analyses and before reproducibility and minimum-output audits.",
+        "Declared discussion_question_answers.tex as an editorial synthesis artifact and narrowed the minimum publication inventory to the current manuscript's 12 required outputs.",
+        "Retained all numbered src analysis modules because they remain connected components of the shared validated analysis pipeline and provenance record."
+      ],
+      "verification": [
+        "All five target source files matched their private-workspace sources byte-for-byte by SHA-256.",
+        "python3 scripts/reproduce_article.py --run-tests --build-pdf completed successfully from the copied raw inputs.",
+        "Preparation produced four annual tables per destination, 179 combined New Zealand rows, 194 combined Australian rows, and 173 shared normalized names.",
+        "All 15 dependency-ordered pipeline stages passed with no skips or failures.",
+        "The reproducibility audit registered 63 artifacts with zero issues; the current-manuscript validator passed 12 required outputs and recorded one justified optional skip; 49 interpretation-boundary checks passed.",
+        "All 37 retained tests passed.",
+        "latexmk confirmed article/article.pdf was current at 19 pages."
+      ],
+      "artifacts": [
+        "data/original/australia/student_visa_grant_rates_2005_2026-02-28.csv",
+        "data/original/new-zealand/student_visa_decisions_2022.csv",
+        "data/original/new-zealand/student_visa_decisions_2023.csv",
+        "data/original/new-zealand/student_visa_decisions_2024.csv",
+        "data/original/new-zealand/student_visa_decisions_2025.csv",
+        "scripts/",
+        "src/analysis_12_reproducibility.py",
+        "src/analysis_13_validate_outputs.py",
+        "tests/",
+        "article/tables/",
+        "article/figures/",
+        "data/results/manifests/"
+      ]
+    },
+    {
+      "id": "004",
+      "date": "2026-11-08",
+      "phase": "data_layer_completeness_and_workspace_cleanup",
+      "status": "completed",
+      "summary": "Verified the complete analysis-required original, prepared, and result layers and removed obsolete placeholders and generated build caches.",
+      "scope": [
+        "Confirmed seven required original/reference files: the Australian source table, four New Zealand annual source tables, the preserved UN M49 webpage, and the extracted UN M49 table.",
+        "Confirmed 24 prepared CSVs across Australian, New Zealand, and comparison datasets.",
+        "Confirmed 56 result CSVs across validation, descriptive, paired, concordance, country-test, model, composition, temporal, decomposition, robustness, and manifest families.",
+        "Removed obsolete .gitkeep files from the populated descriptive, models, and robustness result directories.",
+        "Removed Python bytecode caches and LaTeX auxiliary build files while preserving article/article.pdf.",
+        "Confirmed that no empty directories remain."
+      ],
+      "verification": [
+        "All 63 artifact-manifest entries exist and match their recorded SHA-256 hashes.",
+        "All 17 JSON manifests report passed status.",
+        "No empty directories, .gitkeep files, Python bytecode caches, or LaTeX auxiliary files remain.",
+        "article/article.pdf remains a 19-page, 400887-byte reading copy.",
+        "git diff --check passed."
+      ],
+      "limitations": [
+        "The repository contains every original input required by the analysis, but it intentionally does not duplicate the downloadable 642 MB Zenodo archive, the separate data-paper PDF, or Zenodo API response snapshots. data/README.md provides their retrieval commands and checksums."
+      ],
+      "artifacts": [
+        "data/original/",
+        "data/prepared/",
+        "data/results/",
+        "data/support/",
+        "article/article.pdf"
+      ]
+    },
+    {
+      "id": "005",
+      "date": "2026-11-08",
+      "phase": "git_visibility_policy",
+      "status": "completed",
+      "summary": "Updated the public-checkout policy so scripts and final result tables are visible while raw source snapshots and prepared/intermediate tables remain local.",
+      "scope": [
+        "Removed the ignore rule for final CSV tables under data/results/.",
+        "Ignored the complete data/original tree, including copied Australian and New Zealand raw CSVs, UN M49 source snapshots, and any downloaded Zenodo artifacts.",
+        "Retained the reviewed country-alias mapping, result manifests, audits, scripts, source modules, tests, and publication artifacts as visible repository content.",
+        "Kept generated result Parquet and SQLite files ignored because the publication record is represented by reviewable CSV tables."
+      ],
+      "verification": [
+        "Git's ignore engine confirmed that all seven current original files and all 24 prepared CSVs are ignored.",
+        "Git's ignore engine confirmed that scripts, reviewed mapping files, and representative result CSV tables and manifests are visible.",
+        "All 56 result CSV tables are visible under the revised rules.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ]
+    },
+    {
+      "id": "006",
+      "date": "2026-11-08",
+      "phase": "article_readme_review",
+      "status": "completed",
+      "summary": "Retained and improved the article-directory landing page as article-specific visitor documentation.",
+      "scope": [
+        "Confirmed that article/README.md is not a build dependency but adds the research question, principal answer, relationship to the preceding study, and publication-artifact boundary that are not duplicated in full by the repository README.",
+        "Converted the manuscript inventory and imported artifact list to navigable repository links.",
+        "Clarified that LLNCS is the current working format rather than a final venue commitment.",
+        "Added a direct warning not to hand-edit generated tables and figures and clarified that article-only compilation does not regenerate or validate analysis results."
+      ],
+      "verification": [
+        "All local Markdown link targets added to article/README.md exist.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ]
+    },
+    {
+      "id": "007",
+      "date": "2026-11-08",
+      "phase": "methods_document_review",
+      "status": "completed",
+      "summary": "Retained and updated the root statistical-methods specification as the human-readable contract for the implemented analysis.",
+      "scope": [
+        "Linked the methods specification to the repository reproduction guide, implementation map, manifest directory, current output checklist, and manuscript figure directory.",
+        "Removed the stale data/results/figures directory from the documented implemented structure and clarified the separation between plotting-data CSVs and manuscript-ready figure sources.",
+        "Clarified which analytical output families are retained in this repository and distinguished current-manuscript artifacts from publication renderings used only by the preceding study.",
+        "Replaced the conceptual analysis-order list with the exact implemented module sequence and documented the publication-generation hook before the reproducibility audit."
+      ],
+      "verification": [
+        "The documented analysis sequence matches src.analysis_15_run_pipeline.STAGES.",
+        "All local Markdown link targets added to AU_NZ_visa_comparison_methods.md exist.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ]
+    },
+    {
+      "id": "008",
+      "date": "2026-11-08",
+      "phase": "article_repository_paths_and_data_documentation",
+      "status": "completed",
+      "summary": "Added the public repository and root-relative provenance paths to the manuscript and reconciled the data retrieval documentation with the public checkout.",
+      "scope": [
+        "Added a bibliography record for the current public GitHub repository and cited it from the article Data section.",
+        "Described the repository's versioned documentation, code, final result tables, manifests, tests, and publication files, while distinguishing local original and prepared data layers.",
+        "Added reader-facing root-relative paths for the data retrieval contract, result directories, manifests, manuscript artifacts, methods specification, module map, and minimum-output checklist.",
+        "Retained LaTeX input directives relative to the article compilation directory because they are internal build paths rather than reader-facing repository references.",
+        "Updated data/README.md so project paths are consistently relative to the repository root, corrected the status of omitted Zenodo downloads and API snapshots, added the UN M49 retrieval command and snapshot warning, and replaced a partial analysis-command list with the complete reproduction entry point.",
+        "Replaced the url package with xurl so long repository paths wrap without overflowing the manuscript text block."
+      ],
+      "verification": [
+        "The configured Git remote matches the repository URL recorded in article/bibliography.bib.",
+        "All reader-facing repository paths added to article/article.tex resolve from the repository root.",
+        "The five copied AU and NZ source files and the three M49 or alias reference files match their recorded checksums.",
+        "latexmk completed successfully with resolved citations and cross-references and no overfull boxes.",
+        "The rebuilt article/article.pdf contains 19 pages and the rendered Data page was visually inspected.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ]
+    }
+  ]
+}

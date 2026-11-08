@@ -1,0 +1,70 @@
+{
+  "module": "src.analysis_14_interpretation_checks",
+  "status": "passed",
+  "analysis_timestamp_utc": "2026-11-08T20:18:10+00:00",
+  "inputs": [
+    {
+      "path": "data/results/validation/analysis_contract.csv",
+      "sha256": "e7b7fdc1337519c90ff72aff2f9fd7687da3eb5f42742f5b4dadc4c43a67ef4b"
+    },
+    {
+      "path": "data/results/manifests/result_table_registry.csv",
+      "sha256": "047f976d8b841147e4c928b416565bfd2bab00c283cd12dcbc2be345320a72cb"
+    },
+    {
+      "path": "data/results/manifests/13_validate_outputs.json",
+      "sha256": "0c4d2bc930fca0abb37260bc20464820c38f25c7b6d2e471a361ecb8d9483b53"
+    },
+    {
+      "path": "data/results/manifests/03_descriptive.json",
+      "sha256": "3b6dd85e3376f9540791592ec41b6589e32e45d7790328434a8c4ddc873f34f2"
+    },
+    {
+      "path": "data/results/manifests/04_matched_comparison.json",
+      "sha256": "5145524e4d834b7af0ec9599ca1c69a9982f6bfb7c1a25e176a806ffb8bbd957"
+    },
+    {
+      "path": "data/results/manifests/05_concordance.json",
+      "sha256": "9467c4e0084ba30a16b78ee8630f98b64502eae2c481ba0bff3ffb8b61e5eb94"
+    },
+    {
+      "path": "data/results/manifests/06_country_differences.json",
+      "sha256": "34e269cac98b8bd19ac5d73c622731cab4482340628bdd4e5985d42cf7884456"
+    },
+    {
+      "path": "data/results/manifests/07_binomial_regression.json",
+      "sha256": "0882b2d72cab7d34feaac2285f13a2ffde9fa5562cc683f3c64c51056c3cd182"
+    },
+    {
+      "path": "data/results/manifests/08_origin_composition.json",
+      "sha256": "56a781a41d5241de6beadd704cc998f17f02e89d340b2c77c93da66755b65301"
+    },
+    {
+      "path": "data/results/manifests/09_temporal.json",
+      "sha256": "7192ceed05c2eb64eb1cc1204d42b9cea1612e91d4d342fd9e565818eef798f9"
+    },
+    {
+      "path": "data/results/manifests/10_sensitivity.json",
+      "sha256": "8257e5121b2bdc49f5ee8b1ccbd4c8be6bbeedfbbe29917a9653a456da8e3d91"
+    },
+    {
+      "path": "data/results/manifests/16_article_b_decomposition.json",
+      "sha256": "f9baa3e27101579c46810ac5ccf2ccc63602a9ea9d9dcc1edc70873279888941"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "interpretation_checks",
+      "path": "/var/folders/tz/3n2kn9b93636hpkyb1hj1skh0000gn/T/tmp5h9beifa/checks.csv",
+      "sha256": "a2a81024f7e90d9cbf06e397cef9617950bc1941f2ef7ae7989c4043516ebe9a",
+      "rows": 49
+    }
+  ],
+  "summary": {
+    "checks_passed": 49,
+    "checks_failed": 0,
+    "registered_result_tables": 6,
+    "optional_text_files_checked": 0
+  },
+  "interpretation_scope": "descriptive and associational; not causal"
+}

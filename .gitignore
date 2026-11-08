@@ -1,0 +1,68 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local development environments and editor state.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local AI-agent instructions and project history.
+AGENTS.md
+agents/
+.agents/
+.codex/
+
+# Manuscript working notes that are not publication artifacts.
+article/titles.txt
+
+# Downloaded and selectively extracted immutable source data.
+# Recreate these files using data/README.md.
+data/original/
+
+# Reproducible prepared and intermediate research data.
+data/prepared/**/*.csv
+data/prepared/**/*.parquet
+
+# Final CSV result tables and manifests are versioned. Keep binary result
+# formats local unless a publication workflow explicitly requires them.
+data/results/**/*.parquet
+data/results/**/*.sqlite
+
+# LaTeX build artifacts, including standalone figure previews.
+article/**/*.aux
+article/**/*.bbl
+article/**/*.bcf
+article/**/*.blg
+article/**/*.fdb_latexmk
+article/**/*.fls
+article/**/*.log
+article/**/*.out
+article/**/*.run.xml
+article/**/*.synctex.gz
+article/**/*.toc
+article/**/*.lof
+article/**/*.lot
+article/**/*.nav
+article/**/*.snm
+article/**/*.vrb
+article/figures/*_preview.*
+article/figures/origin_share_relative_representation.pdf
+article/figures/origin_share_relative_representation.png
+
+# R and notebook session state.
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/

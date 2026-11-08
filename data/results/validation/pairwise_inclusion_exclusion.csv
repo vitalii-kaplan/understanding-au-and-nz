@@ -1,0 +1,911 @@
+scope,year,country,included,reason,au_decision_total,nz_decision_total
+annual,2022,Afghanistan,1,valid observations in both destinations,12,10
+annual,2022,Albania,1,valid observations in both destinations,10,3
+annual,2022,Algeria,1,valid observations in both destinations,1,1
+annual,2022,Antigua and Barbuda,0,origin absent from one destination table,1,
+annual,2022,Argentina,1,valid observations in both destinations,61,51
+annual,2022,Armenia,0,origin absent from one destination table,5,
+annual,2022,Austria,1,valid observations in both destinations,32,42
+annual,2022,Azerbaijan,1,valid observations in both destinations,8,1
+annual,2022,Bahamas,1,valid observations in both destinations,2,1
+annual,2022,Bahrain,1,valid observations in both destinations,5,1
+annual,2022,Bangladesh,1,valid observations in both destinations,2565,53
+annual,2022,Barbados,0,origin absent from one destination table,,1
+annual,2022,Belarus,1,valid observations in both destinations,2,4
+annual,2022,Belgium,1,valid observations in both destinations,20,20
+annual,2022,Belize,0,origin absent from one destination table,1,
+annual,2022,Benin,0,origin absent from one destination table,,2
+annual,2022,Bhutan,1,valid observations in both destinations,3265,6
+annual,2022,Bolivia (Plurinational State of),1,valid observations in both destinations,11,7
+annual,2022,Bosnia and Herzegovina,1,valid observations in both destinations,2,1
+annual,2022,Botswana,1,valid observations in both destinations,26,1
+annual,2022,Brazil,1,valid observations in both destinations,206,380
+annual,2022,Brunei Darussalam,1,valid observations in both destinations,89,4
+annual,2022,Bulgaria,0,origin absent from one destination table,5,
+annual,2022,Burundi,0,origin absent from one destination table,10,
+annual,2022,Cabo Verde,0,origin absent from one destination table,,1
+annual,2022,Cambodia,1,valid observations in both destinations,775,80
+annual,2022,Cameroon,1,valid observations in both destinations,8,5
+annual,2022,Canada,1,valid observations in both destinations,982,268
+annual,2022,Chad,0,origin absent from one destination table,1,
+annual,2022,Chile,1,valid observations in both destinations,109,226
+annual,2022,China,1,valid observations in both destinations,45467,5371
+annual,2022,"China, Hong Kong Special Administrative Region",1,valid observations in both destinations,3120,252
+annual,2022,"China, Macao Special Administrative Region",1,valid observations in both destinations,130,10
+annual,2022,Colombia,1,valid observations in both destinations,249,224
+annual,2022,Comoros,0,origin absent from one destination table,2,
+annual,2022,Congo,0,origin absent from one destination table,1,
+annual,2022,Costa Rica,1,valid observations in both destinations,6,1
+annual,2022,Croatia,1,valid observations in both destinations,1,1
+annual,2022,Cyprus,0,origin absent from one destination table,3,
+annual,2022,Czechia,1,valid observations in both destinations,10,11
+annual,2022,Côte d’Ivoire,0,origin absent from one destination table,2,
+annual,2022,Democratic Republic of the Congo,1,valid observations in both destinations,11,1
+annual,2022,Denmark,1,valid observations in both destinations,48,32
+annual,2022,Dominica,0,origin absent from one destination table,4,
+annual,2022,Dominican Republic,1,valid observations in both destinations,3,2
+annual,2022,Ecuador,1,valid observations in both destinations,28,6
+annual,2022,Egypt,1,valid observations in both destinations,86,19
+annual,2022,El Salvador,1,valid observations in both destinations,6,2
+annual,2022,Eritrea,0,origin absent from one destination table,4,
+annual,2022,Estonia,1,valid observations in both destinations,6,1
+annual,2022,Ethiopia,1,valid observations in both destinations,12,5
+annual,2022,Fiji,1,valid observations in both destinations,168,125
+annual,2022,Finland,1,valid observations in both destinations,31,12
+annual,2022,France,1,valid observations in both destinations,254,133
+annual,2022,Georgia,0,origin absent from one destination table,,1
+annual,2022,Germany,1,valid observations in both destinations,274,684
+annual,2022,Ghana,1,valid observations in both destinations,128,21
+annual,2022,Greece,1,valid observations in both destinations,9,3
+annual,2022,Guatemala,1,valid observations in both destinations,25,1
+annual,2022,Guinea,1,valid observations in both destinations,2,1
+annual,2022,Guyana,0,origin absent from one destination table,,1
+annual,2022,Haiti,0,origin absent from one destination table,2,
+annual,2022,Honduras,1,valid observations in both destinations,5,1
+annual,2022,Hungary,1,valid observations in both destinations,11,5
+annual,2022,Iceland,1,valid observations in both destinations,4,1
+annual,2022,India,1,valid observations in both destinations,38868,2512
+annual,2022,Indonesia,1,valid observations in both destinations,4319,334
+annual,2022,Iran (Islamic Republic of),1,valid observations in both destinations,477,9
+annual,2022,Iraq,1,valid observations in both destinations,21,9
+annual,2022,Ireland,1,valid observations in both destinations,16,6
+annual,2022,Israel,1,valid observations in both destinations,8,4
+annual,2022,Italy,1,valid observations in both destinations,100,52
+annual,2022,Jamaica,1,valid observations in both destinations,2,4
+annual,2022,Japan,1,valid observations in both destinations,691,790
+annual,2022,Jordan,1,valid observations in both destinations,83,18
+annual,2022,Kazakhstan,1,valid observations in both destinations,59,18
+annual,2022,Kenya,1,valid observations in both destinations,2513,19
+annual,2022,Kiribati,1,valid observations in both destinations,3,14
+annual,2022,Kosovo,0,origin absent from one destination table,5,
+annual,2022,Kuwait,1,valid observations in both destinations,144,73
+annual,2022,Kyrgyzstan,1,valid observations in both destinations,18,1
+annual,2022,Lao People's Democratic Republic,1,valid observations in both destinations,121,37
+annual,2022,Latvia,1,valid observations in both destinations,2,4
+annual,2022,Lebanon,1,valid observations in both destinations,201,8
+annual,2022,Liberia,1,valid observations in both destinations,4,2
+annual,2022,Libya,1,valid observations in both destinations,1,3
+annual,2022,Liechtenstein,0,origin absent from one destination table,,1
+annual,2022,Lithuania,1,valid observations in both destinations,15,1
+annual,2022,Luxembourg,1,valid observations in both destinations,1,2
+annual,2022,Madagascar,0,origin absent from one destination table,1,
+annual,2022,Malawi,1,valid observations in both destinations,19,1
+annual,2022,Malaysia,1,valid observations in both destinations,3601,589
+annual,2022,Maldives,1,valid observations in both destinations,38,6
+annual,2022,Malta,1,valid observations in both destinations,3,1
+annual,2022,Marshall Islands,0,origin absent from one destination table,,1
+annual,2022,Mauritius,1,valid observations in both destinations,206,6
+annual,2022,Mexico,1,valid observations in both destinations,146,46
+annual,2022,Micronesia (Federated States of),0,origin absent from one destination table,,1
+annual,2022,Mongolia,1,valid observations in both destinations,465,7
+annual,2022,Montenegro,0,origin absent from one destination table,2,
+annual,2022,Morocco,1,valid observations in both destinations,4,2
+annual,2022,Mozambique,1,valid observations in both destinations,8,1
+annual,2022,Myanmar,1,valid observations in both destinations,1212,57
+annual,2022,Namibia,1,valid observations in both destinations,6,2
+annual,2022,Naoero,1,valid observations in both destinations,1,3
+annual,2022,Nepal,1,valid observations in both destinations,19939,204
+annual,2022,Netherlands (Kingdom of the),1,valid observations in both destinations,36,34
+annual,2022,Nicaragua,0,origin absent from one destination table,1,
+annual,2022,Niger,0,origin absent from one destination table,1,
+annual,2022,Nigeria,1,valid observations in both destinations,1316,67
+annual,2022,North Macedonia,1,valid observations in both destinations,15,2
+annual,2022,Norway,1,valid observations in both destinations,274,31
+annual,2022,Oman,1,valid observations in both destinations,48,31
+annual,2022,Pakistan,1,valid observations in both destinations,6628,91
+annual,2022,Panama,1,valid observations in both destinations,13,22
+annual,2022,Papua New Guinea,1,valid observations in both destinations,127,39
+annual,2022,Paraguay,1,valid observations in both destinations,30,5
+annual,2022,Peru,1,valid observations in both destinations,171,34
+annual,2022,Philippines,1,valid observations in both destinations,2799,604
+annual,2022,Poland,1,valid observations in both destinations,23,2
+annual,2022,Portugal,1,valid observations in both destinations,53,7
+annual,2022,Puerto Rico,0,origin absent from one destination table,2,
+annual,2022,Qatar,0,origin absent from one destination table,4,
+annual,2022,Republic of Korea,1,valid observations in both destinations,1255,635
+annual,2022,Republic of Moldova,0,origin absent from one destination table,,1
+annual,2022,Romania,1,valid observations in both destinations,19,4
+annual,2022,Russian Federation,1,valid observations in both destinations,188,108
+annual,2022,Rwanda,1,valid observations in both destinations,14,5
+annual,2022,Saint Helena,0,origin absent from one destination table,1,
+annual,2022,Saint Kitts and Nevis,1,valid observations in both destinations,3,1
+annual,2022,Samoa,1,valid observations in both destinations,2,47
+annual,2022,Saudi Arabia,1,valid observations in both destinations,463,32
+annual,2022,Serbia,0,origin absent from one destination table,9,
+annual,2022,Seychelles,1,valid observations in both destinations,6,1
+annual,2022,Sierra Leone,1,valid observations in both destinations,15,1
+annual,2022,Singapore,1,valid observations in both destinations,2271,135
+annual,2022,Sint Maarten (Dutch part),0,origin absent from one destination table,1,
+annual,2022,Slovakia,1,valid observations in both destinations,13,7
+annual,2022,Slovenia,1,valid observations in both destinations,2,1
+annual,2022,Solomon Islands,1,valid observations in both destinations,10,16
+annual,2022,Somalia,0,origin absent from one destination table,2,
+annual,2022,South Africa,1,valid observations in both destinations,193,52
+annual,2022,South Sudan,1,valid observations in both destinations,3,3
+annual,2022,Spain,1,valid observations in both destinations,49,58
+annual,2022,Sri Lanka,1,valid observations in both destinations,3838,445
+annual,2022,State of Palestine,1,valid observations in both destinations,4,3
+annual,2022,Sudan,1,valid observations in both destinations,8,1
+annual,2022,Suriname,0,origin absent from one destination table,,1
+annual,2022,Sweden,1,valid observations in both destinations,143,44
+annual,2022,Switzerland,1,valid observations in both destinations,36,64
+annual,2022,Syrian Arab Republic,1,valid observations in both destinations,12,4
+annual,2022,Taiwan,1,valid observations in both destinations,1213,159
+annual,2022,Thailand,1,valid observations in both destinations,1112,879
+annual,2022,Timor-Leste,1,valid observations in both destinations,16,9
+annual,2022,Togo,0,origin absent from one destination table,2,
+annual,2022,Tonga,1,valid observations in both destinations,2,55
+annual,2022,Trinidad and Tobago,1,valid observations in both destinations,3,3
+annual,2022,Tunisia,1,valid observations in both destinations,2,1
+annual,2022,Tuvalu,1,valid observations in both destinations,2,4
+annual,2022,Türkiye,1,valid observations in both destinations,95,11
+annual,2022,Uganda,1,valid observations in both destinations,115,2
+annual,2022,Ukraine,1,valid observations in both destinations,8,6
+annual,2022,United Arab Emirates,1,valid observations in both destinations,101,2
+annual,2022,United Kingdom of Great Britain and Northern Ireland,1,valid observations in both destinations,228,91
+annual,2022,United Republic of Tanzania,1,valid observations in both destinations,18,4
+annual,2022,United States of America,1,valid observations in both destinations,759,726
+annual,2022,Uruguay,1,valid observations in both destinations,4,7
+annual,2022,Uzbekistan,1,valid observations in both destinations,50,2
+annual,2022,Vanuatu,1,valid observations in both destinations,5,9
+annual,2022,Venezuela (Bolivarian Republic of),1,valid observations in both destinations,6,3
+annual,2022,Viet Nam,1,valid observations in both destinations,5931,424
+annual,2022,Yemen,1,valid observations in both destinations,9,8
+annual,2022,Zambia,1,valid observations in both destinations,34,3
+annual,2022,Zimbabwe,1,valid observations in both destinations,402,23
+annual,2023,Afghanistan,1,valid observations in both destinations,11,17
+annual,2023,Albania,1,valid observations in both destinations,13,3
+annual,2023,Algeria,1,valid observations in both destinations,3,1
+annual,2023,Angola,0,origin absent from one destination table,,2
+annual,2023,Argentina,1,valid observations in both destinations,38,109
+annual,2023,Armenia,0,origin absent from one destination table,3,
+annual,2023,Austria,1,valid observations in both destinations,23,73
+annual,2023,Azerbaijan,1,valid observations in both destinations,11,2
+annual,2023,Bahamas,0,origin absent from one destination table,3,
+annual,2023,Bahrain,0,origin absent from one destination table,8,
+annual,2023,Bangladesh,1,valid observations in both destinations,6636,172
+annual,2023,Barbados,0,origin absent from one destination table,1,
+annual,2023,Belarus,1,valid observations in both destinations,2,3
+annual,2023,Belgium,1,valid observations in both destinations,16,50
+annual,2023,Belize,1,valid observations in both destinations,2,1
+annual,2023,Benin,1,valid observations in both destinations,1,2
+annual,2023,Bermuda,1,valid observations in both destinations,1,2
+annual,2023,Bhutan,1,valid observations in both destinations,8330,9
+annual,2023,Bolivia (Plurinational State of),1,valid observations in both destinations,3,11
+annual,2023,Bosnia and Herzegovina,0,origin absent from one destination table,6,
+annual,2023,Botswana,1,valid observations in both destinations,44,4
+annual,2023,Brazil,1,valid observations in both destinations,135,839
+annual,2023,Brunei Darussalam,1,valid observations in both destinations,54,10
+annual,2023,Bulgaria,1,valid observations in both destinations,6,3
+annual,2023,Burundi,1,valid observations in both destinations,10,2
+annual,2023,Cabo Verde,0,origin absent from one destination table,1,
+annual,2023,Cambodia,1,valid observations in both destinations,823,167
+annual,2023,Cameroon,1,valid observations in both destinations,12,8
+annual,2023,Canada,1,valid observations in both destinations,784,298
+annual,2023,Chad,0,origin absent from one destination table,2,
+annual,2023,Chile,1,valid observations in both destinations,103,562
+annual,2023,China,1,valid observations in both destinations,65465,9426
+annual,2023,"China, Hong Kong Special Administrative Region",1,valid observations in both destinations,2182,380
+annual,2023,"China, Macao Special Administrative Region",1,valid observations in both destinations,144,15
+annual,2023,Colombia,1,valid observations in both destinations,188,375
+annual,2023,Congo,0,origin absent from one destination table,,2
+annual,2023,Costa Rica,1,valid observations in both destinations,2,5
+annual,2023,Croatia,1,valid observations in both destinations,3,4
+annual,2023,Cuba,0,origin absent from one destination table,,1
+annual,2023,Cyprus,0,origin absent from one destination table,1,
+annual,2023,Czechia,1,valid observations in both destinations,8,17
+annual,2023,Democratic People's Republic of Korea,0,origin absent from one destination table,,1
+annual,2023,Democratic Republic of the Congo,1,valid observations in both destinations,4,2
+annual,2023,Denmark,1,valid observations in both destinations,28,103
+annual,2023,Djibouti,0,origin absent from one destination table,1,
+annual,2023,Dominica,1,valid observations in both destinations,4,1
+annual,2023,Dominican Republic,0,origin absent from one destination table,,6
+annual,2023,Ecuador,1,valid observations in both destinations,32,99
+annual,2023,Egypt,1,valid observations in both destinations,83,21
+annual,2023,El Salvador,1,valid observations in both destinations,6,2
+annual,2023,Eritrea,1,valid observations in both destinations,3,2
+annual,2023,Estonia,1,valid observations in both destinations,3,1
+annual,2023,Eswatini,1,valid observations in both destinations,2,2
+annual,2023,Ethiopia,1,valid observations in both destinations,25,6
+annual,2023,Fiji,1,valid observations in both destinations,208,269
+annual,2023,Finland,1,valid observations in both destinations,10,23
+annual,2023,France,1,valid observations in both destinations,207,318
+annual,2023,French Polynesia,0,origin absent from one destination table,1,
+annual,2023,Gabon,0,origin absent from one destination table,1,
+annual,2023,Gambia,0,origin absent from one destination table,,2
+annual,2023,Georgia,0,origin absent from one destination table,,3
+annual,2023,Germany,1,valid observations in both destinations,209,1368
+annual,2023,Ghana,1,valid observations in both destinations,159,50
+annual,2023,Greece,1,valid observations in both destinations,2,5
+annual,2023,Grenada,1,valid observations in both destinations,1,2
+annual,2023,Guatemala,1,valid observations in both destinations,5,3
+annual,2023,Guyana,0,origin absent from one destination table,,2
+annual,2023,Haiti,1,valid observations in both destinations,1,1
+annual,2023,Honduras,1,valid observations in both destinations,5,3
+annual,2023,Hungary,1,valid observations in both destinations,10,14
+annual,2023,Iceland,1,valid observations in both destinations,4,3
+annual,2023,India,1,valid observations in both destinations,64427,8597
+annual,2023,Indonesia,1,valid observations in both destinations,3976,400
+annual,2023,Iran (Islamic Republic of),1,valid observations in both destinations,564,243
+annual,2023,Iraq,1,valid observations in both destinations,14,21
+annual,2023,Ireland,1,valid observations in both destinations,18,34
+annual,2023,Israel,1,valid observations in both destinations,3,9
+annual,2023,Italy,1,valid observations in both destinations,73,237
+annual,2023,Jamaica,1,valid observations in both destinations,2,2
+annual,2023,Japan,1,valid observations in both destinations,660,2084
+annual,2023,Jordan,1,valid observations in both destinations,112,24
+annual,2023,Kazakhstan,1,valid observations in both destinations,41,21
+annual,2023,Kenya,1,valid observations in both destinations,5326,48
+annual,2023,Kiribati,0,origin absent from one destination table,,34
+annual,2023,Kosovo,0,origin absent from one destination table,1,
+annual,2023,Kuwait,1,valid observations in both destinations,172,68
+annual,2023,Kyrgyzstan,1,valid observations in both destinations,16,6
+annual,2023,Lao People's Democratic Republic,1,valid observations in both destinations,159,54
+annual,2023,Latvia,1,valid observations in both destinations,3,3
+annual,2023,Lebanon,1,valid observations in both destinations,226,5
+annual,2023,Liberia,1,valid observations in both destinations,5,3
+annual,2023,Libya,0,origin absent from one destination table,,7
+annual,2023,Lithuania,1,valid observations in both destinations,6,3
+annual,2023,Luxembourg,1,valid observations in both destinations,1,4
+annual,2023,Madagascar,1,valid observations in both destinations,5,1
+annual,2023,Malawi,1,valid observations in both destinations,32,5
+annual,2023,Malaysia,1,valid observations in both destinations,2900,419
+annual,2023,Maldives,1,valid observations in both destinations,50,19
+annual,2023,Malta,1,valid observations in both destinations,1,1
+annual,2023,Marshall Islands,0,origin absent from one destination table,,1
+annual,2023,Mauritius,1,valid observations in both destinations,215,12
+annual,2023,Mexico,1,valid observations in both destinations,118,146
+annual,2023,Micronesia (Federated States of),0,origin absent from one destination table,,1
+annual,2023,Mongolia,1,valid observations in both destinations,599,45
+annual,2023,Morocco,1,valid observations in both destinations,10,2
+annual,2023,Mozambique,1,valid observations in both destinations,5,1
+annual,2023,Myanmar,1,valid observations in both destinations,427,210
+annual,2023,Namibia,1,valid observations in both destinations,3,1
+annual,2023,Naoero,1,valid observations in both destinations,2,2
+annual,2023,Nepal,1,valid observations in both destinations,24207,2118
+annual,2023,Netherlands (Kingdom of the),1,valid observations in both destinations,33,97
+annual,2023,Nicaragua,0,origin absent from one destination table,1,
+annual,2023,Nigeria,1,valid observations in both destinations,1540,131
+annual,2023,North Macedonia,0,origin absent from one destination table,27,
+annual,2023,Norway,1,valid observations in both destinations,196,126
+annual,2023,Oman,1,valid observations in both destinations,58,34
+annual,2023,Pakistan,1,valid observations in both destinations,11834,261
+annual,2023,Palau,0,origin absent from one destination table,,3
+annual,2023,Panama,1,valid observations in both destinations,5,7
+annual,2023,Papua New Guinea,1,valid observations in both destinations,145,97
+annual,2023,Paraguay,1,valid observations in both destinations,11,7
+annual,2023,Peru,1,valid observations in both destinations,101,39
+annual,2023,Philippines,1,valid observations in both destinations,3005,1151
+annual,2023,Poland,1,valid observations in both destinations,18,14
+annual,2023,Portugal,1,valid observations in both destinations,48,18
+annual,2023,Puerto Rico,0,origin absent from one destination table,1,
+annual,2023,Qatar,0,origin absent from one destination table,2,
+annual,2023,Republic of Korea,1,valid observations in both destinations,1046,1200
+annual,2023,Romania,1,valid observations in both destinations,10,1
+annual,2023,Russian Federation,1,valid observations in both destinations,198,313
+annual,2023,Rwanda,1,valid observations in both destinations,23,9
+annual,2023,Réunion,0,origin absent from one destination table,1,
+annual,2023,Saint Kitts and Nevis,0,origin absent from one destination table,2,
+annual,2023,Saint Lucia,1,valid observations in both destinations,1,3
+annual,2023,Saint Vincent and the Grenadines,0,origin absent from one destination table,,3
+annual,2023,Samoa,1,valid observations in both destinations,5,62
+annual,2023,Saudi Arabia,1,valid observations in both destinations,1076,52
+annual,2023,Senegal,0,origin absent from one destination table,,2
+annual,2023,Serbia,0,origin absent from one destination table,11,
+annual,2023,Seychelles,1,valid observations in both destinations,6,1
+annual,2023,Sierra Leone,0,origin absent from one destination table,19,
+annual,2023,Singapore,1,valid observations in both destinations,1941,248
+annual,2023,Sint Maarten (Dutch part),0,origin absent from one destination table,1,
+annual,2023,Slovakia,1,valid observations in both destinations,11,10
+annual,2023,Slovenia,1,valid observations in both destinations,1,1
+annual,2023,Solomon Islands,1,valid observations in both destinations,20,38
+annual,2023,Somalia,1,valid observations in both destinations,1,1
+annual,2023,South Africa,1,valid observations in both destinations,158,95
+annual,2023,South Sudan,1,valid observations in both destinations,5,1
+annual,2023,Spain,1,valid observations in both destinations,36,150
+annual,2023,Sri Lanka,1,valid observations in both destinations,6486,1214
+annual,2023,State of Palestine,1,valid observations in both destinations,8,6
+annual,2023,Sudan,1,valid observations in both destinations,11,14
+annual,2023,Suriname,0,origin absent from one destination table,1,
+annual,2023,Sweden,1,valid observations in both destinations,70,71
+annual,2023,Switzerland,1,valid observations in both destinations,32,136
+annual,2023,Syrian Arab Republic,1,valid observations in both destinations,8,13
+annual,2023,Taiwan,1,valid observations in both destinations,1158,261
+annual,2023,Tajikistan,1,valid observations in both destinations,1,1
+annual,2023,Thailand,1,valid observations in both destinations,958,1681
+annual,2023,Timor-Leste,1,valid observations in both destinations,17,18
+annual,2023,Togo,0,origin absent from one destination table,1,
+annual,2023,Tonga,1,valid observations in both destinations,3,134
+annual,2023,Trinidad and Tobago,1,valid observations in both destinations,2,2
+annual,2023,Tunisia,1,valid observations in both destinations,1,1
+annual,2023,Turkmenistan,0,origin absent from one destination table,2,
+annual,2023,Tuvalu,1,valid observations in both destinations,3,19
+annual,2023,Türkiye,1,valid observations in both destinations,104,30
+annual,2023,Uganda,1,valid observations in both destinations,160,7
+annual,2023,Ukraine,1,valid observations in both destinations,7,3
+annual,2023,United Arab Emirates,0,origin absent from one destination table,160,
+annual,2023,United Kingdom of Great Britain and Northern Ireland,1,valid observations in both destinations,208,197
+annual,2023,United Republic of Tanzania,1,valid observations in both destinations,20,10
+annual,2023,United States of America,1,valid observations in both destinations,622,1894
+annual,2023,Uruguay,1,valid observations in both destinations,1,19
+annual,2023,Uzbekistan,1,valid observations in both destinations,118,7
+annual,2023,Vanuatu,1,valid observations in both destinations,10,20
+annual,2023,Venezuela (Bolivarian Republic of),1,valid observations in both destinations,11,12
+annual,2023,Viet Nam,1,valid observations in both destinations,8416,662
+annual,2023,Yemen,1,valid observations in both destinations,9,5
+annual,2023,Zambia,1,valid observations in both destinations,46,5
+annual,2023,Zimbabwe,1,valid observations in both destinations,434,65
+annual,2024,Afghanistan,1,valid observations in both destinations,7,28
+annual,2024,Albania,1,valid observations in both destinations,3,1
+annual,2024,Algeria,1,valid observations in both destinations,4,4
+annual,2024,Antigua and Barbuda,0,origin absent from one destination table,1,
+annual,2024,Argentina,1,valid observations in both destinations,22,83
+annual,2024,Armenia,0,origin absent from one destination table,3,
+annual,2024,Austria,1,valid observations in both destinations,17,72
+annual,2024,Azerbaijan,1,valid observations in both destinations,11,2
+annual,2024,Bahrain,1,valid observations in both destinations,4,2
+annual,2024,Bangladesh,1,valid observations in both destinations,8235,665
+annual,2024,Barbados,1,valid observations in both destinations,4,1
+annual,2024,Belarus,1,valid observations in both destinations,2,2
+annual,2024,Belgium,1,valid observations in both destinations,23,58
+annual,2024,Belize,0,origin absent from one destination table,,3
+annual,2024,Bhutan,1,valid observations in both destinations,1992,107
+annual,2024,Bolivia (Plurinational State of),1,valid observations in both destinations,8,16
+annual,2024,Bosnia and Herzegovina,0,origin absent from one destination table,1,
+annual,2024,Botswana,1,valid observations in both destinations,61,7
+annual,2024,Brazil,1,valid observations in both destinations,147,566
+annual,2024,Brunei Darussalam,1,valid observations in both destinations,75,7
+annual,2024,Bulgaria,1,valid observations in both destinations,4,4
+annual,2024,Burkina Faso,0,origin absent from one destination table,1,
+annual,2024,Burundi,0,origin absent from one destination table,1,
+annual,2024,Cabo Verde,0,origin absent from one destination table,1,
+annual,2024,Cambodia,1,valid observations in both destinations,1058,177
+annual,2024,Cameroon,1,valid observations in both destinations,9,8
+annual,2024,Canada,1,valid observations in both destinations,973,351
+annual,2024,Chad,0,origin absent from one destination table,,11
+annual,2024,Chile,1,valid observations in both destinations,108,377
+annual,2024,China,1,valid observations in both destinations,72480,10832
+annual,2024,"China, Hong Kong Special Administrative Region",1,valid observations in both destinations,2331,403
+annual,2024,"China, Macao Special Administrative Region",1,valid observations in both destinations,144,29
+annual,2024,Colombia,1,valid observations in both destinations,189,497
+annual,2024,Comoros,0,origin absent from one destination table,2,
+annual,2024,Costa Rica,1,valid observations in both destinations,3,4
+annual,2024,Croatia,0,origin absent from one destination table,3,
+annual,2024,Cyprus,0,origin absent from one destination table,2,
+annual,2024,Czechia,1,valid observations in both destinations,16,27
+annual,2024,Côte d’Ivoire,0,origin absent from one destination table,1,
+annual,2024,Democratic Republic of the Congo,1,valid observations in both destinations,3,7
+annual,2024,Denmark,1,valid observations in both destinations,24,95
+annual,2024,Djibouti,1,valid observations in both destinations,1,1
+annual,2024,Dominica,1,valid observations in both destinations,2,1
+annual,2024,Dominican Republic,1,valid observations in both destinations,1,3
+annual,2024,Ecuador,1,valid observations in both destinations,32,89
+annual,2024,Egypt,1,valid observations in both destinations,64,20
+annual,2024,El Salvador,0,origin absent from one destination table,,1
+annual,2024,Eritrea,0,origin absent from one destination table,,1
+annual,2024,Estonia,1,valid observations in both destinations,1,3
+annual,2024,Eswatini,0,origin absent from one destination table,,3
+annual,2024,Ethiopia,1,valid observations in both destinations,8,16
+annual,2024,Fiji,1,valid observations in both destinations,125,232
+annual,2024,Finland,1,valid observations in both destinations,22,28
+annual,2024,France,1,valid observations in both destinations,244,301
+annual,2024,Gambia,0,origin absent from one destination table,,2
+annual,2024,Georgia,1,valid observations in both destinations,5,2
+annual,2024,Germany,1,valid observations in both destinations,227,1685
+annual,2024,Ghana,1,valid observations in both destinations,89,32
+annual,2024,Greece,1,valid observations in both destinations,5,3
+annual,2024,Grenada,0,origin absent from one destination table,,1
+annual,2024,Guatemala,1,valid observations in both destinations,20,1
+annual,2024,Honduras,1,valid observations in both destinations,5,6
+annual,2024,Hungary,1,valid observations in both destinations,9,17
+annual,2024,Iceland,1,valid observations in both destinations,1,2
+annual,2024,India,1,valid observations in both destinations,40152,11150
+annual,2024,Indonesia,1,valid observations in both destinations,4972,640
+annual,2024,Iran (Islamic Republic of),1,valid observations in both destinations,589,204
+annual,2024,Iraq,1,valid observations in both destinations,16,5
+annual,2024,Ireland,1,valid observations in both destinations,13,35
+annual,2024,Israel,1,valid observations in both destinations,6,11
+annual,2024,Italy,1,valid observations in both destinations,130,209
+annual,2024,Jamaica,1,valid observations in both destinations,5,2
+annual,2024,Japan,1,valid observations in both destinations,744,2380
+annual,2024,Jordan,1,valid observations in both destinations,72,25
+annual,2024,Kazakhstan,1,valid observations in both destinations,48,20
+annual,2024,Kenya,1,valid observations in both destinations,1421,88
+annual,2024,Kiribati,1,valid observations in both destinations,1,27
+annual,2024,Kuwait,1,valid observations in both destinations,239,100
+annual,2024,Kyrgyzstan,1,valid observations in both destinations,9,5
+annual,2024,Lao People's Democratic Republic,1,valid observations in both destinations,106,147
+annual,2024,Latvia,1,valid observations in both destinations,4,2
+annual,2024,Lebanon,1,valid observations in both destinations,89,5
+annual,2024,Lesotho,0,origin absent from one destination table,2,
+annual,2024,Liberia,1,valid observations in both destinations,2,1
+annual,2024,Libya,1,valid observations in both destinations,1,1
+annual,2024,Liechtenstein,0,origin absent from one destination table,1,
+annual,2024,Lithuania,1,valid observations in both destinations,7,2
+annual,2024,Luxembourg,1,valid observations in both destinations,2,6
+annual,2024,Madagascar,0,origin absent from one destination table,2,
+annual,2024,Malawi,1,valid observations in both destinations,9,3
+annual,2024,Malaysia,1,valid observations in both destinations,3102,465
+annual,2024,Maldives,1,valid observations in both destinations,51,15
+annual,2024,Malta,1,valid observations in both destinations,4,1
+annual,2024,Marshall Islands,1,valid observations in both destinations,1,3
+annual,2024,Mauritius,1,valid observations in both destinations,241,8
+annual,2024,Mexico,1,valid observations in both destinations,110,139
+annual,2024,Monaco,0,origin absent from one destination table,1,
+annual,2024,Mongolia,1,valid observations in both destinations,414,63
+annual,2024,Morocco,1,valid observations in both destinations,11,9
+annual,2024,Mozambique,1,valid observations in both destinations,11,3
+annual,2024,Myanmar,1,valid observations in both destinations,200,545
+annual,2024,Namibia,1,valid observations in both destinations,1,3
+annual,2024,Naoero,1,valid observations in both destinations,16,1
+annual,2024,Nepal,1,valid observations in both destinations,10197,3033
+annual,2024,Netherlands (Kingdom of the),1,valid observations in both destinations,40,87
+annual,2024,Nicaragua,0,origin absent from one destination table,,1
+annual,2024,Niger,0,origin absent from one destination table,,1
+annual,2024,Nigeria,1,valid observations in both destinations,514,161
+annual,2024,North Macedonia,1,valid observations in both destinations,18,1
+annual,2024,Norway,1,valid observations in both destinations,200,104
+annual,2024,Oman,1,valid observations in both destinations,81,45
+annual,2024,Pakistan,1,valid observations in both destinations,7404,640
+annual,2024,Palau,0,origin absent from one destination table,,1
+annual,2024,Panama,1,valid observations in both destinations,2,5
+annual,2024,Papua New Guinea,1,valid observations in both destinations,157,78
+annual,2024,Paraguay,1,valid observations in both destinations,13,3
+annual,2024,Peru,1,valid observations in both destinations,116,61
+annual,2024,Philippines,1,valid observations in both destinations,1916,1345
+annual,2024,Poland,1,valid observations in both destinations,20,16
+annual,2024,Portugal,1,valid observations in both destinations,75,18
+annual,2024,Qatar,0,origin absent from one destination table,2,
+annual,2024,Republic of Korea,1,valid observations in both destinations,1626,1232
+annual,2024,Romania,1,valid observations in both destinations,17,6
+annual,2024,Russian Federation,1,valid observations in both destinations,160,188
+annual,2024,Rwanda,1,valid observations in both destinations,10,4
+annual,2024,Saint Kitts and Nevis,0,origin absent from one destination table,3,
+annual,2024,Saint Lucia,1,valid observations in both destinations,1,2
+annual,2024,Samoa,1,valid observations in both destinations,3,51
+annual,2024,San Marino,0,origin absent from one destination table,1,
+annual,2024,Saudi Arabia,1,valid observations in both destinations,779,53
+annual,2024,Senegal,0,origin absent from one destination table,1,
+annual,2024,Serbia,0,origin absent from one destination table,7,
+annual,2024,Seychelles,0,origin absent from one destination table,6,
+annual,2024,Sierra Leone,1,valid observations in both destinations,7,2
+annual,2024,Singapore,1,valid observations in both destinations,2123,230
+annual,2024,Sint Maarten (Dutch part),0,origin absent from one destination table,1,
+annual,2024,Slovakia,1,valid observations in both destinations,6,12
+annual,2024,Slovenia,0,origin absent from one destination table,3,
+annual,2024,Solomon Islands,1,valid observations in both destinations,30,22
+annual,2024,Somalia,1,valid observations in both destinations,1,2
+annual,2024,South Africa,1,valid observations in both destinations,152,110
+annual,2024,South Sudan,1,valid observations in both destinations,3,1
+annual,2024,Spain,1,valid observations in both destinations,54,69
+annual,2024,Sri Lanka,1,valid observations in both destinations,6212,2224
+annual,2024,State of Palestine,1,valid observations in both destinations,4,3
+annual,2024,Sudan,1,valid observations in both destinations,7,7
+annual,2024,Suriname,0,origin absent from one destination table,,2
+annual,2024,Sweden,1,valid observations in both destinations,73,71
+annual,2024,Switzerland,1,valid observations in both destinations,44,107
+annual,2024,Syrian Arab Republic,1,valid observations in both destinations,8,10
+annual,2024,Taiwan,1,valid observations in both destinations,1646,315
+annual,2024,Tajikistan,1,valid observations in both destinations,2,2
+annual,2024,Thailand,1,valid observations in both destinations,871,1599
+annual,2024,Timor-Leste,1,valid observations in both destinations,17,47
+annual,2024,Togo,0,origin absent from one destination table,,1
+annual,2024,Tonga,1,valid observations in both destinations,5,113
+annual,2024,Trinidad and Tobago,1,valid observations in both destinations,3,3
+annual,2024,Turkmenistan,0,origin absent from one destination table,1,
+annual,2024,Tuvalu,1,valid observations in both destinations,2,17
+annual,2024,Türkiye,1,valid observations in both destinations,100,50
+annual,2024,Uganda,1,valid observations in both destinations,77,9
+annual,2024,Ukraine,1,valid observations in both destinations,6,9
+annual,2024,United Arab Emirates,1,valid observations in both destinations,273,26
+annual,2024,United Kingdom of Great Britain and Northern Ireland,1,valid observations in both destinations,302,192
+annual,2024,United Republic of Tanzania,1,valid observations in both destinations,14,14
+annual,2024,United States of America,1,valid observations in both destinations,741,2154
+annual,2024,Uruguay,1,valid observations in both destinations,5,21
+annual,2024,Uzbekistan,1,valid observations in both destinations,184,2
+annual,2024,Vanuatu,1,valid observations in both destinations,8,21
+annual,2024,Venezuela (Bolivarian Republic of),1,valid observations in both destinations,7,11
+annual,2024,Viet Nam,1,valid observations in both destinations,7022,872
+annual,2024,Yemen,1,valid observations in both destinations,3,4
+annual,2024,Zambia,1,valid observations in both destinations,26,8
+annual,2024,Zimbabwe,1,valid observations in both destinations,348,56
+annual,2025,Afghanistan,1,valid observations in both destinations,1,16
+annual,2025,Albania,0,origin absent from one destination table,4,
+annual,2025,Algeria,1,valid observations in both destinations,3,6
+annual,2025,Angola,1,valid observations in both destinations,1,1
+annual,2025,Antigua and Barbuda,0,origin absent from one destination table,2,
+annual,2025,Argentina,1,valid observations in both destinations,29,88
+annual,2025,Armenia,1,valid observations in both destinations,6,4
+annual,2025,Australia,0,origin absent from one destination table,,2
+annual,2025,Austria,1,valid observations in both destinations,20,84
+annual,2025,Azerbaijan,0,origin absent from one destination table,11,
+annual,2025,Bahamas,0,origin absent from one destination table,2,
+annual,2025,Bahrain,1,valid observations in both destinations,2,1
+annual,2025,Bangladesh,1,valid observations in both destinations,11210,1092
+annual,2025,Barbados,1,valid observations in both destinations,1,1
+annual,2025,Belarus,1,valid observations in both destinations,5,3
+annual,2025,Belgium,1,valid observations in both destinations,19,58
+annual,2025,Benin,0,origin absent from one destination table,,3
+annual,2025,Bhutan,1,valid observations in both destinations,2178,117
+annual,2025,Bolivia (Plurinational State of),1,valid observations in both destinations,5,12
+annual,2025,Botswana,0,origin absent from one destination table,47,
+annual,2025,Brazil,1,valid observations in both destinations,158,662
+annual,2025,Brunei Darussalam,1,valid observations in both destinations,67,6
+annual,2025,Bulgaria,1,valid observations in both destinations,1,5
+annual,2025,Burkina Faso,0,origin absent from one destination table,1,
+annual,2025,Burundi,1,valid observations in both destinations,5,2
+annual,2025,Cambodia,1,valid observations in both destinations,1135,193
+annual,2025,Cameroon,1,valid observations in both destinations,5,8
+annual,2025,Canada,1,valid observations in both destinations,972,273
+annual,2025,Cayman Islands,0,origin absent from one destination table,1,
+annual,2025,Chad,1,valid observations in both destinations,1,3
+annual,2025,Chile,1,valid observations in both destinations,84,280
+annual,2025,China,1,valid observations in both destinations,53339,9843
+annual,2025,"China, Hong Kong Special Administrative Region",1,valid observations in both destinations,2247,362
+annual,2025,"China, Macao Special Administrative Region",1,valid observations in both destinations,140,15
+annual,2025,Colombia,1,valid observations in both destinations,156,461
+annual,2025,Congo,0,origin absent from one destination table,,1
+annual,2025,Costa Rica,1,valid observations in both destinations,1,6
+annual,2025,Croatia,1,valid observations in both destinations,3,1
+annual,2025,Cyprus,0,origin absent from one destination table,1,
+annual,2025,Czechia,1,valid observations in both destinations,18,42
+annual,2025,Democratic People's Republic of Korea,0,origin absent from one destination table,1,
+annual,2025,Democratic Republic of the Congo,1,valid observations in both destinations,6,6
+annual,2025,Denmark,1,valid observations in both destinations,36,90
+annual,2025,Djibouti,0,origin absent from one destination table,4,
+annual,2025,Dominica,1,valid observations in both destinations,6,1
+annual,2025,Dominican Republic,1,valid observations in both destinations,1,2
+annual,2025,Ecuador,1,valid observations in both destinations,25,58
+annual,2025,Egypt,1,valid observations in both destinations,53,38
+annual,2025,El Salvador,1,valid observations in both destinations,2,1
+annual,2025,Eritrea,1,valid observations in both destinations,2,1
+annual,2025,Estonia,1,valid observations in both destinations,1,2
+annual,2025,Eswatini,0,origin absent from one destination table,3,
+annual,2025,Ethiopia,1,valid observations in both destinations,20,12
+annual,2025,Fiji,1,valid observations in both destinations,126,187
+annual,2025,Finland,1,valid observations in both destinations,16,28
+annual,2025,France,1,valid observations in both destinations,265,272
+annual,2025,French Polynesia,0,origin absent from one destination table,1,
+annual,2025,Gabon,0,origin absent from one destination table,6,
+annual,2025,Gambia,0,origin absent from one destination table,,1
+annual,2025,Georgia,1,valid observations in both destinations,2,1
+annual,2025,Germany,1,valid observations in both destinations,244,1961
+annual,2025,Ghana,1,valid observations in both destinations,74,29
+annual,2025,Greece,1,valid observations in both destinations,9,1
+annual,2025,Grenada,1,valid observations in both destinations,1,1
+annual,2025,Guatemala,1,valid observations in both destinations,16,3
+annual,2025,Guinea,0,origin absent from one destination table,,1
+annual,2025,Guyana,1,valid observations in both destinations,1,3
+annual,2025,Haiti,1,valid observations in both destinations,2,4
+annual,2025,Honduras,1,valid observations in both destinations,3,1
+annual,2025,Hungary,1,valid observations in both destinations,9,20
+annual,2025,Iceland,1,valid observations in both destinations,4,3
+annual,2025,India,1,valid observations in both destinations,34225,7114
+annual,2025,Indonesia,1,valid observations in both destinations,4532,530
+annual,2025,Iran (Islamic Republic of),1,valid observations in both destinations,456,166
+annual,2025,Iraq,1,valid observations in both destinations,11,7
+annual,2025,Ireland,1,valid observations in both destinations,15,32
+annual,2025,Israel,1,valid observations in both destinations,12,13
+annual,2025,Italy,1,valid observations in both destinations,144,301
+annual,2025,Jamaica,1,valid observations in both destinations,1,4
+annual,2025,Japan,1,valid observations in both destinations,771,2332
+annual,2025,Jordan,1,valid observations in both destinations,64,17
+annual,2025,Kazakhstan,1,valid observations in both destinations,48,21
+annual,2025,Kenya,1,valid observations in both destinations,1654,123
+annual,2025,Kiribati,0,origin absent from one destination table,,29
+annual,2025,Kosovo,0,origin absent from one destination table,2,
+annual,2025,Kuwait,1,valid observations in both destinations,224,136
+annual,2025,Kyrgyzstan,1,valid observations in both destinations,3,3
+annual,2025,Lao People's Democratic Republic,1,valid observations in both destinations,112,215
+annual,2025,Latvia,1,valid observations in both destinations,4,3
+annual,2025,Lebanon,1,valid observations in both destinations,70,5
+annual,2025,Lesotho,0,origin absent from one destination table,1,
+annual,2025,Liberia,1,valid observations in both destinations,1,3
+annual,2025,Liechtenstein,1,valid observations in both destinations,1,2
+annual,2025,Lithuania,1,valid observations in both destinations,3,4
+annual,2025,Luxembourg,1,valid observations in both destinations,8,5
+annual,2025,Madagascar,0,origin absent from one destination table,4,
+annual,2025,Malawi,1,valid observations in both destinations,8,1
+annual,2025,Malaysia,1,valid observations in both destinations,2699,509
+annual,2025,Maldives,1,valid observations in both destinations,63,12
+annual,2025,Mali,1,valid observations in both destinations,2,4
+annual,2025,Malta,0,origin absent from one destination table,3,
+annual,2025,Marshall Islands,0,origin absent from one destination table,,1
+annual,2025,Mauritius,1,valid observations in both destinations,201,11
+annual,2025,Mexico,1,valid observations in both destinations,136,139
+annual,2025,Micronesia (Federated States of),1,valid observations in both destinations,1,1
+annual,2025,Monaco,0,origin absent from one destination table,12,
+annual,2025,Mongolia,1,valid observations in both destinations,342,62
+annual,2025,Montenegro,0,origin absent from one destination table,1,
+annual,2025,Morocco,1,valid observations in both destinations,6,4
+annual,2025,Mozambique,0,origin absent from one destination table,2,
+annual,2025,Myanmar,1,valid observations in both destinations,86,465
+annual,2025,Namibia,1,valid observations in both destinations,4,3
+annual,2025,Naoero,1,valid observations in both destinations,17,2
+annual,2025,Nepal,1,valid observations in both destinations,15380,1942
+annual,2025,Netherlands (Kingdom of the),1,valid observations in both destinations,48,79
+annual,2025,Nicaragua,0,origin absent from one destination table,2,
+annual,2025,Niger,0,origin absent from one destination table,1,
+annual,2025,Nigeria,1,valid observations in both destinations,330,191
+annual,2025,North Macedonia,1,valid observations in both destinations,11,1
+annual,2025,Norway,1,valid observations in both destinations,209,151
+annual,2025,Oman,1,valid observations in both destinations,105,27
+annual,2025,Pakistan,1,valid observations in both destinations,2275,401
+annual,2025,Palau,0,origin absent from one destination table,,1
+annual,2025,Panama,1,valid observations in both destinations,12,3
+annual,2025,Papua New Guinea,1,valid observations in both destinations,169,70
+annual,2025,Paraguay,1,valid observations in both destinations,11,7
+annual,2025,Peru,1,valid observations in both destinations,112,67
+annual,2025,Philippines,1,valid observations in both destinations,1967,1218
+annual,2025,Poland,1,valid observations in both destinations,23,17
+annual,2025,Portugal,1,valid observations in both destinations,61,11
+annual,2025,Qatar,0,origin absent from one destination table,7,
+annual,2025,Republic of Korea,1,valid observations in both destinations,1997,1185
+annual,2025,Republic of Moldova,0,origin absent from one destination table,,3
+annual,2025,Romania,1,valid observations in both destinations,12,12
+annual,2025,Russian Federation,1,valid observations in both destinations,127,110
+annual,2025,Rwanda,1,valid observations in both destinations,14,3
+annual,2025,Réunion,0,origin absent from one destination table,3,
+annual,2025,Saint Kitts and Nevis,0,origin absent from one destination table,,2
+annual,2025,Saint Lucia,0,origin absent from one destination table,,1
+annual,2025,Samoa,1,valid observations in both destinations,2,38
+annual,2025,Saudi Arabia,1,valid observations in both destinations,1171,34
+annual,2025,Serbia,1,valid observations in both destinations,3,4
+annual,2025,Seychelles,0,origin absent from one destination table,3,
+annual,2025,Sierra Leone,1,valid observations in both destinations,4,1
+annual,2025,Singapore,1,valid observations in both destinations,1926,229
+annual,2025,Slovakia,1,valid observations in both destinations,16,6
+annual,2025,Slovenia,1,valid observations in both destinations,3,1
+annual,2025,Solomon Islands,1,valid observations in both destinations,45,33
+annual,2025,Somalia,0,origin absent from one destination table,1,
+annual,2025,South Africa,1,valid observations in both destinations,125,60
+annual,2025,South Sudan,1,valid observations in both destinations,1,1
+annual,2025,Spain,1,valid observations in both destinations,63,83
+annual,2025,Sri Lanka,1,valid observations in both destinations,4175,1835
+annual,2025,State of Palestine,1,valid observations in both destinations,7,3
+annual,2025,Sudan,1,valid observations in both destinations,9,6
+annual,2025,Suriname,1,valid observations in both destinations,1,2
+annual,2025,Sweden,1,valid observations in both destinations,59,54
+annual,2025,Switzerland,1,valid observations in both destinations,46,153
+annual,2025,Syrian Arab Republic,1,valid observations in both destinations,2,10
+annual,2025,Taiwan,1,valid observations in both destinations,1794,359
+annual,2025,Thailand,1,valid observations in both destinations,820,1003
+annual,2025,Timor-Leste,1,valid observations in both destinations,20,34
+annual,2025,Tonga,1,valid observations in both destinations,2,78
+annual,2025,Trinidad and Tobago,1,valid observations in both destinations,7,2
+annual,2025,Tunisia,1,valid observations in both destinations,1,3
+annual,2025,Turkmenistan,0,origin absent from one destination table,1,
+annual,2025,Tuvalu,1,valid observations in both destinations,1,19
+annual,2025,Türkiye,1,valid observations in both destinations,97,34
+annual,2025,Uganda,1,valid observations in both destinations,105,6
+annual,2025,Ukraine,1,valid observations in both destinations,9,10
+annual,2025,United Arab Emirates,1,valid observations in both destinations,365,8
+annual,2025,United Kingdom of Great Britain and Northern Ireland,1,valid observations in both destinations,310,216
+annual,2025,United Republic of Tanzania,1,valid observations in both destinations,22,5
+annual,2025,United States of America,1,valid observations in both destinations,861,2040
+annual,2025,Uruguay,1,valid observations in both destinations,1,11
+annual,2025,Uzbekistan,1,valid observations in both destinations,177,5
+annual,2025,Vanuatu,1,valid observations in both destinations,5,24
+annual,2025,Venezuela (Bolivarian Republic of),1,valid observations in both destinations,4,13
+annual,2025,Viet Nam,1,valid observations in both destinations,4791,837
+annual,2025,Yemen,1,valid observations in both destinations,3,7
+annual,2025,Zambia,1,valid observations in both destinations,29,3
+annual,2025,Zimbabwe,1,valid observations in both destinations,270,71
+pooled,,Afghanistan,1,valid observations in both destinations,31,71
+pooled,,Albania,1,valid observations in both destinations,30,7
+pooled,,Algeria,1,valid observations in both destinations,11,12
+pooled,,Angola,1,valid observations in both destinations,1,3
+pooled,,Antigua and Barbuda,0,origin absent from one destination table,4,
+pooled,,Argentina,1,valid observations in both destinations,150,331
+pooled,,Armenia,1,valid observations in both destinations,17,4
+pooled,,Australia,0,origin absent from one destination table,,2
+pooled,,Austria,1,valid observations in both destinations,92,271
+pooled,,Azerbaijan,1,valid observations in both destinations,41,5
+pooled,,Bahamas,1,valid observations in both destinations,7,1
+pooled,,Bahrain,1,valid observations in both destinations,19,4
+pooled,,Bangladesh,1,valid observations in both destinations,28646,1982
+pooled,,Barbados,1,valid observations in both destinations,6,3
+pooled,,Belarus,1,valid observations in both destinations,11,12
+pooled,,Belgium,1,valid observations in both destinations,78,186
+pooled,,Belize,1,valid observations in both destinations,3,4
+pooled,,Benin,1,valid observations in both destinations,1,7
+pooled,,Bermuda,1,valid observations in both destinations,1,2
+pooled,,Bhutan,1,valid observations in both destinations,15765,239
+pooled,,Bolivia (Plurinational State of),1,valid observations in both destinations,27,46
+pooled,,Bosnia and Herzegovina,1,valid observations in both destinations,9,1
+pooled,,Botswana,1,valid observations in both destinations,178,12
+pooled,,Brazil,1,valid observations in both destinations,646,2447
+pooled,,Brunei Darussalam,1,valid observations in both destinations,285,27
+pooled,,Bulgaria,1,valid observations in both destinations,16,12
+pooled,,Burkina Faso,0,origin absent from one destination table,2,
+pooled,,Burundi,1,valid observations in both destinations,26,4
+pooled,,Cabo Verde,1,valid observations in both destinations,2,1
+pooled,,Cambodia,1,valid observations in both destinations,3791,617
+pooled,,Cameroon,1,valid observations in both destinations,34,29
+pooled,,Canada,1,valid observations in both destinations,3711,1190
+pooled,,Cayman Islands,0,origin absent from one destination table,1,
+pooled,,Chad,1,valid observations in both destinations,4,14
+pooled,,Chile,1,valid observations in both destinations,404,1445
+pooled,,China,1,valid observations in both destinations,236751,35472
+pooled,,"China, Hong Kong Special Administrative Region",1,valid observations in both destinations,9880,1397
+pooled,,"China, Macao Special Administrative Region",1,valid observations in both destinations,558,69
+pooled,,Colombia,1,valid observations in both destinations,782,1557
+pooled,,Comoros,0,origin absent from one destination table,4,
+pooled,,Congo,1,valid observations in both destinations,1,3
+pooled,,Costa Rica,1,valid observations in both destinations,12,16
+pooled,,Croatia,1,valid observations in both destinations,10,6
+pooled,,Cuba,0,origin absent from one destination table,,1
+pooled,,Cyprus,0,origin absent from one destination table,7,
+pooled,,Czechia,1,valid observations in both destinations,52,97
+pooled,,Côte d’Ivoire,0,origin absent from one destination table,3,
+pooled,,Democratic People's Republic of Korea,1,valid observations in both destinations,1,1
+pooled,,Democratic Republic of the Congo,1,valid observations in both destinations,24,16
+pooled,,Denmark,1,valid observations in both destinations,136,320
+pooled,,Djibouti,1,valid observations in both destinations,6,1
+pooled,,Dominica,1,valid observations in both destinations,16,3
+pooled,,Dominican Republic,1,valid observations in both destinations,5,13
+pooled,,Ecuador,1,valid observations in both destinations,117,252
+pooled,,Egypt,1,valid observations in both destinations,286,98
+pooled,,El Salvador,1,valid observations in both destinations,14,6
+pooled,,Eritrea,1,valid observations in both destinations,9,4
+pooled,,Estonia,1,valid observations in both destinations,11,7
+pooled,,Eswatini,1,valid observations in both destinations,5,5
+pooled,,Ethiopia,1,valid observations in both destinations,65,39
+pooled,,Fiji,1,valid observations in both destinations,627,813
+pooled,,Finland,1,valid observations in both destinations,79,91
+pooled,,France,1,valid observations in both destinations,970,1024
+pooled,,French Polynesia,0,origin absent from one destination table,2,
+pooled,,Gabon,0,origin absent from one destination table,7,
+pooled,,Gambia,0,origin absent from one destination table,,5
+pooled,,Georgia,1,valid observations in both destinations,7,7
+pooled,,Germany,1,valid observations in both destinations,954,5698
+pooled,,Ghana,1,valid observations in both destinations,450,132
+pooled,,Greece,1,valid observations in both destinations,25,12
+pooled,,Grenada,1,valid observations in both destinations,2,4
+pooled,,Guatemala,1,valid observations in both destinations,66,8
+pooled,,Guinea,1,valid observations in both destinations,2,2
+pooled,,Guyana,1,valid observations in both destinations,1,6
+pooled,,Haiti,1,valid observations in both destinations,5,5
+pooled,,Honduras,1,valid observations in both destinations,18,11
+pooled,,Hungary,1,valid observations in both destinations,39,56
+pooled,,Iceland,1,valid observations in both destinations,13,9
+pooled,,India,1,valid observations in both destinations,177672,29373
+pooled,,Indonesia,1,valid observations in both destinations,17799,1904
+pooled,,Iran (Islamic Republic of),1,valid observations in both destinations,2086,622
+pooled,,Iraq,1,valid observations in both destinations,62,42
+pooled,,Ireland,1,valid observations in both destinations,62,107
+pooled,,Israel,1,valid observations in both destinations,29,37
+pooled,,Italy,1,valid observations in both destinations,447,799
+pooled,,Jamaica,1,valid observations in both destinations,10,12
+pooled,,Japan,1,valid observations in both destinations,2866,7586
+pooled,,Jordan,1,valid observations in both destinations,331,84
+pooled,,Kazakhstan,1,valid observations in both destinations,196,80
+pooled,,Kenya,1,valid observations in both destinations,10914,278
+pooled,,Kiribati,1,valid observations in both destinations,4,104
+pooled,,Kosovo,0,origin absent from one destination table,8,
+pooled,,Kuwait,1,valid observations in both destinations,779,377
+pooled,,Kyrgyzstan,1,valid observations in both destinations,46,15
+pooled,,Lao People's Democratic Republic,1,valid observations in both destinations,498,453
+pooled,,Latvia,1,valid observations in both destinations,13,12
+pooled,,Lebanon,1,valid observations in both destinations,586,23
+pooled,,Lesotho,0,origin absent from one destination table,3,
+pooled,,Liberia,1,valid observations in both destinations,12,9
+pooled,,Libya,1,valid observations in both destinations,2,11
+pooled,,Liechtenstein,1,valid observations in both destinations,2,3
+pooled,,Lithuania,1,valid observations in both destinations,31,10
+pooled,,Luxembourg,1,valid observations in both destinations,12,17
+pooled,,Madagascar,1,valid observations in both destinations,12,1
+pooled,,Malawi,1,valid observations in both destinations,68,10
+pooled,,Malaysia,1,valid observations in both destinations,12302,1982
+pooled,,Maldives,1,valid observations in both destinations,202,52
+pooled,,Mali,1,valid observations in both destinations,2,4
+pooled,,Malta,1,valid observations in both destinations,11,3
+pooled,,Marshall Islands,1,valid observations in both destinations,1,6
+pooled,,Mauritius,1,valid observations in both destinations,863,37
+pooled,,Mexico,1,valid observations in both destinations,510,470
+pooled,,Micronesia (Federated States of),1,valid observations in both destinations,1,3
+pooled,,Monaco,0,origin absent from one destination table,13,
+pooled,,Mongolia,1,valid observations in both destinations,1820,177
+pooled,,Montenegro,0,origin absent from one destination table,3,
+pooled,,Morocco,1,valid observations in both destinations,31,17
+pooled,,Mozambique,1,valid observations in both destinations,26,5
+pooled,,Myanmar,1,valid observations in both destinations,1925,1277
+pooled,,Namibia,1,valid observations in both destinations,14,9
+pooled,,Naoero,1,valid observations in both destinations,36,8
+pooled,,Nepal,1,valid observations in both destinations,69723,7297
+pooled,,Netherlands (Kingdom of the),1,valid observations in both destinations,157,297
+pooled,,Nicaragua,1,valid observations in both destinations,4,1
+pooled,,Niger,1,valid observations in both destinations,2,1
+pooled,,Nigeria,1,valid observations in both destinations,3700,550
+pooled,,North Macedonia,1,valid observations in both destinations,71,4
+pooled,,Norway,1,valid observations in both destinations,879,412
+pooled,,Oman,1,valid observations in both destinations,292,137
+pooled,,Pakistan,1,valid observations in both destinations,28141,1393
+pooled,,Palau,0,origin absent from one destination table,,5
+pooled,,Panama,1,valid observations in both destinations,32,37
+pooled,,Papua New Guinea,1,valid observations in both destinations,598,284
+pooled,,Paraguay,1,valid observations in both destinations,65,22
+pooled,,Peru,1,valid observations in both destinations,500,201
+pooled,,Philippines,1,valid observations in both destinations,9687,4318
+pooled,,Poland,1,valid observations in both destinations,84,49
+pooled,,Portugal,1,valid observations in both destinations,237,54
+pooled,,Puerto Rico,0,origin absent from one destination table,3,
+pooled,,Qatar,0,origin absent from one destination table,15,
+pooled,,Republic of Korea,1,valid observations in both destinations,5924,4252
+pooled,,Republic of Moldova,0,origin absent from one destination table,,4
+pooled,,Romania,1,valid observations in both destinations,58,23
+pooled,,Russian Federation,1,valid observations in both destinations,673,719
+pooled,,Rwanda,1,valid observations in both destinations,61,21
+pooled,,Réunion,0,origin absent from one destination table,4,
+pooled,,Saint Helena,0,origin absent from one destination table,1,
+pooled,,Saint Kitts and Nevis,1,valid observations in both destinations,8,3
+pooled,,Saint Lucia,1,valid observations in both destinations,2,6
+pooled,,Saint Vincent and the Grenadines,0,origin absent from one destination table,,3
+pooled,,Samoa,1,valid observations in both destinations,12,198
+pooled,,San Marino,0,origin absent from one destination table,1,
+pooled,,Saudi Arabia,1,valid observations in both destinations,3489,171
+pooled,,Senegal,1,valid observations in both destinations,1,2
+pooled,,Serbia,1,valid observations in both destinations,30,4
+pooled,,Seychelles,1,valid observations in both destinations,21,2
+pooled,,Sierra Leone,1,valid observations in both destinations,45,4
+pooled,,Singapore,1,valid observations in both destinations,8261,842
+pooled,,Sint Maarten (Dutch part),0,origin absent from one destination table,3,
+pooled,,Slovakia,1,valid observations in both destinations,46,35
+pooled,,Slovenia,1,valid observations in both destinations,9,3
+pooled,,Solomon Islands,1,valid observations in both destinations,105,109
+pooled,,Somalia,1,valid observations in both destinations,5,3
+pooled,,South Africa,1,valid observations in both destinations,628,317
+pooled,,South Sudan,1,valid observations in both destinations,12,6
+pooled,,Spain,1,valid observations in both destinations,202,360
+pooled,,Sri Lanka,1,valid observations in both destinations,20711,5718
+pooled,,State of Palestine,1,valid observations in both destinations,23,15
+pooled,,Sudan,1,valid observations in both destinations,35,28
+pooled,,Suriname,1,valid observations in both destinations,2,5
+pooled,,Sweden,1,valid observations in both destinations,345,240
+pooled,,Switzerland,1,valid observations in both destinations,158,460
+pooled,,Syrian Arab Republic,1,valid observations in both destinations,30,37
+pooled,,Taiwan,1,valid observations in both destinations,5811,1094
+pooled,,Tajikistan,1,valid observations in both destinations,3,3
+pooled,,Thailand,1,valid observations in both destinations,3761,5162
+pooled,,Timor-Leste,1,valid observations in both destinations,70,108
+pooled,,Togo,1,valid observations in both destinations,3,1
+pooled,,Tonga,1,valid observations in both destinations,12,380
+pooled,,Trinidad and Tobago,1,valid observations in both destinations,15,10
+pooled,,Tunisia,1,valid observations in both destinations,4,5
+pooled,,Turkmenistan,0,origin absent from one destination table,4,
+pooled,,Tuvalu,1,valid observations in both destinations,8,59
+pooled,,Türkiye,1,valid observations in both destinations,396,125
+pooled,,Uganda,1,valid observations in both destinations,457,24
+pooled,,Ukraine,1,valid observations in both destinations,30,28
+pooled,,United Arab Emirates,1,valid observations in both destinations,899,36
+pooled,,United Kingdom of Great Britain and Northern Ireland,1,valid observations in both destinations,1048,696
+pooled,,United Republic of Tanzania,1,valid observations in both destinations,74,33
+pooled,,United States of America,1,valid observations in both destinations,2983,6814
+pooled,,Uruguay,1,valid observations in both destinations,11,58
+pooled,,Uzbekistan,1,valid observations in both destinations,529,16
+pooled,,Vanuatu,1,valid observations in both destinations,28,74
+pooled,,Venezuela (Bolivarian Republic of),1,valid observations in both destinations,28,39
+pooled,,Viet Nam,1,valid observations in both destinations,26160,2795
+pooled,,Yemen,1,valid observations in both destinations,24,24
+pooled,,Zambia,1,valid observations in both destinations,135,19
+pooled,,Zimbabwe,1,valid observations in both destinations,1454,215

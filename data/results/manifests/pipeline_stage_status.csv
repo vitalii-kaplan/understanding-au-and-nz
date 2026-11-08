@@ -1,0 +1,16 @@
+sequence,step,module,started_utc,ended_utc,duration_seconds,status,exit_code,message
+1,01,src.analysis_01_define_contract,2026-11-08T20:17:32+00:00,2026-11-08T20:17:32+00:00,0.048661,passed,0,- data/results/manifests/01_analysis_contract.json
+2,02,src.analysis_02_build_tables,2026-11-08T20:17:32+00:00,2026-11-08T20:17:32+00:00,0.063996,passed,0,- data/results/manifests/02_data_validation_and_tables.json
+3,11,src.analysis_11_comparability,2026-11-08T20:17:32+00:00,2026-11-08T20:17:32+00:00,0.061155,passed,0,- data/results/manifests/11_comparability.json
+4,03,src.analysis_03_descriptive,2026-11-08T20:17:32+00:00,2026-11-08T20:17:32+00:00,0.048862,passed,0,- data/results/manifests/03_descriptive.json
+5,04,src.analysis_04_matched_comparison,2026-11-08T20:17:32+00:00,2026-11-08T20:17:32+00:00,0.379931,passed,0,- data/results/manifests/04_matched_comparison.json
+6,05,src.analysis_05_concordance,2026-11-08T20:17:32+00:00,2026-11-08T20:17:34+00:00,1.105827,passed,0,- data/results/manifests/05_concordance.json
+7,06,src.analysis_06_country_differences,2026-11-08T20:17:34+00:00,2026-11-08T20:17:34+00:00,0.050947,passed,0,- data/results/manifests/06_country_differences.json
+8,07,src.analysis_07_binomial_regression,2026-11-08T20:17:34+00:00,2026-11-08T20:17:34+00:00,0.46821,passed,0,- data/results/manifests/07_binomial_regression.json
+9,08,src.analysis_08_origin_composition,2026-11-08T20:17:34+00:00,2026-11-08T20:17:35+00:00,1.117563,passed,0,- data/results/manifests/08_origin_composition.json
+10,09,src.analysis_09_temporal,2026-11-08T20:17:35+00:00,2026-11-08T20:17:36+00:00,1.177598,passed,0,- data/results/manifests/09_temporal.json
+11,16,src.analysis_16_article_b_decomposition,2026-11-08T20:17:36+00:00,2026-11-08T20:17:56+00:00,19.739601,passed,0,- data/results/manifests/16_article_b_decomposition.json
+12,10,src.analysis_10_sensitivity,2026-11-08T20:17:56+00:00,2026-11-08T20:17:59+00:00,3.178332,passed,0,- data/results/manifests/10_sensitivity.json
+13,12,src.analysis_12_reproducibility,2026-11-08T20:17:59+00:00,2026-11-08T20:18:00+00:00,0.334579,passed,0,- data/results/manifests/12_reproducibility.json
+14,13,src.analysis_13_validate_outputs,2026-11-08T20:18:00+00:00,2026-11-08T20:18:00+00:00,0.050725,passed,0,- data/results/manifests/13_validate_outputs.json
+15,14,src.analysis_14_interpretation_checks,2026-11-08T20:18:00+00:00,2026-11-08T20:18:00+00:00,0.048585,passed,0,- data/results/manifests/14_interpretation_checks.json

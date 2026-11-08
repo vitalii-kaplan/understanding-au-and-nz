@@ -1,0 +1,233 @@
+\documentclass[runningheads]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage{xurl}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{groupplots}
+
+\begin{document}
+
+\title{Understanding Australian and New Zealand Student Visa Approval Rates Through Origin Composition and Weighting}
+\titlerunning{Origin Composition and Weighting in AU--NZ Visa Rates}
+
+\author{Vitalii Kaplan\orcidID{0009-0009-8181-2863}}
+\authorrunning{V. Kaplan}
+\institute{\email{vitalii.v.kaplan@gmail.com}}
+
+\maketitle
+
+\begin{abstract}
+The previous study established that Australia generally had higher recorded student-visa decision approval rates than New Zealand across matched applicant origins. This study tests whether that difference can be accounted for by how decisions are distributed across origins and years. Its main question is whether Australia's higher recorded rate is explained by origins with higher observed Australian rates accounting for larger shares of its decisions. It is not. When Australia and New Zealand were given the same distribution of decisions across origins, Australia had the higher average recorded approval rate. We used aggregate public records for 173 matched origins from 2022--2025. Using the destination-specific origin shares observed in the data, the Australian-minus-New Zealand difference was 5.3 percentage points (95\% confidence interval $-1.4$ to 11.3; $p=0.097$). In a computational comparison that applied the same average origin distribution to both destinations, the standardised rates were 88.5\% for Australia and 77.6\% for New Zealand. The difference therefore increased to 10.9 points (4.2--18.7; $p<0.001$). The composition component was $-5.6$ points ($-14.5$ to $-1.2$; $p=0.005$), confirming that equalising the origin distribution widened rather than removed the estimated difference. The Australian-minus-New Zealand rate component was positive in every year, but its size and the observed gap varied. The distribution of decisions therefore changed the apparent comparison, but it did not account for Australia's higher average recorded rate. These aggregate results do not explain why origin-specific rates differ or identify causal or individual effects.
+\keywords{student visas \and Australia \and New Zealand \and administrative data \and origin composition \and temporal comparison \and ISM}
+\end{abstract}
+
+\section{Introduction}
+
+International student mobility is now a major form of cross-border movement. UNESCO reported in 2025 that 6.9 million students were studying outside their home countries \cite{UNESCO2025}. Admission to an educational institution, however, is not sufficient for cross-border study: prospective students must also obtain permission to enter and remain in the destination country. Visa policy therefore helps structure unequal access to international mobility \cite{Neumayer2006,Mau2015}, making administrative visa outcomes relevant to research on both international education and migration governance.
+
+Public visa statistics can reveal how this gateway operates at scale, but cross-national comparisons are not straightforward. Agencies may report applications, completed decisions, or grants, use different origin concepts and study categories, cover different periods, and apply different outcome definitions. A published aggregate approval rate therefore reflects three elements: outcomes recorded within origins, the distribution of decisions across origins, and the administrative population included in the publication. The cross-national data infrastructure used here preserves these distinctions \cite{Kaplan2026CrossNationalDataPaper,Kaplan2026CountryToVisaDataset}.
+
+Previous quantitative research has examined how visa restrictiveness and policy changes are associated with international enrolment and student migration, including evidence from the United States and Canada \cite{Chen2023,Gonnot2025}. A broader literature explains international student flows through conditions in both origin and destination countries \cite{PerkinsNeumayer2014,Weber2023}. This work establishes visas and country context as important parts of student mobility. The present study addresses a complementary measurement problem: how origin composition, weighting, and year affect comparisons of published decision approval rates.
+
+This article is the third study in a research sequence. The first study examined variation within New Zealand and found associations between recorded approval rates and applicant-origin characteristics \cite{Kaplan2026NZVisaApproval}. The second compared matched origins across Australia and New Zealand and established a higher average recorded rate for Australia under its study definitions, alongside substantial variation across origins \cite{Kaplan2026AUNZDecisionOutcomes}. The Australian and New Zealand origin-level records overlap for 2022--2025 and permit a common two-outcome decision rate to be calculated, although their published administrative populations are similar rather than identical.
+
+The present study asks whether Australia's higher average recorded rate can be accounted for by how decisions are distributed across origins and years. Its main question is whether origins with higher observed Australian rates account for larger shares of Australian decisions. To answer it, we compare the recorded difference with a computational condition in which both destinations receive the same distribution of decisions across origins while retaining their own observed rate for each origin. If the difference disappeared, origin composition could account for it. If it remained or increased, origin composition could not. A symmetric decomposition then separates the observed difference into a rate component under shared origin weights and a composition component associated with different origin shares.
+
+The 2022 results provide a simple example. New Zealand had the higher decision-weighted aggregate rate, while the equally weighted matched-origin comparison favoured Australia. This reversal illustrates why aggregate recorded rates and origin-weighted comparisons should not be treated as interchangeable summaries.
+
+We investigate the main question through common-weight standardisation and symmetric rate--composition decomposition. Supporting analyses describe origin concentration and share concordance, compare alternative weights, examine annual and balanced-panel variation, and fit a grouped binomial model with origin and year effects. Missing origin--destination--year combinations remain unobserved rather than being converted to zero. The answer to the main question is no. When both destinations were assigned the same average origin distribution, the estimated difference increased from 5.3 to 10.9 percentage points. Origin composition, weighting, and year changed the apparent comparison, including its direction in 2022, but the observed origin distribution did not account for Australia's higher average recorded rate.
+
+The remainder of the article is organised as follows. Section~2 reviews the relevant literature. Section~3 describes the shared data and the annual structure specific to this study. Section~4 defines the common-weight comparison, decomposition, composition measures, annual analyses, and supporting model. Section~5 presents the results, Section~6 discusses their interpretation, Section~7 states the limitations, and Section~8 concludes by placing the findings within the three-part research sequence.
+
+\section{Literature Review}
+
+International student mobility is structured by relationships between origins and destinations rather than by destination characteristics alone. Bilateral student flows vary with destination income, language, historical ties, migrant networks, and the development level of origin countries \cite{PerkinsNeumayer2014,Weber2023}. These findings establish that the origins represented in a destination are not an interchangeable population. A national summary therefore depends partly on which origins are represented in its student population or administrative records and on the weight attached to each origin.
+
+Visa policy can also change the population ultimately observed in education and migration statistics. In the United States, anticipated visa restrictiveness reduced test taking, score sending to institutions, and enrolment, with larger reductions among students with stronger measured academic achievement \cite{Chen2023}. In Canada, a study-permit reform increased both applications and approval rates for eligible origins, which then increased enrolment \cite{Gonnot2025}. These studies show that visa administration can affect both outcomes and composition. Their policy-specific estimates do not, however, explain descriptive differences between Australian and New Zealand decision records.
+
+The OECD similarly describes international-student populations as products of origin--destination ties, recruitment, admission requirements, institutional gatekeeping, work rights, and post-study opportunities \cite{OECD2022InternationalMigrationOutlook}. It also distinguishes enrolment statistics from permit statistics and documents substantial variation in study-visa rejection rates among reporting countries. This evidence supports explicit treatment of the administrative population and origin distribution. It does not make enrolments, permits, applications, and completed decisions equivalent measures.
+
+This article is the third study in a cumulative sequence. The first showed that recorded New Zealand approval rates varied across applicant origins and were associated with origin-level characteristics \cite{Kaplan2026NZVisaApproval}. The second compared matched origins and found a positive but heterogeneous average Australian--New Zealand difference \cite{Kaplan2026AUNZDecisionOutcomes}. Within the literature reviewed here, the remaining question is not whether origin or destination matters, but how the distribution of decisions across origins and years changes the apparent difference between the two destinations. This article addresses that question through common weighting and descriptive rate--composition accounting, without attributing the resulting components to particular policies or causal mechanisms.
+
+\section{Data}
+
+This article uses the same aggregate Australian and New Zealand student-visa decision records for 2022--2025 as the preceding matched-origin study. That study documents the original public sources, source verification, population alignment, country-name harmonisation, exclusions, and construction of the pooled comparison \cite{Kaplan2026AUNZDecisionOutcomes}. The underlying source tables are distributed through the Country-to-Visa dataset and documented in its accompanying data paper \cite{Kaplan2026CountryToVisaDataset,Kaplan2026CrossNationalDataPaper}.
+
+The project documentation, preparation and analysis code, final CSV result tables, validation records, run manifests, tests, and publication files are maintained in a public GitHub repository \cite{Kaplan2026UnderstandingAUNZRepository}. Throughout this article, a repository-relative path begins at the root of that repository. The source-retrieval contract at \path{data/README.md} records the required source filenames, snapshot details, published checksums, selective extraction commands, and intended local destinations. Source downloads and extracted inputs under \path{data/original/}, and reproducible prepared and intermediate tables under \path{data/prepared/}, are intentionally not stored in Git. Reviewable final result tables are stored under \path{data/results/}. Their input and output hashes, run configuration, row counts, software versions, and validation status are recorded under \path{data/results/manifests/}. Manuscript-facing selections generated from those verified results are stored under \path{article/tables/} and \path{article/figures/}.
+
+In brief, the New Zealand records report offshore or overseas student-visa decisions by applicant origin. The Australian records cover primary applicants outside Australia in the Higher Education Sector and exclude the separately reported Postgraduate Research Sector. For both destinations, the rate denominator contains completed positive and negative decisions: approvals plus declines in New Zealand and grants plus refusals in Australia. The records are aggregate, and the two administrative populations remain similar rather than identical.
+
+The data preparation specific to this article preserves the origin--destination--year structure needed to study composition and time. Australian financial-year month records were reconstructed into calendar years so that both destinations cover 2022, 2023, 2024, and 2025 on the same annual basis. Destination-specific composition summaries retain every published country origin with a positive decision total. Paired analyses retain an origin only when it has a positive observed total in both destinations at the relevant pooled or annual level. This gives 173 pooled matched origins and 139, 142, 139, and 144 matched origins by year, or 564 matched origin--year pairs. A balanced sensitivity population contains 118 origins observed in both destinations in all four years. Origins absent from one destination are treated as unobserved rather than assigned zero decisions.
+
+\section{Methods}
+
+\subsection{Research Questions and Analytical Rationale}
+
+The main question is whether Australia's higher recorded rate is explained by origins with higher observed Australian rates accounting for larger shares of its decisions. We address it by assigning both destinations the same origin shares while retaining their observed origin-specific rates, then decomposing the observed difference into rate and composition components.
+
+Supporting analyses describe origin concentration and share concordance, compare alternative weighting rules, examine annual and balanced-panel variation, and estimate the destination association after accounting for origin and year. Decision-weighted, origin-weighted, common-weight, decomposition, annual, and model-based estimates are reported separately because they answer different questions. The subsections follow the same order as the Results.
+
+\subsection{Computational Workflow}
+
+The preceding study documents the shared machine-readable analysis contract, outcome notation, validation checks, and construction of pooled and annual long and matched tables \cite{Kaplan2026AUNZDecisionOutcomes}. We use the same two-outcome decision total and define every rate difference as Australia minus New Zealand. The reused tables passed the required schema, count, rate, country-name, period, and reconciliation checks before the present analyses were run.
+
+The extension specific to this article preserves the country--year structure and distinguishes three analytical perspectives. Decision-weighted summaries describe recorded decisions, origin-weighted summaries give each represented origin equal influence, and country--year analyses retain annual origin observations. Destination-specific composition summaries use the long tables, while common-weight, decomposition, and paired annual analyses use the matched tables under the eligibility rules described below. These perspectives answer different questions and are not treated as interchangeable.
+
+\subsection{Missingness and Comparability Gate}
+
+The preceding study documents the shared missingness classifications and comparability gate \cite{Kaplan2026AUNZDecisionOutcomes}. We apply the same rule: paired analyses include an origin only when it has a positive observed decision total in both destinations at the relevant level. Destination-only origins remain in destination-specific summaries, and absence from one source is not interpreted as zero decisions.
+
+For this article, the gate was extended to annual paired analyses, the country--year model, decomposition, and union-based composition distance. The analyses based on observed matched origins were eligible. The union-based distance was not calculated because it would require unsupported zero shares for origins absent from one destination.
+
+\subsection{Same-Origin-Distribution Comparison and Decomposition}
+
+The main analysis used the 173 origins observed in both destinations in the pooled data. We used Kitagawa's symmetric decomposition of the difference between two aggregate rates to separate the contribution of origin-specific rates from the contribution of the distribution of decisions across origins~\cite{Kitagawa1955}. For matched origin $i$ and destination $j$, let $N_{ij}$ be its decision total, $p_{ij}$ its observed approval rate, and $w_{ij}$ its share of all decisions on the matched support:
+\[
+w_{ij}=\frac{N_{ij}}{\sum_{k}N_{kj}}.
+\]
+The observed destination rate is $R_j^{\mathrm{obs}}=\sum_i w_{ij}p_{ij}$, and the observed difference is $G^{\mathrm{obs}}=R_{\mathrm{AU}}^{\mathrm{obs}}-R_{\mathrm{NZ}}^{\mathrm{obs}}$. This calculation retains each destination's recorded distribution of decisions across origins.
+
+For the computational same-origin-distribution comparison, both destinations receive the average of their observed matched-support shares, $\bar{w}_i=(w_{i,\mathrm{AU}}+w_{i,\mathrm{NZ}})/2$, while retaining their own observed rate for each origin. The resulting standardised rate is $R_j^{\mathrm{same}}=\sum_i\bar{w}_ip_{ij}$. The Australian-minus-New Zealand difference under these shared weights is the rate component:
+\[
+C_{\mathrm{rate}}=\sum_i\bar{w}_i(p_{i,\mathrm{AU}}-p_{i,\mathrm{NZ}}).
+\]
+The symmetric composition component is
+\[
+C_{\mathrm{composition}}=\sum_i(w_{i,\mathrm{AU}}-w_{i,\mathrm{NZ}})
+\frac{p_{i,\mathrm{AU}}+p_{i,\mathrm{NZ}}}{2}.
+\]
+The two components exactly reconstruct the observed difference, $G^{\mathrm{obs}}=C_{\mathrm{rate}}+C_{\mathrm{composition}}$. They are descriptive accounting quantities and do not identify why the rates or origin distributions differ.
+
+Sensitivity comparisons applied Australian shares, New Zealand shares, and equal weights across origins. The analysis was repeated after requiring at least 20, 50, or 100 decisions for every retained origin in each destination, with threshold zero denoting all origins with positive observed totals. Annual calculations used the 139 to 144 origins observed in both destinations in each year. A balanced sensitivity analysis followed the same origins observed in both destinations in all four years; at threshold zero, this population contained 118 origins.
+
+Uncertainty was estimated with 10,000 paired origin bootstrap resamples~\cite{Efron1979}. Each resample selected matched origins with replacement and recalculated the weights, standardised rates, and decomposition components. Pre-specified deterministic seeds made the pooled, annual, threshold, and balanced analyses reproducible. We report percentile 95\% intervals and supplementary two-sided bootstrap tail p-values around zero with a plus-one correction in each tail.
+
+\subsection{Applicant-Origin Composition}
+
+The composition analysis concerns the distribution of recorded decisions across origins, independently of approval outcomes. For destination $j$, origin $i$ receives share $s_{ij}=N_{ij}/\sum_k N_{kj}$. We report the largest-origin share, combined top-five and top-ten shares, median origin share, Herfindahl--Hirschman Index $\sum_i s_{ij}^2$ on the 0--1 scale, and Gini coefficient for the pooled data and for each year. Ranked-share curves, Lorenz curves, and squares with area proportional to $s_{ij}$ display concentration across the full destination-specific origin sets.
+
+For the 173 matched origins, we calculate Spearman and Pearson correlations between destination shares. Each share retains its full destination total as denominator, so restricting the correlation to matched origins does not renormalise the shares. Spearman's interval uses 10,000 paired bootstrap samples with seed 20260927, while Pearson's interval uses Fisher's $z$ transformation. Correlation measures association rather than equality of shares. The relative-representation plot places each origin at the geometric mean of its two shares on the horizontal axis and at $\log_2(s_{i,\mathrm{AU}}/s_{i,\mathrm{NZ}})$ on the vertical axis. Jensen--Shannon divergence was pre-specified only if absent origins could validly receive zero share and was therefore skipped under the comparability rule in Section~4.3.
+
+\subsection{Temporal Comparison}
+
+The temporal analysis concerns variation across calendar years. For each destination and year from 2022 through 2025, we calculate recorded approvals or grants, declines or refusals, decision totals, represented-origin counts, and the aggregate approval rate. We separately report the median and interquartile range of origin approval rates and the median origin decision total. The aggregate rate is decision-weighted, whereas the median origin rate gives every represented origin equal weight; their annual movements therefore need not coincide.
+
+Annual paired analysis uses only origin--year observations recorded in both destinations. For each year, the Australian rate minus the New Zealand rate is summarised by its mean and $t$-based 95\% interval, median and fixed-seed percentile-bootstrap 95\% interval, quartiles, range, and direction counts. The two-sided Wilcoxon signed-rank test and paired $t$-test follow the same rules as the preceding pooled matched-origin study. Bootstrap medians use 10,000 resamples and a deterministic seed equal to 20260927 plus the calendar year. Annual decomposition follows Section~4.4 on year-specific matched support, with the 118-origin balanced panel used as a sensitivity analysis.
+
+\subsection{Supporting Country--Year Model}
+
+The supporting model asks whether destination remains associated with approval probability after accounting for origin and year. We fit grouped binomial logistic regression to approval and decline counts for origin--year pairs observed in both destinations. The specification contains a destination indicator, origin fixed effects, and year fixed effects. New Zealand is the reference destination, so the destination coefficient is the adjusted log odds for Australia relative to New Zealand.
+
+Origins with the same outcome for all included decisions do not provide a finite fixed-effect estimate~\cite{AlbertAnderson1984}. Twenty-one such origins were excluded before fitting and are listed in the diagnostics. The model uses CR1 sandwich standard errors clustered by origin~\cite{CameronMiller2015}. We report the destination coefficient, Wald interval and test, odds ratio, and standardised predicted probabilities averaged over retained matched origin--year pairs~\cite{MullerMacLehose2014}. The Australian-minus-New Zealand probability contrast uses delta-method uncertainty~\cite{Oehlert1992}.
+
+Diagnostics cover convergence, warnings, separation, non-finite or unusually large estimates, extreme fitted probabilities, influence, and Pearson dispersion. A model is not reported if it fails to converge or retains evidence of unresolved separation. Residual overdispersion is interpreted as unmodelled heterogeneity rather than removed by rescaling the data.
+
+A validated pipeline executed the analyses in dependency order. Reproducibility and output audits recorded file hashes, row counts, random seeds, software versions, warnings, and the producers of publication outputs. A failed blocking check stopped dependent analyses, and every optional output was either produced or skipped with a recorded reason. These controls assess provenance and completeness rather than add substantive findings.
+
+The statistical protocol is recorded at \path{AU_NZ_visa_comparison_methods.md}, and its mapping to executable modules and outputs is documented at \path{src/README.md}. The current article-facing result inventory is recorded at \path{data/results/manifests/minimum_output_checklist.csv}. These paths and all other reader-facing repository paths in this article are stated from the repository root.
+
+\section{Results}
+
+The results first address the main question of whether Australia's higher recorded rate is accounted for by origins with higher observed Australian rates contributing larger shares of its decisions. They then describe the supporting evidence from origin composition, annual variation, and the country--year model. Pooled composition summaries used every origin with positive recorded decisions in each destination. The main comparison used the 173 origins observed in both destinations, while the annual analyses used 139 to 144 matched origins per year. All blocking validation checks passed, pooled counts reconciled with the annual data, and no origin absent from one destination was assigned zero decisions.
+
+\subsection{Main Question: Same-Origin-Distribution Comparison}
+
+Under each destination's observed decision shares within the matched support, the approval rates were 86.7\% for Australia and 81.3\% for New Zealand. The Australian-minus-New Zealand difference was 5.3 percentage points (95\% CI $-1.4$ to 11.3; $p=0.097$). When both destinations were assigned the same average distribution of decisions across origins while retaining their own observed origin-specific rates, the standardised rates were 88.5\% for Australia and 77.6\% for New Zealand. The difference therefore increased to 10.9 points (95\% CI 4.2 to 18.7; $p<0.001$). The difference was also positive under the other common weighting rules: 12.9 points under Australian shares, 9.0 points under New Zealand shares, and 16.3 points when every origin received equal weight (Table~\ref{tab:common-weight-standardisation}). The observed origin distribution therefore did not account for Australia's higher average recorded rate.
+
+The symmetric decomposition gave the same answer from an accounting perspective (Table~\ref{tab:rate-composition-decomposition}). The observed 5.3-point difference was the sum of a positive 10.9-point rate component and a negative 5.6-point composition component (95\% CI $-14.5$ to $-1.2$; $p=0.005$). The negative composition component means that the destination-specific distribution of decisions across origins reduced the observed Australian-minus-New Zealand difference. Applying the same origin distribution to both destinations removed that offset and widened the estimated difference. The decomposition was stable when both destinations were required to have at least 20, 50, or 100 decisions per retained origin. Across these thresholds, the observed difference remained between 5.2 and 5.3 points, the rate component remained 10.9 points, and the composition component ranged from $-5.7$ to $-5.6$ points. These are descriptive accounting quantities, not causal effects.
+
+\input{tables/common_weight_decomposition}
+
+\subsection{Supporting Result: Applicant-Origin Composition}
+
+Recorded decisions were more concentrated across applicant origins in Australia than in New Zealand. Across 2022--2025, Australia's largest origin accounted for 32.1\% of decisions, compared with 23.8\% in New Zealand. The top five origins accounted for 73.4\% and 58.2\%, respectively, while the top ten accounted for 85.9\% and 75.1\%. Australia's HHI was 0.177 and its Gini coefficient was 0.947, compared with 0.111 and 0.901 for New Zealand (Table~\ref{tab:origin-composition}). The annual results showed the same broader pattern. Australia's top five origins contributed 72.2\% to 75.4\% of decisions each year, compared with 56.1\% to 60.7\% in New Zealand, and Australia's annual HHI exceeded New Zealand's in every year (Table~\ref{tab:annual-origin-composition}). The ranked-share and Lorenz curves show that the difference extended across the distributions rather than arising only from the largest origin (Figure~\ref{fig:origin-composition-curves}). The equal-area proportional-square display provides an additional view of this pattern. Australia's total area was concentrated in fewer large origin squares, while New Zealand distributed the same total area across a longer sequence of medium and small squares (Figure~\ref{fig:origin-share-squares}). Nevertheless, the ordering of matched-origin shares was similar across destinations. Spearman correlation was 0.858 (bootstrap 95\% CI 0.805 to 0.896; $p<0.001$), and Pearson correlation was 0.952 (95\% CI 0.936 to 0.965; $p<0.001$). Figure~\ref{fig:relative-origin-representation} shows the relative representation of each matched origin directly. Origins above zero contributed a larger share of Australian decisions, while origins below zero contributed a larger share of New Zealand decisions. A union-based composition distance was not calculated because origins absent from one destination could not be interpreted as having zero decisions.
+
+\input{tables/origin_composition_statistics}
+\input{tables/annual_composition_statistics}
+
+\begin{figure}
+\centering
+\input{figures/origin_composition_curves}
+\caption{Distribution of recorded decision shares across applicant origins, 2022--2025. Panel (a) ranks each destination's observed origins and uses a logarithmic share axis. Panel (b) gives Lorenz curves. The diagonal denotes equal shares across origins.}
+\label{fig:origin-composition-curves}
+\end{figure}
+
+\begin{figure}
+\centering
+\input{figures/origin_share_proportional_squares}
+\caption{Applicant-origin decision shares as proportional squares, 2022--2025. Origins are ordered independently within each destination from largest to smallest decision share. Each square's area is proportional to that origin's share under a common scale. The two strips have equal total area because each destination's shares sum to 100\%. Rank positions do not identify the same origin across destinations, and total strip length is not a decision-volume measure.}
+\label{fig:origin-share-squares}
+\end{figure}
+
+\begin{figure}
+\centering
+\input{figures/origin_share_relative_representation}
+\caption{Relative representation of 173 origins observed in both destinations. Horizontal position is the geometric mean of the origin's Australian and New Zealand decision shares and is shown on a logarithmic scale. Vertical position is the base-2 logarithm of the Australian share divided by the New Zealand share. Zero denotes equal shares, $+1$ denotes an Australian share twice the New Zealand share, and $-1$ denotes a New Zealand share twice the Australian share. Red points identify reproducibly selected high-share origins, relative-share extrema, upper and lower boundaries in the left tail of the distribution, and the leftmost origin.}
+\label{fig:relative-origin-representation}
+\end{figure}
+
+\subsection{Supporting Result: Annual Variation}
+
+Annual destination summaries varied in scale and in decision-weighted and equally weighted rates (Table~\ref{tab:annual-destination-summary}). Australia recorded 159,002 to 231,156 decisions per year, compared with 18,013 to 48,773 in New Zealand. The aggregate approval rate ranged from 81.6\% to 90.7\% in Australia and from 75.6\% to 90.6\% in New Zealand. Median origin rates were 98.6\% to 98.9\% in Australia and 85.7\% to 98.0\% in New Zealand. The clearest change in direction occurred in 2022. New Zealand's decision-weighted aggregate approval rate was 90.6\%, compared with 88.9\% for Australia, while the equally weighted mean across matched origins gave an Australian-minus-New Zealand difference of 5.3 points (95\% CI 0.6 to 9.9). National decision-weighted rates and origin-weighted comparisons therefore answered different questions.
+
+On year-specific matched-origin support, the equally weighted mean difference between the Australian and New Zealand rates was positive in every year: 5.3 points in 2022, 13.1 in 2023, 12.7 in 2024, and 14.8 in 2025 (Figure~\ref{fig:annual-matched-differences}). The corresponding median differences were 0.0, 4.1, 2.9, and 0.7 points. These origin-weighted summaries differ from the decision-weighted matched-support differences used in the decomposition. The rate component remained positive and the composition component remained negative throughout 2022--2025 (Figure~\ref{fig:annual-decomposition-components}). The observed matched-support difference was $-1.7$ points in 2022 (95\% CI $-6.6$ to 3.0), 0.6 points in 2023 ($-6.5$ to 5.0), 11.9 points in 2024 ($-0.9$ to 20.6), and 6.3 points in 2025 (0.4 to 14.3). The common-weight rate component was 5.0, 8.9, 13.5, and 9.2 points, respectively. The composition component offset those differences by $-6.7$, $-8.4$, $-1.5$, and $-2.9$ points. Its interval excluded zero in 2022 and 2023 but not in 2024 or 2025. Restricting the comparison to the same 118 origins observed in both destinations in all four years reproduced these component estimates to one decimal place. Annual changes in the observed difference therefore reflected changes in both origin-specific approval rates and the distribution of recorded decisions across origins.
+
+\input{tables/annual_destination_summary}
+
+\begin{figure}
+\centering
+\input{figures/annual_matched_differences}
+\caption{Annual equally weighted matched-origin Australian-minus-New Zealand approval-rate differences. Points show the mean with $t$-based 95\% intervals and the median with fixed-seed percentile-bootstrap 95\% intervals on year-specific matched support. Each observed matched origin receives equal weight. These estimates are distinct from the decision-weighted observed gaps in Figure~\ref{fig:annual-decomposition-components}.}
+\label{fig:annual-matched-differences}
+\end{figure}
+
+\begin{figure}
+\centering
+\input{figures/annual_decomposition_components}
+\caption{Annual symmetric decomposition of the observed Australian-minus-New Zealand approval-rate difference on year-specific matched-origin support. The rate and composition components sum to the observed gap in each year. Components are descriptive accounting quantities, not causal effects.}
+\label{fig:annual-decomposition-components}
+\end{figure}
+
+\subsection{Supporting Country--Year Comparison}
+
+The country--year model provided supporting evidence that the Australian--New Zealand difference remained after accounting for origin and year. It retained 525 matched country--year pairs from 145 origins, representing 884,997 decisions. The standardised approval probabilities were 87.1\% for Australia and 77.4\% for New Zealand, giving an Australian-minus-New Zealand contrast of 9.8 percentage points (95\% CI 6.6 to 12.9). The odds ratio for Australia relative to New Zealand was 2.50 (95\% CI 1.84 to 3.39; $p<0.001$). The model converged without fitting warnings or unresolved separation, but its Pearson dispersion ratio was 19.28, indicating substantial residual heterogeneity. The adjusted contrast therefore corroborates the positive common-weight rate component but does not replace the weighting and decomposition results or identify a causal destination effect.
+
+\section{Discussion}
+
+The preceding study found that the average recorded approval rate was higher for Australia than for New Zealand. This study asked whether the difference could be accounted for by how decisions were distributed across origins and years. The main answer is no: applying the same origin distribution to both destinations widened rather than removed the estimated difference. Table~\ref{tab:discussion-question-answers} summarises this answer and the supporting findings.
+
+\input{tables/discussion_question_answers}
+
+The composition findings explain why similar origin rankings do not imply comparable national summaries. Many of the same origins contributed relatively large decision volumes in both destinations, but Australian decisions were more concentrated and individual origin shares differed. Correlation describes the ordering of shares, whereas concentration describes how strongly total volume accumulates among the largest origins. A national approval rate combines these shares with origin-specific outcomes. Observed-share, common-weight, and equal-origin estimates therefore describe different populations or weighting rules rather than competing estimates of one quantity. The 2022 reversal shows that this distinction can affect direction as well as magnitude.
+
+The decomposition clarifies the role of composition in this study. The rate component was positive and the composition component negative in the pooled analysis and in every year. The observed distribution of decisions therefore offset part of the positive average rate difference instead of producing it. The size of that offset changed across years, while the balanced-panel analysis showed that the pattern was not simply caused by origins entering or leaving the matched sample. The country--year model supported the same average direction after accounting for origin and year, but its substantial residual dispersion confirmed that one adjusted contrast did not represent every origin or year.
+
+These findings extend the origin--destination perspective used in research on international student mobility \cite{PerkinsNeumayer2014,Weber2023}. For visa statistics, an origin--destination relationship includes both the recorded outcome within an origin and the weight that the origin receives in a destination's published data. Comparisons should therefore state the administrative population, decision denominator, origin support, period, and weighting rule. Missing origins should also remain distinguishable from observed zero decisions. Making these choices explicit prevents a difference in record composition from being mistaken for a difference in within-origin outcomes.
+
+\section{Limitations}
+
+The main limitation is the short observation period. Four years of data are sufficient to show that the observed difference, the rate component, and the composition component varied from year to year. They are not sufficient to establish a permanent relationship, distinguish long-term trends from temporary changes, or identify the effects of particular policy or administrative events. The 2022--2025 period may also reflect conditions specific to those years. The annual findings should therefore be interpreted as evidence about this period rather than as a forecast of future approval rates or origin distributions. Australia and New Zealand publish recurring decision data, so the analysis can be repeated after several additional years become available. Such updates would show whether the observed pattern persists, weakens, or changes direction. They would also permit more informative analysis of temporal changes, provided that the published populations, categories, and definitions remain sufficiently comparable.
+
+The Australian and New Zealand records describe similar rather than identical administrative populations. Applying the same origin distribution improves comparability of the weighting but cannot remove differences in visa categories, eligibility rules, or source coverage.
+
+The records are aggregated by applicant origin and contain no individual characteristics. The findings therefore apply to groups of recorded decisions and cannot be interpreted as individual approval probabilities. Paired analyses also include only origins with positive observed decision totals in both destinations. Origins absent from one source were treated as unobserved rather than assigned zero decisions. The decomposition consequently describes the matched support, although the decision-count threshold and balanced-panel analyses indicate that the main result was not driven by sparse origins or by origins entering and leaving the annual matched samples.
+
+Finally, substantial heterogeneity remained after adjustment for origin and year. The country--year model had a Pearson dispersion ratio of 19.28, showing that a single average destination contrast did not represent every origin and year. Cluster-robust uncertainty addresses dependence among repeated observations from the same origin, but it does not remove this heterogeneity or establish a common effect. Longer time series and more closely aligned applicant-level data would be required to investigate the mechanisms behind the observed differences.
+
+\section{Conclusion}
+
+This study asked whether Australia's higher average recorded approval rate could be accounted for by origins with higher observed Australian rates contributing larger shares of its decisions. It could not. Under each destination's observed origin shares, the Australian-minus-New Zealand difference was 5.3 percentage points. Assigning both destinations the same average origin distribution increased the difference to 10.9 points, while the $-5.6$-point composition component showed that the observed distribution reduced rather than produced the positive average difference. Weighting still affected its magnitude, and in 2022 the weighting rule changed the direction of the comparison. National approval rates therefore cannot be interpreted without specifying which origins contribute decisions, how those decisions are weighted, and which period is being described.
+
+This article completes a three-part research sequence. The first article showed that recorded New Zealand approval rates varied across applicant origins and were associated with application volume and with regional, economic, development, and health characteristics \cite{Kaplan2026NZVisaApproval}. The second compared the same published origins across Australia and New Zealand, finding a positive average Australian-minus-New Zealand difference under its study definitions alongside substantial variation and some differences in the opposite direction \cite{Kaplan2026AUNZDecisionOutcomes}. This third article shows that the distribution of decisions across origins and years altered the size of that average difference and partly offset it, but did not account for it.
+
+Together, the three studies provide a broader account of published student-visa approval statistics. Recorded rates vary across origins within a destination, the same origin can have different recorded rates across destinations, and national summaries depend on how decision volume is distributed across origins and time. Approval rates are therefore neither fixed attributes of origin countries nor context-free measures of destinations. They are aggregate outcomes for particular origin--destination populations, observed during a specified period and summarised under a particular weighting rule.
+
+The analysis remains descriptive rather than causal. The three studies identify statistical structure but do not determine why origin-specific rates or origin distributions differ. Applicant demand, selection before application, institutional recruitment, visa-category coverage, policy, administrative practice, and unobserved applicant characteristics remain possible explanations that these aggregate records cannot separate. Additional years of comparable public data will allow the temporal pattern to be reassessed, while more closely aligned categories and applicant-level or case-level data would be required to investigate the mechanisms behind the observed origin--destination differences.
+
+\bibliographystyle{splncs04}
+\bibliography{bibliography}
+
+\end{document}

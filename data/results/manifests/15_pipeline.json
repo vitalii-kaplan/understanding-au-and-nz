@@ -1,0 +1,49 @@
+{
+  "module": "src.analysis_15_run_pipeline",
+  "status": "passed",
+  "analysis_timestamp_utc": "2026-11-08T20:18:00+00:00",
+  "execution_order": [
+    "01",
+    "02",
+    "11",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "16",
+    "10",
+    "12",
+    "13",
+    "14"
+  ],
+  "inputs": [
+    {
+      "path": "data/results/validation/comparability_decisions.csv",
+      "sha256": "4198a30ef3bc36e8f4abce007751abe36f24813d470307fa6093dc84b309a9b7"
+    },
+    {
+      "path": "data/results/manifests/14_interpretation_checks.json",
+      "sha256": "0e2a5ccaf878233d11b15f5566f3fd0d16378af615955e3a6129a176aca11002"
+    },
+    {
+      "path": "data/results/manifests/pipeline_run.json",
+      "sha256": "040593573ee2d49b12108e49c47bf5f53a5183e4fd354a02d6d2a1bf40e16462"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "pipeline_stage_status",
+      "path": "data/results/manifests/pipeline_stage_status.csv",
+      "sha256": "7d9e6d8316a91c6d832cb309624e0ad137f8ddea1012dae004bde8589a4d43ad",
+      "rows": 15
+    }
+  ],
+  "summary": {
+    "stages_passed": 15,
+    "stages_skipped": 0,
+    "stages_failed": 0
+  }
+}

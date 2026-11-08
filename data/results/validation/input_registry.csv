@@ -1,0 +1,3 @@
+destination_code,destination_country,period,input_file,sha256,row_count,country_count,number_approved,number_declined,decision_total,minimum_country_decisions,maximum_country_decisions
+AU,Australia,2022-2025,data/prepared/australia/student_visa_decisions_2022-2025-m49.csv,6b92082acbf7099a48c62738a79cf9f99f2e1ae9ccee6bbef4de73142d162684,192,192,639078,98346,737424,1,236751
+NZ,New Zealand,2022-2025,data/prepared/new-zealand/student_visa_decisions_2022-2025-m49.csv,07acfc74dbbab9dc394390af7197a5d254f0624e7a6e2682615972ccdc370a55,179,179,120965,27781,148746,1,35472

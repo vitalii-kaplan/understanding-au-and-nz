@@ -1,0 +1,6 @@
+comparison_family,method,levels_compared,direction_stable,interval_exclusion_stable,significance_stable,minimum_effect,maximum_effect,absolute_effect_range,interpretation
+denominator thresholds,Paired t-test,"0, 20, 50, 100 minimum decisions in each destination",true,true,true,0.105788998257301,0.16321229112564284,0.057423292868341844,descriptive stability flag; not a preferred-result rule
+denominator thresholds,Wilcoxon signed-rank,"0, 20, 50, 100 minimum decisions in each destination",true,true,true,0.05018890837234263,0.09443352590088239,0.044244617528539754,descriptive stability flag; not a preferred-result rule
+denominator thresholds,Pearson correlation,"0, 20, 50, 100 minimum decisions in each destination",true,true,true,0.6287649366839333,0.79410507554899,0.16534013886505672,descriptive stability flag; not a preferred-result rule
+denominator thresholds,Spearman correlation,"0, 20, 50, 100 minimum decisions in each destination",true,true,true,0.4715096098236919,0.815284924718887,0.34377531489519514,descriptive stability flag; not a preferred-result rule
+binomial model specification,standardized AU-minus-NZ probability contrast,pooled country FE; country and year FE,true,true,not_applicable,0.0978263528095538,0.108854937005148,0.011028584195594202,comparison of pre-specified adjusted model contrasts

@@ -1,0 +1,11 @@
+metric,value
+countries_tested,173
+chi_square_tests,60
+fisher_exact_tests,113
+fdr_significant_at_0.05,56
+au_higher,122
+nz_higher,32
+equal,19
+meets_20_both,91
+meets_50_both,66
+zero_cell_corrections,65

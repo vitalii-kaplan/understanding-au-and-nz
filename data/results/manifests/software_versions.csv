@@ -1,0 +1,6 @@
+component,version,required,status
+Python,3.15.0,true,recorded
+Operating system,macOS-27.0.1-arm64-arm-64bit-Mach-O,true,recorded
+Rscript,Rscript (R) version 4.6.1 (2026-06-24),true,recorded
+pdfTeX,pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2024),false,recorded
+latexmk,"Latexmk, John Collins, 27 Dec. 2024. Version 4.86a",false,recorded

@@ -1,0 +1,3 @@
+method,coefficient,n,p_value,ci_lower,ci_upper,confidence_level,ci_method,p_value_method
+Pearson,0.6287649366839333,173,2.001899956068773e-20,0.5292109667542126,0.7112422124201516,0.95,Fisher z transformation,t distribution with n-2 degrees of freedom
+Spearman,0.4715096098236919,173,5.839187393017889e-11,0.3203439397105973,0.6091361881060733,0.95,percentile bootstrap (10000 replicates; seed 20260927),t approximation applied to rank correlation

@@ -1,0 +1,5 @@
+population,threshold_min_decisions_each,included_pairs,excluded_pairs,included_au_decisions,included_nz_decisions,minimum_au_decisions,minimum_nz_decisions
+pooled matched origins,0,173,0,737336,148726,1,1
+pooled matched origins,20,91,82,735399,147406,24,21
+pooled matched origins,50,66,107,731427,146489,52,52
+pooled matched origins,100,54,119,729184,145192,105,109

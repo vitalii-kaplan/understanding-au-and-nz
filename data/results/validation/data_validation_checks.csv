@@ -1,0 +1,39 @@
+check_id,scope,destination_code,year,status,blocking,observed,expected,message
+pooled_prepared_table_contract,pooled,AU,,passed,true,192,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+pooled_input_hash,pooled,AU,,passed,true,6b92082acbf7099a48c62738a79cf9f99f2e1ae9ccee6bbef4de73142d162684,6b92082acbf7099a48c62738a79cf9f99f2e1ae9ccee6bbef4de73142d162684,Pooled input matches the Section 1 registry
+pooled_country_names,pooled,AU,,passed,true,,M49 names or reviewed exceptions,Pooled country names satisfy the harmonization contract
+pooled_excluded_labels_absent,pooled,AU,,passed,true,,none,Excluded non-country labels are absent from the pooled table
+annual_prepared_table_contract,annual,AU,2022,passed,true,164,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+annual_country_names,annual,AU,2022,passed,true,,M49 names or reviewed exceptions,Annual country names satisfy the harmonization contract
+excluded_labels_absent,annual,AU,2022,passed,true,,none,Excluded non-country labels are absent
+annual_prepared_table_contract,annual,AU,2023,passed,true,167,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+annual_country_names,annual,AU,2023,passed,true,,M49 names or reviewed exceptions,Annual country names satisfy the harmonization contract
+excluded_labels_absent,annual,AU,2023,passed,true,,none,Excluded non-country labels are absent
+annual_prepared_table_contract,annual,AU,2024,passed,true,162,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+annual_country_names,annual,AU,2024,passed,true,,M49 names or reviewed exceptions,Annual country names satisfy the harmonization contract
+excluded_labels_absent,annual,AU,2024,passed,true,,none,Excluded non-country labels are absent
+annual_prepared_table_contract,annual,AU,2025,passed,true,171,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+annual_country_names,annual,AU,2025,passed,true,,M49 names or reviewed exceptions,Annual country names satisfy the harmonization contract
+excluded_labels_absent,annual,AU,2025,passed,true,,none,Excluded non-country labels are absent
+annual_year_coverage,annual,AU,,passed,true,2022;2023;2024;2025,2022;2023;2024;2025,All configured calendar years are present
+pooled_equals_annual_sum,pooled_vs_annual,AU,,passed,true,192,192,Pooled counts equal the country-level sum of annual tables
+pooled_prepared_table_contract,pooled,NZ,,passed,true,179,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+pooled_input_hash,pooled,NZ,,passed,true,07acfc74dbbab9dc394390af7197a5d254f0624e7a6e2682615972ccdc370a55,07acfc74dbbab9dc394390af7197a5d254f0624e7a6e2682615972ccdc370a55,Pooled input matches the Section 1 registry
+pooled_country_names,pooled,NZ,,passed,true,,M49 names or reviewed exceptions,Pooled country names satisfy the harmonization contract
+pooled_excluded_labels_absent,pooled,NZ,,passed,true,,none,Excluded non-country labels are absent from the pooled table
+annual_prepared_table_contract,annual,NZ,2022,passed,true,149,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+annual_country_names,annual,NZ,2022,passed,true,,M49 names or reviewed exceptions,Annual country names satisfy the harmonization contract
+excluded_labels_absent,annual,NZ,2022,passed,true,,none,Excluded non-country labels are absent
+annual_prepared_table_contract,annual,NZ,2023,passed,true,157,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+annual_country_names,annual,NZ,2023,passed,true,,M49 names or reviewed exceptions,Annual country names satisfy the harmonization contract
+excluded_labels_absent,annual,NZ,2023,passed,true,,none,Excluded non-country labels are absent
+annual_prepared_table_contract,annual,NZ,2024,passed,true,151,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+annual_country_names,annual,NZ,2024,passed,true,,M49 names or reviewed exceptions,Annual country names satisfy the harmonization contract
+excluded_labels_absent,annual,NZ,2024,passed,true,,none,Excluded non-country labels are absent
+annual_prepared_table_contract,annual,NZ,2025,passed,true,155,valid rows,"Schema, sorted unique keys, non-negative reconciled counts, and rates all passed"
+annual_country_names,annual,NZ,2025,passed,true,,M49 names or reviewed exceptions,Annual country names satisfy the harmonization contract
+excluded_labels_absent,annual,NZ,2025,passed,true,,none,Excluded non-country labels are absent
+annual_year_coverage,annual,NZ,,passed,true,2022;2023;2024;2025,2022;2023;2024;2025,All configured calendar years are present
+pooled_equals_annual_sum,pooled_vs_annual,NZ,,passed,true,179,179,Pooled counts equal the country-level sum of annual tables
+pooled_common_country_count,cross_destination,,,passed,true,173,173,Common pooled-country count agrees with harmonization audit
+blocking_validation_failures,all,,,passed,true,0,0,No unresolved blocking validation failures

@@ -1,0 +1,3 @@
+model,analysis_unit,n_countries,n_matched_units,n_decisions,effect_name,effect_estimate,ci_lower,ci_upper,standard_error,direction,interval_excludes_null,difference_from_pooled_model
+pooled_country_fixed_effects,matched origin,155,155,885588,standardized AU-minus-NZ probability contrast,0.108854937005148,0.0660737170946949,0.151636156915601,0.0218275541019661,positive,true,0.0
+country_year_fixed_effects,matched origin-year,145,525,884997,standardized AU-minus-NZ probability contrast,0.0978263528095538,0.0662604042838992,0.129392301335208,0.0161053717183799,positive,true,-0.011028584195594202

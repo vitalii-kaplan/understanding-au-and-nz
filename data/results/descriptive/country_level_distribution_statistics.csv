@@ -1,0 +1,5 @@
+destination_code,destination_country,measure,unit,n,minimum,q1,median,q3,maximum,mean,sample_sd,iqr,quantile_method
+AU,Australia,approval_rate,proportion,192,0.0,0.8382915173237754,0.9682459677419355,1.0,1.0,0.8836041070174302,0.1900300773038181,0.16170848267622462,Hyndman-Fan type 7
+AU,Australia,decision_total,recorded decisions,192,1.0,7.0,30.5,447.75,236751.0,3840.75,22142.84580054237,440.75,Hyndman-Fan type 7
+NZ,New Zealand,approval_rate,proportion,179,0.0,0.5444444444444445,0.8269230769230769,0.9833070497927995,1.0,0.7187128241114175,0.3093677938105418,0.438862605348355,Hyndman-Fan type 7
+NZ,New Zealand,decision_total,recorded decisions,179,1.0,5.0,27.0,261.5,35472.0,830.9832402234637,3616.985900627138,256.5,Hyndman-Fan type 7

@@ -1,0 +1,21 @@
+model,diagnostic,value,interpretation
+pooled_country_fixed_effects,converged,true,IRLS convergence status
+pooled_country_fixed_effects,iterations,6,IRLS iterations
+pooled_country_fixed_effects,covariance_method,country-cluster-robust sandwich (CR1),coefficient uncertainty estimator
+pooled_country_fixed_effects,reference_destination,NZ,factor reference level
+pooled_country_fixed_effects,outcome_invariant_countries_excluded,18,countries with all approvals or all declines across included observations
+pooled_country_fixed_effects,excluded_country_names,Bahamas;Barbados;Belize;Bosnia and Herzegovina;Brunei Darussalam;Cabo Verde;Congo;Iceland;Liechtenstein;Marshall Islands;Micronesia (Federated States of);Naoero;Nicaragua;Saint Lucia;Senegal;Slovenia;Suriname;Togo,auditable list of outcome-invariant exclusions
+pooled_country_fixed_effects,extreme_fitted_probabilities,0,"fitted values outside [1e-6, 1-1e-6]"
+pooled_country_fixed_effects,captured_warnings,none,all model warnings captured during fitting
+pooled_country_fixed_effects,separation_check,passed: finite coefficients and SEs; absolute values <= 25,unresolved complete or quasi-complete separation screen
+pooled_country_fixed_effects,overdispersion_ratio,22.6637337442048,Pearson chi-square divided by residual degrees of freedom
+country_year_fixed_effects,converged,true,IRLS convergence status
+country_year_fixed_effects,iterations,6,IRLS iterations
+country_year_fixed_effects,covariance_method,country-cluster-robust sandwich (CR1),coefficient uncertainty estimator
+country_year_fixed_effects,reference_destination,NZ,factor reference level
+country_year_fixed_effects,outcome_invariant_countries_excluded,21,countries with all approvals or all declines across included observations
+country_year_fixed_effects,excluded_country_names,Bahamas;Barbados;Belize;Bosnia and Herzegovina;Brunei Darussalam;Eswatini;Guyana;Iceland;Kiribati;Liechtenstein;Madagascar;Malta;Marshall Islands;Micronesia (Federated States of);Naoero;Saint Kitts and Nevis;Saint Lucia;Seychelles;Slovenia;Somalia;Suriname,auditable list of outcome-invariant exclusions
+country_year_fixed_effects,extreme_fitted_probabilities,0,"fitted values outside [1e-6, 1-1e-6]"
+country_year_fixed_effects,captured_warnings,none,all model warnings captured during fitting
+country_year_fixed_effects,separation_check,passed: finite coefficients and SEs; absolute values <= 25,unresolved complete or quasi-complete separation screen
+country_year_fixed_effects,overdispersion_ratio,19.2762956924581,Pearson chi-square divided by residual degrees of freedom

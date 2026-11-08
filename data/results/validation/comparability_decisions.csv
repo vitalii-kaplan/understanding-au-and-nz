@@ -1,0 +1,6 @@
+analysis_component,eligible,evidence,caveat,required_handling
+pooled_paired_analysis,true,173 origins have valid positive-decision observations in both destinations,"destination source populations are aligned approximately, not identically",use matched origins only; do not zero-fill destination-only origins
+pooled_country_fixed_effect_binomial_model,true,173 matched pooled origins and all blocking validations passed,origins with no outcome variation cannot estimate finite fixed effects,fit matched origins and report outcome-invariant exclusions
+annual_paired_analysis,true,564 matched country-year pairs; annual tables reconcile to pooled counts,coverage varies by origin and year,use observed matched country-year pairs only
+country_year_binomial_model,true,564 matched country-year pairs over all configured years,repeated observations within origin country require dependence adjustment,include country and year fixed effects; cluster standard errors by origin
+zero_filled_composition_distance,false,destination-only origins exist and no source evidence establishes that absence means zero,zero filling could convert missing or unrepresented origins into invented observations,skip Jensen-Shannon divergence and report the reason

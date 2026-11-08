@@ -1,0 +1,2 @@
+measure,value,log_base,eligible,assumptions,skip_reason
+Jensen-Shannon divergence,,2,false,requires union support and valid zero assignment for absent origins,destination-only origins exist and no source evidence establishes that absence means zero; zero filling could convert missing or unrepresented origins into invented observations

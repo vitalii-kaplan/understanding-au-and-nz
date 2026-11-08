@@ -1,0 +1,31 @@
+record_type,scope,destination_code,year,country_or_label,decision_total,status,reason,analysis_handling,source
+paired_analysis_exclusion,pooled,AU,,Antigua and Barbuda,4,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Burkina Faso,2,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Cayman Islands,1,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Comoros,4,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Cyprus,7,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Côte d’Ivoire,3,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,French Polynesia,2,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Gabon,7,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Kosovo,8,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Lesotho,3,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Monaco,13,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Montenegro,3,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Puerto Rico,3,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Qatar,15,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Réunion,4,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Saint Helena,1,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,San Marino,1,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Sint Maarten (Dutch part),3,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,AU,,Turkmenistan,4,australia_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,NZ,,Australia,2,new_zealand_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,NZ,,Cuba,1,new_zealand_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,NZ,,Gambia,5,new_zealand_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,NZ,,Palau,5,new_zealand_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,NZ,,Republic of Moldova,4,new_zealand_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+paired_analysis_exclusion,pooled,NZ,,Saint Vincent and the Grenadines,3,new_zealand_only,Country is not represented in both destination tables,retained for destination summaries; excluded from paired analysis,country_coverage.csv
+source_label_exclusion,annual,AU,2022,Not Specified,10,unknown,Source explicitly does not state a citizenship,excluded from normalized data,data/support/country-name-harmonization.json
+source_label_exclusion,annual,AU,2022,Refugee,1,unknown,Status rather than country or area,excluded from normalized data,data/support/country-name-harmonization.json
+source_label_exclusion,annual,AU,2023,Not Specified,10,unknown,Source explicitly does not state a citizenship,excluded from normalized data,data/support/country-name-harmonization.json
+source_label_exclusion,annual,AU,2024,Not Specified,4,unknown,Source explicitly does not state a citizenship,excluded from normalized data,data/support/country-name-harmonization.json
+source_label_exclusion,annual,AU,2025,Not Specified,3,unknown,Source explicitly does not state a citizenship,excluded from normalized data,data/support/country-name-harmonization.json

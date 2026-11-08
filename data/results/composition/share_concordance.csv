@@ -1,0 +1,3 @@
+method,coefficient,n,p_value,ci_lower,ci_upper,confidence_level,ci_method,population
+Spearman,0.8580827762067892,173,2.2617648556205497e-51,0.8045150094276557,0.8958004491829041,0.95,percentile bootstrap (10000 replicates; seed 20260927),origins represented in both destinations; shares use full destination totals
+Pearson,0.9523760002497832,173,4.008936556745857e-90,0.9362056457913513,0.9645226565551714,0.95,Fisher z transformation,origins represented in both destinations; shares use full destination totals
