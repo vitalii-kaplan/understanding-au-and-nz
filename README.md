@@ -6,6 +6,8 @@ According to our previous study, Australia generally had higher recorded student
 
 The compiled manuscript is available at [article/article.pdf](article/article.pdf), with its LaTeX source at [article/article.tex](article/article.tex).
 
+**Article DOI:** [10.5281/zenodo.24088431](https://doi.org/10.5281/zenodo.24088431)
+
 ## Study design
 
 The analysis uses the closest comparable public populations available:
@@ -95,4 +97,4 @@ Every reported empirical value must trace to a prepared dataset and verified res
 
 ## License and citation
 
-The repository includes an [MIT License](LICENSE) for its software and associated documentation. The upstream Zenodo data artifact is distributed under CC BY 4.0; consult its record for attribution requirements. Manuscript citation details will be added when a stable publication or preprint record is available. Until then, cite the data paper and data artifact above when reusing their data.
+The article is available on Zenodo at [https://doi.org/10.5281/zenodo.24088431](https://doi.org/10.5281/zenodo.24088431). Cite that record when referring to this study. The repository includes an [MIT License](LICENSE) for its software and associated documentation. The upstream Zenodo data artifact is distributed under CC BY 4.0; consult its record for attribution requirements. Cite the data paper and data artifact above when reusing their data.

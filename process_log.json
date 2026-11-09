@@ -467,6 +467,31 @@
         "tests/test_generate_relative_origin_share.py",
         "process_log.json"
       ]
+    },
+    {
+      "id": "018",
+      "date": "2026-11-09",
+      "phase": "article_doi_integration",
+      "status": "completed",
+      "summary": "Added the article DOI 10.5281/zenodo.24088431 to the manuscript and reader-facing repository documentation.",
+      "scope": [
+        "Displayed the DOI as a linked identifier beneath the author email in the manuscript title block.",
+        "Added the DOI link to the repository README and manuscript-directory README.",
+        "Replaced the repository README's deferred citation note with the stable Zenodo article record."
+      ],
+      "verification": [
+        "The manuscript rebuilt successfully to 20 pages.",
+        "The rendered first page was visually inspected and the DOI is legible without layout overflow.",
+        "The final build contained no undefined-reference, undefined-citation, or overfull-box warnings.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ],
+      "artifacts": [
+        "README.md",
+        "article/README.md",
+        "article/article.tex",
+        "article/article.pdf",
+        "process_log.json"
+      ]
     }
   ]
 }

@@ -2,6 +2,8 @@
 
 This directory contains the manuscript for *Understanding Australian and New Zealand Student Visa Approval Rates Through Origin Composition and Weighting*, the third study in a cumulative research sequence on student-visa decision outcomes.
 
+**Article DOI:** [10.5281/zenodo.24088431](https://doi.org/10.5281/zenodo.24088431)
+
 - [`article.tex`](article.tex) is the manuscript source of record.
 - [`article.pdf`](article.pdf) is the compiled reading copy.
 - [`bibliography.bib`](bibliography.bib) contains the cited references.
