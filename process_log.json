@@ -266,6 +266,175 @@
         "article/article.pdf",
         "process_log.json"
       ]
+    },
+    {
+      "id": "010",
+      "date": "2026-11-09",
+      "phase": "abstract_wording_and_readme_synchronization",
+      "status": "completed",
+      "summary": "Reframed the abstract's opening attribution to the preceding study and synchronized the repository README abstract with the manuscript.",
+      "scope": [
+        "Changed the manuscript abstract opening from 'The previous study established' to 'According to our previous study' while preserving the supported finding.",
+        "Replaced the shorter README abstract with the complete current manuscript abstract in Markdown notation.",
+        "Preserved the existing removal of the README manuscript-building section and made no other README changes."
+      ],
+      "verification": [
+        "The manuscript and README abstracts contain the same wording and numerical results after notation-only conversion.",
+        "The manuscript was rebuilt successfully with resolved citations and cross-references.",
+        "The build log contained no undefined-reference, undefined-citation, or overfull-box warnings.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ],
+      "artifacts": [
+        "README.md",
+        "article/article.tex",
+        "article/article.pdf",
+        "process_log.json"
+      ]
+    },
+    {
+      "id": "011",
+      "date": "2026-11-09",
+      "phase": "abstract_scientific_wording",
+      "status": "completed",
+      "summary": "Replaced an abrupt categorical sentence in the synchronized abstracts with evidence-based scientific wording.",
+      "scope": [
+        "Changed 'It is not' to 'The results do not support that explanation' in the manuscript and README abstracts.",
+        "Preserved all data, methods, numerical results, interpretation boundaries, and surrounding wording."
+      ],
+      "verification": [
+        "The manuscript and README abstracts remain synchronized after notation-only conversion.",
+        "The manuscript was rebuilt successfully with resolved citations and cross-references.",
+        "The build log contained no undefined-reference, undefined-citation, or overfull-box warnings.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ],
+      "artifacts": [
+        "README.md",
+        "article/article.tex",
+        "article/article.pdf",
+        "process_log.json"
+      ]
+    },
+    {
+      "id": "012",
+      "date": "2026-11-09",
+      "phase": "introduction_and_literature_review_cohesion_revision",
+      "status": "completed",
+      "summary": "Shortened the Introduction and reorganized literature framing to remove repetition and sharpen the transition to the composition-and-weighting contribution.",
+      "scope": [
+        "Removed the standalone prior-research paragraph from the Introduction because its sources and argument are developed in the Literature Review.",
+        "Combined the mobility context and cross-national measurement problem into one opening paragraph.",
+        "Condensed the research-sequence description in the Introduction and retained the substantive preceding-study findings in the Literature Review.",
+        "Combined the research question, common-weight design, decomposition, supporting analyses, and missingness boundary into one design paragraph.",
+        "Combined the principal pooled finding and 2022 reversal into one concise headline-results paragraph.",
+        "Removed the generic section-by-section roadmap from the Introduction.",
+        "Moved the unequal-mobility framing and its Neumayer and Mau citations into the Literature Review.",
+        "Rewrote the Literature Review synthesis to identify the unresolved completed-decision composition question without repeating the Introduction."
+      ],
+      "verification": [
+        "No empirical values, methods, source-population definitions, or interpretation boundaries were changed.",
+        "All cited literature keys remain defined in article/bibliography.bib.",
+        "The manuscript was rebuilt successfully with resolved citations and cross-references.",
+        "The rendered Introduction and Literature Review pages were visually inspected.",
+        "The build log contained no undefined-reference, undefined-citation, or overfull-box warnings.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ],
+      "artifacts": [
+        "article/article.tex",
+        "article/article.pdf",
+        "process_log.json"
+      ]
+    },
+    {
+      "id": "013",
+      "date": "2026-11-09",
+      "phase": "introduction_opening_style_restoration",
+      "status": "completed",
+      "summary": "Restored the original Introduction's more natural opening phrases while retaining the shorter structure and literature-review separation.",
+      "scope": [
+        "Restored the original mobility, permission, and public-statistics opening sentences and paragraph break.",
+        "Restored 'The present study asks' as the research-question opening.",
+        "Restored 'The 2022 results provide a simple example' and the original reversal sentence as the findings-paragraph opening.",
+        "Retained the shorter Introduction, removed roadmap, and relocation of substantive literature framing to the Literature Review."
+      ],
+      "verification": [
+        "No empirical values, methods, citations, source-population definitions, or interpretation boundaries were changed.",
+        "The manuscript was rebuilt successfully with resolved citations and cross-references.",
+        "The rendered Introduction was visually inspected.",
+        "The build log contained no undefined-reference, undefined-citation, or overfull-box warnings.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ],
+      "artifacts": [
+        "article/article.tex",
+        "article/article.pdf",
+        "process_log.json"
+      ]
+    },
+    {
+      "id": "014",
+      "date": "2026-11-09",
+      "phase": "introduction_results_to_discussion_move",
+      "status": "completed",
+      "summary": "Removed the results summary from the Introduction, restored the article-structure overview, and integrated the displaced findings into the Discussion.",
+      "scope": [
+        "Replaced the final Introduction findings paragraph with the previous section-by-section article overview.",
+        "Integrated the pooled common-weight result, composition component, and 2022 weighting reversal into the Discussion opening after those results have been presented.",
+        "Removed the later repeated sentence about the 2022 reversal from the composition discussion."
+      ],
+      "verification": [
+        "All moved numerical values and interpretation boundaries remain unchanged and agree with the Results section.",
+        "The manuscript was rebuilt successfully with resolved citations and cross-references.",
+        "The rendered Introduction and Discussion pages were visually inspected.",
+        "The build log contained no undefined-reference, undefined-citation, or overfull-box warnings.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ],
+      "artifacts": [
+        "article/article.tex",
+        "article/article.pdf",
+        "process_log.json"
+      ]
+    },
+    {
+      "id": "015",
+      "date": "2026-11-09",
+      "phase": "literature_review_prior_study_citation",
+      "status": "completed",
+      "summary": "Added the preceding New Zealand study to the Literature Review's origin-context passage with claim-specific wording.",
+      "scope": [
+        "Retained Perkins and Neumayer and Weber and Van Mol as support for bilateral student-flow determinants.",
+        "Added a separate sentence citing the preceding New Zealand study for its finding that recorded approval rates were associated with origin-level characteristics."
+      ],
+      "verification": [
+        "The added claim matches the cited preceding study and does not conflate mobility flows with visa approval rates.",
+        "The manuscript was rebuilt successfully with resolved citations and cross-references.",
+        "The build log contained no undefined-reference, undefined-citation, or overfull-box warnings.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ],
+      "artifacts": [
+        "article/article.tex",
+        "article/article.pdf",
+        "process_log.json"
+      ]
+    },
+    {
+      "id": "016",
+      "date": "2026-11-09",
+      "phase": "table_6_row_separators",
+      "status": "completed",
+      "summary": "Added horizontal separators between the body rows of Table 6 for clearer visual tracking across its three columns.",
+      "scope": [
+        "Inserted booktabs midrules between all adjacent question rows in the Table 6 source.",
+        "Left the table wording, values, column widths, caption, and label unchanged."
+      ],
+      "verification": [
+        "The manuscript rebuilt successfully to 20 pages.",
+        "The rendered Table 6 was visually inspected and all row separators are visible without clipping or overflow.",
+        "The final build contained no undefined-reference, undefined-citation, or overfull-box warnings."
+      ],
+      "artifacts": [
+        "article/tables/discussion_question_answers.tex",
+        "article/article.pdf",
+        "process_log.json"
+      ]
     }
   ]
 }
