@@ -6,10 +6,10 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.generate_article_b_proportional_share_squares import generate
+from scripts.generate_proportional_share_squares import generate
 
 
-class ArticleBProportionalShareSquaresTest(unittest.TestCase):
+class ProportionalShareSquaresTest(unittest.TestCase):
     def test_square_area_is_proportional_to_verified_share(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary) / "share_squares.tex"

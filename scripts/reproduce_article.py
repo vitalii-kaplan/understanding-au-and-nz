@@ -28,11 +28,11 @@ PREPARATION_MODULES = (
 PUBLICATION_MODULES = (
     "scripts.generate_article_model_composition_outputs",
     "scripts.generate_article_temporal_sensitivity_outputs",
-    "scripts.generate_article_b_decomposition_outputs",
-    "scripts.generate_article_b_proportional_share_squares",
+    "scripts.generate_decomposition_outputs",
+    "scripts.generate_proportional_share_squares",
 )
 PUBLICATION_COMMANDS = (
-    ("scripts.generate_article_b_relative_origin_share", "--no-compile"),
+    ("scripts.generate_relative_origin_share", "--no-compile"),
 )
 
 

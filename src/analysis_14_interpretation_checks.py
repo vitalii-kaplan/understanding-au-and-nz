@@ -16,7 +16,7 @@ RESULT_MANIFESTS = (
     "03_descriptive.json", "04_matched_comparison.json", "05_concordance.json",
     "06_country_differences.json", "07_binomial_regression.json",
     "08_origin_composition.json", "09_temporal.json", "10_sensitivity.json",
-    "16_article_b_decomposition.json",
+    "16_composition_decomposition.json",
 )
 FORBIDDEN_PATTERNS = {
     "comparative_fairness": re.compile(r"\bfairer\b", re.IGNORECASE),

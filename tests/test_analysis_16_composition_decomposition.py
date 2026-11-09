@@ -1,4 +1,4 @@
-"""Tests for Article B common-weight standardisation and decomposition."""
+"""Tests for common-weight standardisation and composition decomposition."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from src.analysis_16_article_b_decomposition import bootstrap_p_value, estimate, run
+from src.analysis_16_composition_decomposition import bootstrap_p_value, estimate, run
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,7 +19,7 @@ def csv_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
-class ArticleBDecompositionTest(unittest.TestCase):
+class CompositionDecompositionTest(unittest.TestCase):
     def test_symmetric_identity_and_common_weights(self) -> None:
         rows = [
             {"country": "A", "au_decisions": 80, "nz_decisions": 20,

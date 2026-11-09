@@ -1,7 +1,7 @@
 {
-  "module": "src.analysis_16_article_b_decomposition",
+  "module": "src.analysis_16_composition_decomposition",
   "status": "passed",
-  "analysis_timestamp_utc": "2026-11-08T20:17:56+00:00",
+  "analysis_timestamp_utc": "2026-11-09T16:09:10+00:00",
   "configuration": {
     "years": [
       2022,
@@ -35,7 +35,7 @@
   "inputs": [
     {
       "path": "src/analysis_config.json",
-      "sha256": "7c097453f1c13cda670f1635ddf2653e32e1a2de7bf8d5012c9849a45fdba472"
+      "sha256": "7a835579ef6b08dfe675ad06d6f3e8d982276d4d5015288bedad189b8fc0bcaf"
     },
     {
       "path": "data/prepared/comparison/destination_country_2022-2025.csv",

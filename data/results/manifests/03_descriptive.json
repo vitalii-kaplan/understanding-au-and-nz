@@ -1,7 +1,7 @@
 {
   "module": "src.analysis_03_descriptive",
   "status": "passed",
-  "analysis_timestamp_utc": "2026-11-08T20:17:32+00:00",
+  "analysis_timestamp_utc": "2026-11-09T16:08:46+00:00",
   "inputs": [
     {
       "path": "data/prepared/comparison/destination_country_2022-2025.csv",

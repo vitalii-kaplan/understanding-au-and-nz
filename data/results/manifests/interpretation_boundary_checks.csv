@@ -47,4 +47,4 @@ manifest_07,src.analysis_07_binomial_regression,passed manifest with inputs and 
 manifest_08,src.analysis_08_origin_composition,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
 manifest_09,src.analysis_09_temporal,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
 manifest_10,src.analysis_10_sensitivity,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
-manifest_16,src.analysis_16_article_b_decomposition,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status
+manifest_16,src.analysis_16_composition_decomposition,passed manifest with inputs and outputs,passed,passed,passed,true,result provenance and status

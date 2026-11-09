@@ -10,9 +10,9 @@ The current executable article-production tests are:
 
 - `test_generate_article_model_composition_outputs.py`, which verifies the Section 8 manifest and the composition table and ranked-share/Lorenz figure used by the manuscript.
 - `test_generate_article_temporal_sensitivity_outputs.py`, which verifies the Section 9 manifest and the annual destination table and matched-origin figure used by the manuscript.
-- `test_generate_article_b_decomposition_outputs.py`, which verifies the Section 16 manifest and generated common-weight, decomposition, annual-composition, and component-figure sources.
-- `test_generate_article_b_relative_origin_share.py`, which verifies the current article's geometric-mean share and log-ratio transformation, deterministic labels, manifest-checked input, and separate PGFPlots output. The historical `article_b` filename is retained as a stable pipeline identifier.
-- `test_generate_article_b_proportional_share_squares.py`, which verifies that square area follows the passed Section 8 decision shares, both destination strips have equal total area, and the less concentrated New Zealand strip is wider.
+- `test_generate_decomposition_outputs.py`, which verifies the Section 16 manifest and generated common-weight, decomposition, annual-composition, and component-figure sources.
+- `test_generate_relative_origin_share.py`, which verifies the current study's geometric-mean share and log-ratio transformation, deterministic labels, manifest-checked input, and separate PGFPlots output.
+- `test_generate_proportional_share_squares.py`, which verifies that square area follows the passed Section 8 decision shares, both destination strips have equal total area, and the less concentrated New Zealand strip is wider.
 
 The current executable research-module tests are:
 
@@ -31,7 +31,7 @@ The current executable research-module tests are:
 - `test_analysis_13_validate_outputs.py`, covering the 12 required current-manuscript outputs, schemas, unique keys, hash registration, and the documented optional-output skip;
 - `test_analysis_14_interpretation_checks.py`, covering result metadata boundaries and rejection of unsupported machine-generated claims; and
 - `test_analysis_15_run_pipeline.py`, covering dependency order, comparability-based skips, stage-status records, and immediate failure propagation.
-- `test_analysis_16_article_b_decomposition.py`, covering the symmetric identity, common-weight calculations, support rules, thresholds, deterministic bootstrap outputs, annual concentration, and the balanced four-year population.
+- `test_analysis_16_composition_decomposition.py`, covering the symmetric identity, common-weight calculations, support rules, thresholds, deterministic bootstrap outputs, annual concentration, and the balanced four-year population.
 
 ## Layout
 
@@ -53,7 +53,7 @@ src/analysis_12_reproducibility.py        tests/test_analysis_12_reproducibility
 src/analysis_13_validate_outputs.py       tests/test_analysis_13_validate_outputs.py
 src/analysis_14_interpretation_checks.py  tests/test_analysis_14_interpretation_checks.py
 src/analysis_15_run_pipeline.py           tests/test_analysis_15_run_pipeline.py
-src/analysis_16_article_b_decomposition.py tests/test_analysis_16_article_b_decomposition.py
+src/analysis_16_composition_decomposition.py tests/test_analysis_16_composition_decomposition.py
 ```
 
 Reference datasets used only for regression testing are stored under `tests/data/`. Shared synthetic fixtures may be defined in `tests/conftest.py` or stored under `tests/fixtures/`. Tests must not modify verified prepared data. Preparation integration tests may read their documented immutable inputs under `data/original/`; statistical research-module tests must use prepared data or controlled fixtures and must not read original data.

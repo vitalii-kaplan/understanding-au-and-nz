@@ -23,7 +23,7 @@ STAGES = (
     ("07", "src.analysis_07_binomial_regression"),
     ("08", "src.analysis_08_origin_composition"),
     ("09", "src.analysis_09_temporal"),
-    ("16", "src.analysis_16_article_b_decomposition"),
+    ("16", "src.analysis_16_composition_decomposition"),
     ("10", "src.analysis_10_sensitivity"),
     ("12", "src.analysis_12_reproducibility"),
     ("13", "src.analysis_13_validate_outputs"),

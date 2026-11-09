@@ -25,7 +25,7 @@
   "forest_plot_max_countries": 20,
   "bootstrap_seed": 20260927,
   "bootstrap_replicates": 10000,
-  "article_b_decomposition": {
+  "composition_decomposition": {
     "primary_common_weight": "average_destination_shares",
     "weight_schemes": [
       "observed_destination_specific",

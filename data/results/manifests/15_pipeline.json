@@ -1,7 +1,7 @@
 {
   "module": "src.analysis_15_run_pipeline",
   "status": "passed",
-  "analysis_timestamp_utc": "2026-11-08T20:18:00+00:00",
+  "analysis_timestamp_utc": "2026-11-09T16:09:13+00:00",
   "execution_order": [
     "01",
     "02",
@@ -26,18 +26,18 @@
     },
     {
       "path": "data/results/manifests/14_interpretation_checks.json",
-      "sha256": "0e2a5ccaf878233d11b15f5566f3fd0d16378af615955e3a6129a176aca11002"
+      "sha256": "71b39702fd97d4f1719be3081a366b494f2932711cc15919637e0db57784e57b"
     },
     {
       "path": "data/results/manifests/pipeline_run.json",
-      "sha256": "040593573ee2d49b12108e49c47bf5f53a5183e4fd354a02d6d2a1bf40e16462"
+      "sha256": "d97666f405fe5e41b6942587d473b640ec72462ff33e8244715c7cc46788f478"
     }
   ],
   "outputs": [
     {
       "name": "pipeline_stage_status",
       "path": "data/results/manifests/pipeline_stage_status.csv",
-      "sha256": "7d9e6d8316a91c6d832cb309624e0ad137f8ddea1012dae004bde8589a4d43ad",
+      "sha256": "215c91142c0611191fb85c21400a7a8bbb4c67b641cee79c8b367572d454d4be",
       "rows": 15
     }
   ],

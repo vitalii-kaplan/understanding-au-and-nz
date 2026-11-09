@@ -1,4 +1,4 @@
-"""Tests for Article B's relative applicant-origin representation figure."""
+"""Tests for the relative applicant-origin representation figure."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.generate_article_b_relative_origin_share import (
+from scripts.generate_relative_origin_share import (
     generate,
     select_labels,
     transformed_rows,
@@ -17,7 +17,7 @@ from scripts.generate_article_b_relative_origin_share import (
 ROOT = Path(__file__).resolve().parents[1]
 
 
-class ArticleBRelativeOriginShareTest(unittest.TestCase):
+class RelativeOriginShareTest(unittest.TestCase):
     def test_transformation_and_label_rule(self) -> None:
         with (ROOT / "data/results/composition/share_scatter_points.csv").open(
             encoding="utf-8", newline=""

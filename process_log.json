@@ -435,6 +435,38 @@
         "article/article.pdf",
         "process_log.json"
       ]
+    },
+    {
+      "id": "017",
+      "date": "2026-11-09",
+      "phase": "third_study_terminology_and_identifier_cleanup",
+      "status": "completed",
+      "summary": "Removed the former letter-based study labels from active project terminology and renamed the associated analysis, generator, test, and manifest identifiers around composition decomposition.",
+      "scope": [
+        "Renamed the Section 16 module and manifest without changing its estimands, inputs, calculations, outputs, or validated numerical results.",
+        "Renamed the three affected publication generators and their tests and synchronized pipeline imports, documentation, generated-source provenance comments, and manifest registrations.",
+        "Updated project guidance to describe this manuscript as the third study and the earlier AU-NZ comparison as the preceding matched-origin study.",
+        "Preserved the abstract and Discussion wording about the previous or preceding study at the user's direction; the manuscript retains the verified bibliographic citation for that study elsewhere and the repository documentation retains its DOI link.",
+        "Retained former terminology only in earlier append-only process-log entries as historical provenance."
+      ],
+      "verification": [
+        "The complete analysis and publication pipeline reproduced successfully from prepared inputs.",
+        "All 37 discovered tests passed and the manuscript build completed successfully.",
+        "An exact active-file and path audit found no remaining former letter-based study labels or legacy identifiers outside the append-only historical log.",
+        "Generated manifests and publication artifacts were regenerated with the new producer and module identifiers."
+      ],
+      "artifacts": [
+        "src/analysis_16_composition_decomposition.py",
+        "data/results/manifests/16_composition_decomposition.json",
+        "scripts/generate_decomposition_outputs.py",
+        "scripts/generate_proportional_share_squares.py",
+        "scripts/generate_relative_origin_share.py",
+        "tests/test_analysis_16_composition_decomposition.py",
+        "tests/test_generate_decomposition_outputs.py",
+        "tests/test_generate_proportional_share_squares.py",
+        "tests/test_generate_relative_origin_share.py",
+        "process_log.json"
+      ]
     }
   ]
 }

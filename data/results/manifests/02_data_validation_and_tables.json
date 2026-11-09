@@ -1,9 +1,9 @@
 {
   "module": "src.analysis_02_build_tables",
   "status": "passed",
-  "analysis_timestamp_utc": "2026-11-08T20:17:32+00:00",
+  "analysis_timestamp_utc": "2026-11-09T16:08:46+00:00",
   "config_file": "src/analysis_config.json",
-  "config_sha256": "7c097453f1c13cda670f1635ddf2653e32e1a2de7bf8d5012c9849a45fdba472",
+  "config_sha256": "7a835579ef6b08dfe675ad06d6f3e8d982276d4d5015288bedad189b8fc0bcaf",
   "contract_file": "data/results/validation/analysis_contract.csv",
   "contract_sha256": "e7b7fdc1337519c90ff72aff2f9fd7687da3eb5f42742f5b4dadc4c43a67ef4b",
   "input_registry_file": "data/results/validation/input_registry.csv",

@@ -1,4 +1,4 @@
-"""Common-weight standardisation and composition decomposition for Article B."""
+"""Common-weight standardisation and composition decomposition."""
 
 from __future__ import annotations
 
@@ -313,11 +313,11 @@ def run(
     years = [int(year) for year in config["years"]]
     thresholds = [int(value) for value in config["sensitivity_denominator_thresholds"]]
     if thresholds != [0, 20, 50, 100]:
-        raise ValueError("Article B decomposition requires thresholds [0, 20, 50, 100]")
+        raise ValueError("composition decomposition requires thresholds [0, 20, 50, 100]")
     confidence = float(config["confidence_level"])
     replicates = int(config["bootstrap_replicates"])
     base_seed = int(config["bootstrap_seed"])
-    method = config.get("article_b_decomposition", {})
+    method = config.get("composition_decomposition", {})
     expected_schemes = [
         "observed_destination_specific", "average_destination_shares",
         "australia_shares", "new_zealand_shares", "equal_origin",
@@ -329,7 +329,7 @@ def run(
         or method.get("temporal_sensitivity_support") != "balanced_four_year_matched"
         or method.get("bootstrap_unit") != "origin_country"
     ):
-        raise ValueError("Article B decomposition configuration is incomplete or unsupported")
+        raise ValueError("composition decomposition configuration is incomplete or unsupported")
     pooled = _matched_rows(pooled_matched_path, annual=False)
     annual = _matched_rows(annual_matched_path, annual=True)
     pooled_totals, annual_totals, annual_composition = _long_totals_and_annual_composition(
@@ -390,7 +390,7 @@ def run(
         "standardisation": output_dir / "common_weight_standardisation.csv",
         "decomposition": output_dir / "rate_composition_decomposition.csv",
         "annual_composition": output_dir / "annual_composition_statistics.csv",
-        "manifest": manifest_dir / "16_article_b_decomposition.json",
+        "manifest": manifest_dir / "16_composition_decomposition.json",
     }
     write_csv(outputs["standardisation"], STANDARDISATION_COLUMNS, standardisation_rows)
     write_csv(outputs["decomposition"], DECOMPOSITION_COLUMNS, decomposition_rows)
@@ -400,7 +400,7 @@ def run(
         annual_matched_path, validation_checks_path, comparability_path,
     )
     write_json(outputs["manifest"], {
-        "module": "src.analysis_16_article_b_decomposition",
+        "module": "src.analysis_16_composition_decomposition",
         "status": "passed",
         "analysis_timestamp_utc": utc_timestamp(),
         "configuration": {
@@ -464,7 +464,7 @@ def main() -> int:
         comparability_path=args.comparability, output_dir=args.output_dir,
         manifest_dir=args.manifest_dir,
     )
-    print("Article B decomposition artifacts written:")
+    print("Composition-decomposition artifacts written:")
     for path in outputs.values():
         print(f"- {display_path(path)}")
     return 0

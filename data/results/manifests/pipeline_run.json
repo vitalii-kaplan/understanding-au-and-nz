@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "analysis_timestamp_utc": "2026-11-08T20:18:00+00:00",
+  "analysis_timestamp_utc": "2026-11-09T16:09:13+00:00",
   "source_manifest_count": 12,
   "registered_artifact_count": 63,
   "reproducibility_issue_count": 0,
@@ -8,8 +8,8 @@
     {
       "module": "src.analysis_01_define_contract",
       "manifest": "data/results/manifests/01_analysis_contract.json",
-      "manifest_sha256": "3f6fdd644ca9819c62332971fb2fa264011d0d626339637fd14c8b566b6cc1af",
-      "analysis_timestamp_utc": "2026-11-08T20:17:32+00:00",
+      "manifest_sha256": "71fa6fd7a984f8039cfcf9196565e7dc30bb58750ae84919fee232c9661c83c4",
+      "analysis_timestamp_utc": "2026-11-09T16:08:46+00:00",
       "outputs": 2,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -17,8 +17,8 @@
     {
       "module": "src.analysis_02_build_tables",
       "manifest": "data/results/manifests/02_data_validation_and_tables.json",
-      "manifest_sha256": "9e06a52a92674e7e651c729cf0531a5b25101a97a3897020a73c2017a3de5f26",
-      "analysis_timestamp_utc": "2026-11-08T20:17:32+00:00",
+      "manifest_sha256": "18def548b219ef7b10b4e09590c9756aaca2fdac590f0eb17b0cf878586e3e3d",
+      "analysis_timestamp_utc": "2026-11-09T16:08:46+00:00",
       "outputs": 8,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -26,8 +26,8 @@
     {
       "module": "src.analysis_11_comparability",
       "manifest": "data/results/manifests/11_comparability.json",
-      "manifest_sha256": "9657819210ac42f427bb196bb1d74256e7beb54d60ea410e87ff5ab918bcb67e",
-      "analysis_timestamp_utc": "2026-11-08T20:17:32+00:00",
+      "manifest_sha256": "33544dab1d55a46c2fe8b90b1b3552ae42cb16e53bd61e55c6775e2ac3962dad",
+      "analysis_timestamp_utc": "2026-11-09T16:08:46+00:00",
       "outputs": 6,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -35,8 +35,8 @@
     {
       "module": "src.analysis_03_descriptive",
       "manifest": "data/results/manifests/03_descriptive.json",
-      "manifest_sha256": "3b6dd85e3376f9540791592ec41b6589e32e45d7790328434a8c4ddc873f34f2",
-      "analysis_timestamp_utc": "2026-11-08T20:17:32+00:00",
+      "manifest_sha256": "c77a42233d63ab48026033e9a5f73559d339673840abe3504a6975e4f5ee9f3a",
+      "analysis_timestamp_utc": "2026-11-09T16:08:46+00:00",
       "outputs": 4,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -44,8 +44,8 @@
     {
       "module": "src.analysis_04_matched_comparison",
       "manifest": "data/results/manifests/04_matched_comparison.json",
-      "manifest_sha256": "5145524e4d834b7af0ec9599ca1c69a9982f6bfb7c1a25e176a806ffb8bbd957",
-      "analysis_timestamp_utc": "2026-11-08T20:17:32+00:00",
+      "manifest_sha256": "61598ba351058aa732ecd9c021b11e48df9db823c0a3d7b08e55dcd49c6c5ce8",
+      "analysis_timestamp_utc": "2026-11-09T16:08:46+00:00",
       "outputs": 4,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -53,8 +53,8 @@
     {
       "module": "src.analysis_05_concordance",
       "manifest": "data/results/manifests/05_concordance.json",
-      "manifest_sha256": "9467c4e0084ba30a16b78ee8630f98b64502eae2c481ba0bff3ffb8b61e5eb94",
-      "analysis_timestamp_utc": "2026-11-08T20:17:34+00:00",
+      "manifest_sha256": "4ac4dbbba25c86c09065fadef1198911f1de28a07fbbd8a0672d70ca73d54e3e",
+      "analysis_timestamp_utc": "2026-11-09T16:08:47+00:00",
       "outputs": 3,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -62,8 +62,8 @@
     {
       "module": "src.analysis_06_country_differences",
       "manifest": "data/results/manifests/06_country_differences.json",
-      "manifest_sha256": "34e269cac98b8bd19ac5d73c622731cab4482340628bdd4e5985d42cf7884456",
-      "analysis_timestamp_utc": "2026-11-08T20:17:34+00:00",
+      "manifest_sha256": "ec6622bfce16b65bca9fe19474a0c830dbaaff58a83987bc1b1f5ab5e82c99ce",
+      "analysis_timestamp_utc": "2026-11-09T16:08:47+00:00",
       "outputs": 3,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -71,8 +71,8 @@
     {
       "module": "src.analysis_07_binomial_regression",
       "manifest": "data/results/manifests/07_binomial_regression.json",
-      "manifest_sha256": "0882b2d72cab7d34feaac2285f13a2ffde9fa5562cc683f3c64c51056c3cd182",
-      "analysis_timestamp_utc": "2026-11-08T20:17:34+00:00",
+      "manifest_sha256": "330093a7892b03857243329c2b599e86e0c44a51432abd6936205fab49341607",
+      "analysis_timestamp_utc": "2026-11-09T16:08:48+00:00",
       "outputs": 5,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -80,8 +80,8 @@
     {
       "module": "src.analysis_08_origin_composition",
       "manifest": "data/results/manifests/08_origin_composition.json",
-      "manifest_sha256": "56a781a41d5241de6beadd704cc998f17f02e89d340b2c77c93da66755b65301",
-      "analysis_timestamp_utc": "2026-11-08T20:17:35+00:00",
+      "manifest_sha256": "6f457ecca1cec280ec909ed124e4b0749e4d5c2f99aad7e5f62ed106aa69fe83",
+      "analysis_timestamp_utc": "2026-11-09T16:08:49+00:00",
       "outputs": 7,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -89,17 +89,17 @@
     {
       "module": "src.analysis_09_temporal",
       "manifest": "data/results/manifests/09_temporal.json",
-      "manifest_sha256": "7192ceed05c2eb64eb1cc1204d42b9cea1612e91d4d342fd9e565818eef798f9",
-      "analysis_timestamp_utc": "2026-11-08T20:17:36+00:00",
+      "manifest_sha256": "bb025bea019c07d3728b4e928a284b3df5f3f589405f33663f83f98df9d8691b",
+      "analysis_timestamp_utc": "2026-11-09T16:08:50+00:00",
       "outputs": 4,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
     },
     {
-      "module": "src.analysis_16_article_b_decomposition",
-      "manifest": "data/results/manifests/16_article_b_decomposition.json",
-      "manifest_sha256": "f9baa3e27101579c46810ac5ccf2ccc63602a9ea9d9dcc1edc70873279888941",
-      "analysis_timestamp_utc": "2026-11-08T20:17:56+00:00",
+      "module": "src.analysis_16_composition_decomposition",
+      "manifest": "data/results/manifests/16_composition_decomposition.json",
+      "manifest_sha256": "d150eeaaa3294ecc88d2053affbe8772fbf12334a93af6fdf52b5c476612ed18",
+      "analysis_timestamp_utc": "2026-11-09T16:09:10+00:00",
       "outputs": 3,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true
@@ -107,8 +107,8 @@
     {
       "module": "src.analysis_10_sensitivity",
       "manifest": "data/results/manifests/10_sensitivity.json",
-      "manifest_sha256": "8257e5121b2bdc49f5ee8b1ccbd4c8be6bbeedfbbe29917a9653a456da8e3d91",
-      "analysis_timestamp_utc": "2026-11-08T20:17:59+00:00",
+      "manifest_sha256": "887689841f00653e19df353211c5040aa619383edbe62ccf743f8bd4705c8fd4",
+      "analysis_timestamp_utc": "2026-11-09T16:09:13+00:00",
       "outputs": 4,
       "configuration_recorded": true,
       "warning_recorded_or_not_applicable": true

@@ -33,7 +33,7 @@ SOURCE_MANIFESTS = (
     "07_binomial_regression.json",
     "08_origin_composition.json",
     "09_temporal.json",
-    "16_article_b_decomposition.json",
+    "16_composition_decomposition.json",
     "10_sensitivity.json",
 )
 STOCHASTIC_MODULES = {
@@ -41,7 +41,7 @@ STOCHASTIC_MODULES = {
     "src.analysis_05_concordance",
     "src.analysis_08_origin_composition",
     "src.analysis_09_temporal",
-    "src.analysis_16_article_b_decomposition",
+    "src.analysis_16_composition_decomposition",
     "src.analysis_10_sensitivity",
 }
 ARTIFACT_COLUMNS = [
