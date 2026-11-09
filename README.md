@@ -82,17 +82,6 @@ python3 -m unittest discover -s tests
 
 Individual preparation and publication commands are documented in [scripts/README.md](scripts/README.md). Module contracts and output inventories are documented in [src/README.md](src/README.md), [data/results/README.md](data/results/README.md), and [tests/README.md](tests/README.md).
 
-## Building the manuscript
-
-After the verified analysis and publication artifacts are available:
-
-```sh
-cd article
-latexmk -pdf -interaction=nonstopmode -halt-on-error article.tex
-```
-
-The committed PDF is included for convenient reading. LaTeX auxiliary files are excluded from version control.
-
 ## Reproducibility and provenance
 
 The project keeps collection, preparation, analysis, validation, and publication formatting separate:

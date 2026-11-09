@@ -240,6 +240,32 @@
         "The rebuilt article/article.pdf contains 19 pages and the rendered Data page was visually inspected.",
         "process_log.json passed JSON parsing and git diff --check passed."
       ]
+    },
+    {
+      "id": "009",
+      "date": "2026-11-09",
+      "phase": "literature_review_extension",
+      "status": "completed",
+      "summary": "Extended the active article's Literature Review with three verified sources from the preceding research sequence while preserving the composition-and-weighting focus.",
+      "scope": [
+        "Added King et al. (2024) as comparative New Zealand and Canada evidence that international-student pathways are heterogeneous rather than uniform.",
+        "Added Khanal and Gaulee (2019) to place visa acquisition within the longer pre-departure information, admission, and documentary process.",
+        "Added Gharib et al. (2026) as multi-destination evidence connecting visa-rule changes with enrolment, destination choice, and institutional recruitment.",
+        "Imported the three verified bibliography records from the preceding article's retained source registry and bibliography.",
+        "Kept enrolment, mobility pathways, and pre-departure processes distinct from the present article's completed-decision outcomes and descriptive decomposition."
+      ],
+      "verification": [
+        "The three new citation keys resolve in article/bibliography.bib.",
+        "The manuscript was rebuilt successfully with resolved citations and cross-references.",
+        "The build log contained no undefined-reference, undefined-citation, or overfull-box warnings.",
+        "process_log.json passed JSON parsing and git diff --check passed."
+      ],
+      "artifacts": [
+        "article/article.tex",
+        "article/bibliography.bib",
+        "article/article.pdf",
+        "process_log.json"
+      ]
     }
   ]
 }
